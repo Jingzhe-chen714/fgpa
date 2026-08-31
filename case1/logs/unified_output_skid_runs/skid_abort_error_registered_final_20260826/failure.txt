@@ -1,8 +1,0 @@
-xsim emitted an error/failure diagnostic
-ËùÔÚÎ»ÖÃ D:\contest\2026FPGA\yilingsi\case1\scripts\run_unified_output_skid_xsim_detached.ps1:16 ×Ö·û: 59
-+ ... ):|\$fatal|\bFAIL\b'){throw "$n emitted an error/failure diagnostic"}
-+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : OperationStopped: (xsim emitted an error/failure diagnostic:String) [], RuntimeException
-    + FullyQualifiedErrorId : xsim emitted an error/failure diagnostic
- 
-

@@ -1,8 +1,0 @@
-xsim did not emit the required unified FIFO PASS marker
-ËùÔÚÎ»ÖÃ D:\contest\2026FPGA\yilingsi\case1\scripts\run_unified_output_fifo_xsim_detached.ps1:75 ×Ö·û: 9
-+         throw 'xsim did not emit the required unified FIFO PASS marke ...
-+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : OperationStopped: (xsim did not em...IFO PASS marker:String) [], RuntimeException
-    + FullyQualifiedErrorId : xsim did not emit the required unified FIFO PASS marker
- 
-
