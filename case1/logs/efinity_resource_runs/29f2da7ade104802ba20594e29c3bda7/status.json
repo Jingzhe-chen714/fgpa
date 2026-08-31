@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "29f2da7ade104802ba20594e29c3bda7",
+    "state":  "failed",
+    "step":  "efx_map",
+    "exit_code":  1,
+    "message":  "Efinity runner exit code 1; failure_tail=ERROR    : Found 1 errors in the post-synthesis netlist. | efx_map process returned error code : 0x14 | ERROR    : Post-synthesis netlist has only vcc and gnd nets because all logic is eliminated. Legal, but will cause router to crash. [VDB-9009] | WARNING  : D:\\contest\\2026FPGA\\yilingsi\\case1\\efinity\\c1_ti60_engine_small_wrapper.sv(8): Input/inout port clk is unconnected. Place and route may remove this unconnected port. [VDB-8003] | WARNING  : D:\\contest\\2026FPGA\\yilingsi\\case1\\efinity\\c1_ti60_engine_small_wrapper.sv(9): Input/inout port rst is unconnected. Place and route may remove this unconnected port. [VDB-8003] | ERROR    : Found 1 errors in the post-synthesis netlist. | \u0027error_code[1]\u0027 (c1_ti60_engine_small_wrapper.sv:12) (unreachable) | [EFX-0011 VERI-WARNING] severity system task \u0027error\u0027 is ignored for synthesis (VERI-2512) (D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\cnn\\c1_s8_dot8_accum.sv:131) | [EFX-0011 VERI-WARNING] severity system task \u0027error\u0027 is ignored for synthesis (VERI-2512) (D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\cnn\\c1_s8_dot8_accum.sv:133) | [EFX-0200 WARNING] Removing redundant signal : descriptor_error_override[4:0]. (D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\control\\c1_layer_command_decoder.sv:42) | [EFX-0011 VERI-WARNING] Input/inout port clk is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\\contest\\2026FPGA\\yilingsi\\case1\\efinity\\c1_ti60_engine_small_wrapper.sv:8) | [EFX-0011 VERI-WARNING] Input/inout port rst is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\\contest\\2026FPGA\\yilingsi\\case1\\efinity\\c1_ti60_engine_small_wrapper.sv:9)",
+    "process_id":  50572,
+    "elapsed_seconds":  16.953,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\29f2da7ade104802ba20594e29c3bda7",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\29f2da7ade104802ba20594e29c3bda7\\summary.json",
+    "metrics":  null
+}

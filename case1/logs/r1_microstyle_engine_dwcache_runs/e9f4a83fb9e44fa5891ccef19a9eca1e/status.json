@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "e9f4a83fb9e44fa5891ccef19a9eca1e",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_MICROSTYLE_ENGINE_PASS",
+    "process_id":  49892,
+    "elapsed_seconds":  11.298,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_engine_dwcache_runs\\e9f4a83fb9e44fa5891ccef19a9eca1e",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_r1_microstyle_engine_dwcache_e9f4a83fb9e44fa5891ccef19a9eca1e"
+}

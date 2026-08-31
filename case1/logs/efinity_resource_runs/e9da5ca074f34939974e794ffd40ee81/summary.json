@@ -1,0 +1,79 @@
+﻿{
+    "run_id":  "e9da5ca074f34939974e794ffd40ee81",
+    "marker":  "C1_TI60_CNN_TOP_PACKED_WRAPPER_MAP_PNR_PASS",
+    "state":  "complete",
+    "efinity_version":  "2026.1.132.3.9",
+    "family":  "Titanium",
+    "device":  "Ti60F225",
+    "flow":  "map+pnr",
+    "pnr_exit_code":  0,
+    "timing":  {
+                   "post_place_period_ns":  2.073,
+                   "post_place_frequency_mhz":  482.393,
+                   "final_period_ns":  2.296,
+                   "final_frequency_mhz":  435.54,
+                   "max_period_ns":  2.296,
+                   "max_frequency_mhz":  435.54,
+                   "post_place_slack_ns":  7.927,
+                   "post_place_hold_slack_ns":  0.161,
+                   "final_slack_ns":  7.704,
+                   "final_hold_slack_ns":  0.109
+               },
+    "pnr_resources":  {
+                          "memory_blocks_used":  0,
+                          "memory_blocks_total":  256,
+                          "memory_blocks_percent":  0,
+                          "dsp_blocks_used":  0,
+                          "dsp_blocks_total":  160,
+                          "dsp_blocks_percent":  0
+                      },
+    "metrics":  {
+                    "le":  null,
+                    "registers":  null,
+                    "dsp":  null,
+                    "ebr":  null,
+                    "report_lines":  15379,
+                    "primitive_lines":  [
+
+                                        ],
+                    "primitive_counts":  {
+
+                                         },
+                    "module_row":  null,
+                    "module_rows":  [
+                                        " +u_top:c1_r1_microstyle_cnn_top(PACKED_AFFINE_CACHE=1)         21(21)      0(0)     11(0)    36(36)      0(0)      0(0)      0(0)",
+                                        "  +u_engine:c1_r1_microstyle_engine(PACKED_AFFINE_CACHE=1)        0(0)      0(0)     11(0)      0(0)      0(0)      0(0)      0(0)",
+                                        "   +u_parameter_scheduler:c1_r1_c8_parameter_scheduler            0(0)      0(0)    11(11)      0(0)      0(0)      0(0)      0(0)"
+                                    ],
+                    "module":  {
+                                   "ff":  null,
+                                   "srl":  null,
+                                   "adds":  null,
+                                   "luts":  null,
+                                   "comb4":  null,
+                                   "rams":  null,
+                                   "dsp_mults":  null
+                               },
+                    "timing":  {
+                                   "post_place_period_ns":  2.073,
+                                   "post_place_frequency_mhz":  482.393,
+                                   "final_period_ns":  2.296,
+                                   "final_frequency_mhz":  435.54,
+                                   "max_period_ns":  2.296,
+                                   "max_frequency_mhz":  435.54,
+                                   "post_place_slack_ns":  7.927,
+                                   "post_place_hold_slack_ns":  0.161,
+                                   "final_slack_ns":  7.704,
+                                   "final_hold_slack_ns":  0.109
+                               },
+                    "pnr_resources":  {
+                                          "memory_blocks_used":  0,
+                                          "memory_blocks_total":  256,
+                                          "memory_blocks_percent":  0,
+                                          "dsp_blocks_used":  0,
+                                          "dsp_blocks_total":  160,
+                                          "dsp_blocks_percent":  0
+                                      }
+                },
+    "report_file_count":  17
+}

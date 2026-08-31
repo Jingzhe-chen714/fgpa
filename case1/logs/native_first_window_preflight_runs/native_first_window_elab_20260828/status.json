@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "native_first_window_elab_20260828",
+    "state":  "failed",
+    "step":  "xelab",
+    "exit_code":  1,
+    "message":  "xelab exit 1",
+    "process_id":  12828,
+    "elapsed_seconds":  4.212,
+    "updated":  "2026-08-28T22:07:46.5313969+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_first_window_preflight_runs\\native_first_window_elab_20260828",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_native_first_window_native_first_window_elab_20260828"
+}

@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "awarb_empty_bypass_20260827",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_AXI_N_WRITE_BURST_ARBITER_PASS",
+    "process_id":  43412,
+    "elapsed_seconds":  9.249,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\xsim_runs\\axi_n_write_burst_arbiter_empty_aw_bypass\\awarb_empty_bypass_20260827",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_axi_n_write_burst_arbiter_empty_aw_bypass_awarb_empty_bypass_20260827"
+}

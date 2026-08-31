@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "read_client_error_counter_final_v3_20260827",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_CACHE_REFILL_SCHEDULER_READ_CLIENT_PASS",
+    "process_id":  53672,
+    "elapsed_seconds":  10.282,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\xsim_runs\\cache_refill_scheduler_read_client\\read_client_error_counter_final_v3_20260827",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_cache_refill_scheduler_read_client_read_client_error_counter_final_v3_20260827"
+}

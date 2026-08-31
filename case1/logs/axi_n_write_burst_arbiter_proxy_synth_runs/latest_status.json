@@ -1,0 +1,25 @@
+﻿{
+    "run_id":  "3f2169fd52884763861036997cd1b439",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_AXI_N_WRITE_BURST_ARBITER_PROXY_SYNTH_PASS",
+    "process_id":  19956,
+    "elapsed_seconds":  36.55,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi_n_write_burst_arbiter_proxy_synth_runs\\3f2169fd52884763861036997cd1b439",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi_n_write_burst_arbiter_proxy_synth_runs\\3f2169fd52884763861036997cd1b439\\summary.json",
+    "metrics":  {
+                    "part":  "xc7a200tsbg484-1",
+                    "clients":  3,
+                    "fifo_depth":  4,
+                    "clock_mhz":  100,
+                    "luts":  370,
+                    "registers":  478,
+                    "bram_tiles":  0,
+                    "dsps":  0,
+                    "wns_ns":  3.787,
+                    "tns_ns":  0,
+                    "timing_met":  true,
+                    "marker":  "C1_AXI_N_WRITE_BURST_ARBITER_PROXY_SYNTH_PASS"
+                }
+}

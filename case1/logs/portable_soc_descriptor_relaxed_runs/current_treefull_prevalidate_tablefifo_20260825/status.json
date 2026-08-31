@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "current_treefull_prevalidate_tablefifo_20260825",
+    "state":  "failed",
+    "step":  "vivado",
+    "exit_code":  1,
+    "message":  "Vivado failed with exit code 1",
+    "process_id":  45480,
+    "elapsed_seconds":  17.422,
+    "updated":  "2026-08-25T21:06:33.3811168+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_descriptor_relaxed_runs\\current_treefull_prevalidate_tablefifo_20260825",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_descriptor_relaxed_run_current_treefull_prevalidate_tablefifo_20260825\\reports"
+}

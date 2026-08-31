@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "54d6d7ec0b28445f8f80edeb67281c72",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TENSOR_CACHE_AXI_CLIENT6_PASS",
+    "process_id":  23376,
+    "elapsed_seconds":  10.215,
+    "updated":  "2026-08-24T20:24:38.3066440+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\tensor_cache_axi_client6_runs\\54d6d7ec0b28445f8f80edeb67281c72",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\tensor_cache_axi_client6_xsim_run_54d6d7ec0b28445f8f80edeb67281c72"
+}

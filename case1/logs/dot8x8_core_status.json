@@ -1,0 +1,17 @@
+﻿{
+    "run_id":  "a4338ae1afdd49d2828e7109a7c8de9c",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "8x8 INT8 compute-core xsim regression complete",
+    "process_id":  32240,
+    "elapsed_seconds":  9.275,
+    "step_seconds":  {
+                         "xvlog":  2.038,
+                         "xelab_dot8x8_core":  3.04,
+                         "xsim_dot8x8_core":  4.04
+                     },
+    "updated":  "2026-08-27T14:59:48.1205470+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\dot8x8_core_runs\\a4338ae1afdd49d2828e7109a7c8de9c",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_dot8x8_core_run_a4338ae1afdd49d2828e7109a7c8de9c"
+}

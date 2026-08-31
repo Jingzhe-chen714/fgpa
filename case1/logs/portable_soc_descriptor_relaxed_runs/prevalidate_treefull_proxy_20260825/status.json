@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "prevalidate_treefull_proxy_20260825",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_PORTABLE_SOC_DESCRIPTOR_RELAXED_PROXY_SYNTH_PASS frame=640x480",
+    "process_id":  44504,
+    "elapsed_seconds":  278.806,
+    "updated":  "2026-08-25T19:45:53.5134465+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_descriptor_relaxed_runs\\prevalidate_treefull_proxy_20260825",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_descriptor_relaxed_run_prevalidate_treefull_proxy_20260825\\reports"
+}

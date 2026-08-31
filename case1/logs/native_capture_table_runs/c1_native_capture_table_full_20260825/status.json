@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "c1_native_capture_table_full_20260825",
+    "frame":  "3x642x482_to_640x480",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "xsim exit -1",
+    "process_id":  34848,
+    "elapsed_seconds":  436.352,
+    "updated":  "2026-08-25T10:05:51.8045836+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_capture_table_runs\\c1_native_capture_table_full_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\native_capture_table_run_c1_native_capture_table_full_20260825"
+}

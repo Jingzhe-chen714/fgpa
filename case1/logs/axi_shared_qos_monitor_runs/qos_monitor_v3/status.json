@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "qos_monitor_v3",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_AXI_SHARED_QOS_MONITOR_PASS",
+    "process_id":  50780,
+    "elapsed_seconds":  9.261,
+    "updated":  "2026-08-28T02:56:02.4774068+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi_shared_qos_monitor_runs\\qos_monitor_v3",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_axi_shared_qos_monitor_qos_monitor_v3"
+}

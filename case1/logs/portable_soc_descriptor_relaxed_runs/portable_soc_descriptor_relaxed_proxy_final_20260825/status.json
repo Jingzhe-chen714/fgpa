@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "portable_soc_descriptor_relaxed_proxy_final_20260825",
+    "state":  "failed",
+    "step":  "vivado",
+    "exit_code":  1,
+    "message":  "Vivado failed with exit code 3",
+    "process_id":  3540,
+    "elapsed_seconds":  24.417,
+    "updated":  "2026-08-25T15:18:49.8307434+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_descriptor_relaxed_runs\\portable_soc_descriptor_relaxed_proxy_final_20260825",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_descriptor_relaxed_run_portable_soc_descriptor_relaxed_proxy_final_20260825\\reports"
+}

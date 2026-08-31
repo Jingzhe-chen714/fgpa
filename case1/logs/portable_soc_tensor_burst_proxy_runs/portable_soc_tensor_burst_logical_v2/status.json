@@ -1,0 +1,14 @@
+﻿{
+    "run_id":  "portable_soc_tensor_burst_logical_v2",
+    "mode":  "logical",
+    "state":  "failed",
+    "step":  "vivado",
+    "exit_code":  1,
+    "message":  "无法将“System.Management.Automation.SwitchParameter”类型的“False”值转换为“System.Int32”类型。; cleaned_files=0; cleaned_bytes=0",
+    "process_id":  39616,
+    "elapsed_seconds":  398.056,
+    "updated":  "2026-08-28T08:12:23.3243083+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_logical_v2",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_logical_v2\\reports",
+    "temporary_run_root":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_tensor_burst_proxy_run_portable_soc_tensor_burst_logical_v2"
+}

@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "portable_display_fifo_twoframe_gate_8x8_20260825",
+    "frame":  "8x8",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "exploratory run stopped after FIFO hold_requests deadlock was identified; superseded by credit-only run",
+    "process_id":  19400,
+    "elapsed_seconds":  9.231,
+    "updated":  "2026-08-25T14:12:03.4025496+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\portable_display_fifo_twoframe_gate_8x8_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_portable_display_fifo_twoframe_gate_8x8_20260825"
+}

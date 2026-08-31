@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "wrapper_error_counter_final_v3_20260827",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_CACHE_REFILL_SCHEDULER_READ_CLIENT_WRAPPER_PASS",
+    "process_id":  50880,
+    "elapsed_seconds":  9.228,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\xsim_runs\\cache_refill_scheduler_read_client_wrapper\\wrapper_error_counter_final_v3_20260827",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_cache_refill_scheduler_read_client_wrapper_wrapper_error_counter_final_v3_20260827"
+}

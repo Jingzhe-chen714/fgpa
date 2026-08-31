@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "59e28b36dd614df69bee3a7aa61f49f3",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "xsim reported Fatal/Error/FAIL",
+    "process_id":  21808,
+    "elapsed_seconds":  10.259,
+    "updated":  "2026-08-24T20:22:55.6209424+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\tensor_cache_axi_client6_runs\\59e28b36dd614df69bee3a7aa61f49f3",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\tensor_cache_axi_client6_xsim_run_59e28b36dd614df69bee3a7aa61f49f3"
+}

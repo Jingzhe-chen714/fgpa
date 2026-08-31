@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "disable_owner_soc8x8_20260826",
+    "frame":  "8x8",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_CACHE_DDR_BFM_PASS",
+    "process_id":  36960,
+    "elapsed_seconds":  53.615,
+    "updated":  "2026-08-26T20:42:01.6426570+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\disable_owner_soc8x8_20260826",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_disable_owner_soc8x8_20260826"
+}

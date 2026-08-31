@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "abortrep_treefull_proxy2_20260825",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_PORTABLE_SOC_DESCRIPTOR_RELAXED_PROXY_SYNTH_PASS frame=640x480",
+    "process_id":  16472,
+    "elapsed_seconds":  286.957,
+    "updated":  "2026-08-25T20:33:10.8315171+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_descriptor_relaxed_runs\\abortrep_treefull_proxy2_20260825",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_descriptor_relaxed_run_abortrep_treefull_proxy2_20260825\\reports"
+}

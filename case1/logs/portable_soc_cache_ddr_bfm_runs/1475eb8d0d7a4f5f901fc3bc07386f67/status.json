@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "1475eb8d0d7a4f5f901fc3bc07386f67",
+    "frame":  "640x480",
+    "state":  "complete",
+    "step":  "elaboration",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_SHAPE_ELAB_PASS frame=640x480",
+    "process_id":  4052,
+    "elapsed_seconds":  10.31,
+    "updated":  "2026-08-28T19:30:37.4250997+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\1475eb8d0d7a4f5f901fc3bc07386f67",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_1475eb8d0d7a4f5f901fc3bc07386f67"
+}

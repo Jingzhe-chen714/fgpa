@@ -1,0 +1,19 @@
+﻿{
+    "run_id":  "qos_monitor_proxy_v6",
+    "marker":  "C1_AXI_SHARED_QOS_MONITOR_PROXY_SYNTH_PASS",
+    "state":  "complete",
+    "metrics":  {
+                    "part":  "xc7a200tsbg484-1",
+                    "clock_mhz":  100,
+                    "clients":  7,
+                    "counter_width":  32,
+                    "luts":  3723,
+                    "registers":  6090,
+                    "bram_tiles":  0,
+                    "dsps":  0,
+                    "wns_ns":  -13.082,
+                    "tns_ns":  -421.538,
+                    "timing_met":  false,
+                    "marker":  "C1_AXI_SHARED_QOS_MONITOR_PROXY_SYNTH_PASS"
+                }
+}

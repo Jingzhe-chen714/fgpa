@@ -1,0 +1,18 @@
+﻿{
+    "run_id":  "925d7efd0f734711b47b375e288ca213",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "layer-command decoder xsim regression complete",
+    "process_id":  14304,
+    "elapsed_seconds":  10.242,
+    "step_seconds":  {
+                         "vector_gen":  1.017,
+                         "xvlog":  2.02,
+                         "xelab_layer_command_decoder":  3.02,
+                         "xsim_layer_command_decoder":  4.025
+                     },
+    "updated":  "2026-08-26T23:36:54.1857379+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\layer_command_decoder_runs\\925d7efd0f734711b47b375e288ca213",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_layer_command_decoder_run_925d7efd0f734711b47b375e288ca213"
+}

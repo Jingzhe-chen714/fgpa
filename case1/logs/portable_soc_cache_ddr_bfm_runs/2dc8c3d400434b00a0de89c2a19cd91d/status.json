@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "2dc8c3d400434b00a0de89c2a19cd91d",
+    "frame":  "8x8",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_CACHE_DDR_BFM_PASS",
+    "process_id":  37508,
+    "elapsed_seconds":  57.637,
+    "updated":  "2026-08-26T23:56:42.8701286+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\2dc8c3d400434b00a0de89c2a19cd91d",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_2dc8c3d400434b00a0de89c2a19cd91d"
+}

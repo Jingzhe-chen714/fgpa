@@ -1,0 +1,45 @@
+# FPGA vendor/toolchain generated files
+.Xil/
+xsim.dir/
+**/xsim.dir/
+**/work/
+*.wdb
+*.jou
+*.log
+*.pb
+*.sdb
+*.dbg
+*.exe
+*.ini
+*.mem
+*.reloc
+*.rtti
+*.svtype
+*.type
+*.xdbg
+*.rpt
+
+# Simulation/build scratch directories
+tmp/
+**/tmp/
+work/
+**/.cache/
+
+# Large derived numeric arrays and vector dumps
+case4/outputs/**/*.npy
+case4/outputs/**/*.hex
+case4/report/verification/xsim/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+
+# Generated mapped/netlist and simulator artifacts from other case folders
+**/efinity_smoke/outflow*/
+*.vvp
+*.vdb
+*.rdb
+*.npz
+*.pt

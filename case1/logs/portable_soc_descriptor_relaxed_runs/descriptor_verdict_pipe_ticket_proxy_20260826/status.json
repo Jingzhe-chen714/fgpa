@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "descriptor_verdict_pipe_ticket_proxy_20260826",
+    "state":  "failed",
+    "step":  "vivado",
+    "exit_code":  1,
+    "message":  "Vivado failed with exit code 1",
+    "process_id":  46440,
+    "elapsed_seconds":  17.381,
+    "updated":  "2026-08-26T23:28:03.5955203+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_descriptor_relaxed_runs\\descriptor_verdict_pipe_ticket_proxy_20260826",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_descriptor_relaxed_run_descriptor_verdict_pipe_ticket_proxy_20260826\\reports"
+}

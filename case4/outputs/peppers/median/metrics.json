@@ -1,0 +1,25 @@
+{
+  "input": "D:\\contest\\2026FPGA\\yilingsi\\case4\\images\\peppers.png",
+  "shape": [
+    512,
+    512
+  ],
+  "threshold": 320,
+  "median": true,
+  "gray_coeffs": [
+    77,
+    150,
+    29
+  ],
+  "gray_denominator": 256,
+  "sobel_magnitude": "abs(Gx)+abs(Gy)",
+  "gray_float_vs_fixed": {
+    "max_abs": 1,
+    "mae": 0.11211776733398438,
+    "exact_fraction": 0.8878822326660156,
+    "psnr_db_8bit": 57.634059200510215
+  },
+  "valid_pixels": 258064,
+  "edge_density": 0.020069122314453125,
+  "edge_pixels": 5261
+}

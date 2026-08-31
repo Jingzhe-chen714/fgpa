@@ -1,0 +1,16 @@
+﻿{
+    "run_id":  "c1_native_dma_loopback_bridge_debug_20260825",
+    "frame":  "3x640x480",
+    "state":  "failed",
+    "step":  "xvlog",
+    "exit_code":  1,
+    "message":  "xvlog failed with exit code 1",
+    "process_id":  29436,
+    "elapsed_seconds":  2.142,
+    "step_seconds":  {
+                         "xvlog":  2.022
+                     },
+    "updated":  "2026-08-25T11:23:41.2422794+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_dma_loopback_runs\\c1_native_dma_loopback_bridge_debug_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\native_dma_loopback_run_c1_native_dma_loopback_bridge_debug_20260825"
+}

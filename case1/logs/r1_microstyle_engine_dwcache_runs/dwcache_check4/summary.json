@@ -1,0 +1,14 @@
+﻿{
+    "marker":  "C1_R1_MICROSTYLE_ENGINE_PASS stages=22 outputs=836 mac=312 dw=248 bypass=276 param_reads=1115 stalls=255 aborts=8 faults=6 cache_dw=1 first_run_cycles=28553\r",
+    "cache_dw_weight_tiles":  1,
+    "stages":  22,
+    "outputs":  836,
+    "mac":  312,
+    "dw":  248,
+    "bypass":  276,
+    "param_reads":  1115,
+    "stalls":  255,
+    "aborts":  8,
+    "faults":  6,
+    "first_run_cycles":  28553
+}

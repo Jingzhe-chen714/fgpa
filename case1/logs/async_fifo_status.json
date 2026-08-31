@@ -1,0 +1,18 @@
+﻿{
+    "run_id":  "a4d0fc9aeccc4dccb43892ca1078877d",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "asynchronous ready/valid FIFO xsim regression complete",
+    "process_id":  34704,
+    "elapsed_seconds":  14.289,
+    "step_seconds":  {
+                         "xvlog":  2.018,
+                         "xelab_async_fifo":  2.022,
+                         "xsim_async_fifo":  4.055,
+                         "xelab_async_fifo_depth2":  2.026,
+                         "xsim_async_fifo_depth2":  4.028
+                     },
+    "updated":  "2026-08-24T02:58:26.7269844+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\async_fifo_runs\\a4d0fc9aeccc4dccb43892ca1078877d"
+}

@@ -1,0 +1,33 @@
+{
+  "input": "astronaut.png",
+  "source_size": [
+    512,
+    512
+  ],
+  "processed_size": [
+    256,
+    256
+  ],
+  "style_output_size": [
+    252,
+    252
+  ],
+  "raw10_bytes": 81920,
+  "raw10_roundtrip_exact": true,
+  "demosaic_psnr_db": 25.56231698294156,
+  "style_saturation_fraction": 0.21968169984043,
+  "layer_ranges": {
+    "conv1": [
+      0,
+      255
+    ],
+    "depthwise": [
+      0,
+      255
+    ],
+    "output": [
+      0,
+      255
+    ]
+  }
+}

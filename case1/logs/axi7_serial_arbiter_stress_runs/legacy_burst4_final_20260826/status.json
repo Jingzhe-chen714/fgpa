@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "legacy_burst4_final_20260826",
+    "read_response_skid":  0,
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_AXI7_SERIAL_ARBITER_STRESS_PASS",
+    "process_id":  20632,
+    "elapsed_seconds":  9.242,
+    "updated":  "2026-08-26T17:25:26.8310316+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi7_serial_arbiter_stress_runs\\legacy_burst4_final_20260826",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_axi7_serial_arbiter_legacy_burst4_final_20260826"
+}

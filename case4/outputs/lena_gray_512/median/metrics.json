@@ -1,0 +1,25 @@
+{
+  "input": "D:\\contest\\2026FPGA\\yilingsi\\case4\\images\\lena_gray_512.tif",
+  "shape": [
+    512,
+    512
+  ],
+  "threshold": 320,
+  "median": true,
+  "gray_coeffs": [
+    77,
+    150,
+    29
+  ],
+  "gray_denominator": 256,
+  "sobel_magnitude": "abs(Gx)+abs(Gy)",
+  "gray_float_vs_fixed": {
+    "max_abs": 0,
+    "mae": 0.0,
+    "exact_fraction": 1.0,
+    "psnr_db_8bit": Infinity
+  },
+  "valid_pixels": 258064,
+  "edge_density": 0.0176544189453125,
+  "edge_pixels": 4628
+}

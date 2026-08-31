@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "contract_fault_boundary_retry1_20260826",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_MICROSTYLE_BRIDGE_FAULT_BOUNDARY_PASS",
+    "process_id":  46432,
+    "elapsed_seconds":  11.264,
+    "updated":  "2026-08-26T23:08:37.9339362+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_bridge_fault_boundary_runs\\contract_fault_boundary_retry1_20260826",
+    "temp_files_deleted":  37,
+    "temp_bytes_deleted":  961026
+}

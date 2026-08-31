@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "owner_epoch_arbiter_stress_v1",
+    "read_response_skid":  0,
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_AXI7_SERIAL_ARBITER_STRESS_PASS",
+    "process_id":  51952,
+    "elapsed_seconds":  9.258,
+    "updated":  "2026-08-28T00:49:18.9290528+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi7_serial_arbiter_stress_runs\\owner_epoch_arbiter_stress_v1",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_axi7_serial_arbiter_owner_epoch_arbiter_stress_v1"
+}

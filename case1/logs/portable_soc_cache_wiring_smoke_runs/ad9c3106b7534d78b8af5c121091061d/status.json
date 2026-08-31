@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "ad9c3106b7534d78b8af5c121091061d",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_CACHE_WIRING_SMOKE_PASS",
+    "process_id":  15852,
+    "elapsed_seconds":  14.313,
+    "updated":  "2026-08-24T18:50:39.3728617+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_wiring_smoke_runs\\ad9c3106b7534d78b8af5c121091061d",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_wiring_smoke_run_ad9c3106b7534d78b8af5c121091061d"
+}

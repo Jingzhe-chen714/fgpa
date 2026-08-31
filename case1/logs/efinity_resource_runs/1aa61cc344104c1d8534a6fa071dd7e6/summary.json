@@ -1,0 +1,57 @@
+﻿{
+    "run_id":  "1aa61cc344104c1d8534a6fa071dd7e6",
+    "marker":  "C1_TI60_AFFINE_CASE16_MAP_PASS",
+    "state":  "complete",
+    "efinity_version":  "2026.1.132.3.9",
+    "family":  "Titanium",
+    "device":  "Ti60F225",
+    "flow":  "map",
+    "pnr_exit_code":  null,
+    "timing":  {
+                   "post_place_period_ns":  null,
+                   "post_place_frequency_mhz":  null,
+                   "final_period_ns":  null,
+                   "final_frequency_mhz":  null,
+                   "max_period_ns":  null,
+                   "max_frequency_mhz":  null,
+                   "post_place_slack_ns":  null,
+                   "post_place_hold_slack_ns":  null,
+                   "final_slack_ns":  null,
+                   "final_hold_slack_ns":  null
+               },
+    "pnr_resources":  {
+                          "memory_blocks_used":  null,
+                          "memory_blocks_total":  null,
+                          "memory_blocks_percent":  null,
+                          "dsp_blocks_used":  null,
+                          "dsp_blocks_total":  null,
+                          "dsp_blocks_percent":  null
+                      },
+    "metrics":  {
+                    "le":  null,
+                    "registers":  null,
+                    "dsp":  null,
+                    "ebr":  null,
+                    "report_lines":  699,
+                    "primitive_lines":  [
+
+                                        ],
+                    "primitive_counts":  {
+
+                                         },
+                    "module_row":  null,
+                    "module_rows":  [
+
+                                    ],
+                    "module":  {
+                                   "ff":  null,
+                                   "srl":  null,
+                                   "adds":  null,
+                                   "luts":  null,
+                                   "comb4":  null,
+                                   "rams":  null,
+                                   "dsp_mults":  null
+                               }
+                },
+    "report_file_count":  7
+}

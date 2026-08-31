@@ -1,0 +1,32 @@
+﻿{
+    "run_id":  "79e26b38e8d94ee59dabba3da9babe1c",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TENSOR_WINDOW_CACHE_SEAM_PROXY_SYNTH_PASS",
+    "process_id":  25420,
+    "elapsed_seconds":  46.567,
+    "updated":  "2026-08-24T19:38:31.4597302+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\tensor_window_cache_seam_proxy_synth_runs\\79e26b38e8d94ee59dabba3da9babe1c",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\tensor_window_cache_seam_proxy_synth_79e26b38e8d94ee59dabba3da9babe1c",
+    "result_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\tensor_window_cache_seam_proxy_synth_runs\\79e26b38e8d94ee59dabba3da9babe1c\\result.json",
+    "metrics":  {
+                    "part":  "xc7a200tsbg484-1",
+                    "clock_period_ns":  10,
+                    "clock_mhz":  100,
+                    "data_w":  64,
+                    "line_rows":  3,
+                    "max_row_words":  1280,
+                    "max_groups":  8,
+                    "slice_luts":  1242,
+                    "slice_registers":  792,
+                    "bram_tiles":  7.5,
+                    "dsps":  0,
+                    "wns_ns":  1.086,
+                    "tns_ns":  0,
+                    "timing_met":  true,
+                    "utilization_report":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\tensor_window_cache_seam_proxy_synth_79e26b38e8d94ee59dabba3da9babe1c\\reports\\utilization.rpt",
+                    "hierarchical_utilization_report":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\tensor_window_cache_seam_proxy_synth_79e26b38e8d94ee59dabba3da9babe1c\\reports\\utilization_hierarchical.rpt",
+                    "timing_report":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\tensor_window_cache_seam_proxy_synth_79e26b38e8d94ee59dabba3da9babe1c\\reports\\timing.rpt"
+                }
+}

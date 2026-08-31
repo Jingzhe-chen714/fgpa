@@ -1,0 +1,8 @@
+﻿{
+    "run_id":  "5e4cbba5445840fea66c68d3fbb94973",
+    "state":  "failed",
+    "step":  "vivado",
+    "exit_code":  1,
+    "message":  "Vivado exit code 1",
+    "updated":  "2026-08-27T01:05:08.8592761+08:00"
+}

@@ -1,0 +1,37 @@
+# Task Packet：第07章 设计特点局限与后续完善
+
+## Scope
+
+为已确认的比赛技术报告起草本章；用户已授权一次性整稿，无需逐章确认。
+
+## Files allowed to edit
+
+仅 case2/report/chapters/07_Discussion.md。独占owner=report_discussion，不得编辑RTL、其他章节、共享plan或报告合稿。
+
+## Files to read
+
+先读本报告plan/outline.md、project-overview.md、notes.md、chapter-architecture.md、evidence-map.md。技术输入（路径以仓库根为准，plan/与tables/相对于case2/report）：case2/architecture.md；case2/resource_budget.md；case2/rtl/mem/render_cmd_mem_engine.sv；case2/rtl/mem/c2_mem_arbiter_2m_owner.sv；plan/experiment-protocol.md。不存在的文件请rg定位，不猜测内容。
+
+## Required skills
+
+完整读取C:/Users/30982/.codex/skills/research-writing-assistant/skills/writing-chapters/SKILL.md与writing-core/SKILL.md。第1章另读evidence-driven-writing，第5/6/7章另读experiment-results-planning。主代理已读取技能并建立所需规划，用户已明确覆盖逐章确认要求；子代理不再询问。
+
+## Argument chain
+
+从已实现的命令/事务契约、行RAM复用与分层可验证性说明工程特点，再讨论吞吐/单事务/非DSP流水/ColorKey整背景读/CDC缺口与加分项路线。创新不过度拔高，无排名得分保证。
+
+## Deliverable and style
+
+以“## 7 设计特点局限与后续完善”开始，小节为### n.m；至少1500非空白字符，至少6段超过80字符的实质叙述。正文以连贯中文段落为主，表格只承担确切映射/比较，不使用加粗或项目符号堆砌。公式可用单独行Markdown数学式；不生成图像/图表工具产物。采用[R1]等统一引用标签，本章允许R1,R4,R5,R6,R7,R8,R9。不新增未核实引用。
+
+## Rejection checks
+
+不编造板测、FPS、加速比、DSP映射或IP连接；不把4×2仿真/NOP AXI shell/裁剪map说成实板通过。未完成项统一【待补充：……】，数据表用待实测，符合用户要求。不写“实验目的/讨论提示/表位/图位/请用户/写作要求”等流程话语，不用首先/其次/最后/此外/另外/接下来/总之等模板过渡（协议末拍写末拍）。报告是工程设计，不宣传首创或保证获奖。只用apply_patch编辑，不算文件哈希，不运行EDA。
+
+## Validation commands
+
+写后读取本章，统计非空白字符和实质段落，核对关键字段与实际源码/记录。主代理会复验。
+
+## Handoff
+
+返回DONE或DONE_WITH_CONCERNS、唯一改动路径、论证链摘要、实际核对源码/记录、未解决证据缺口及自审结果。不要产生其他文件。

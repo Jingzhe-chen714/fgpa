@@ -1,0 +1,10 @@
+﻿{
+    "run_id":  "a4878047b6814229bbbc652660cfd41d",
+    "state":  "failed",
+    "step":  "failed",
+    "exit_code":  1,
+    "message":  "不能对 Null 值表达式调用方法。",
+    "updated":  "2026-08-24T13:19:56.5830431+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_portable_soc_axi_7client_stress_runs\\a4878047b6814229bbbc652660cfd41d",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\r1_portable_soc_axi_7client_stress_xsim_run_a4878047b6814229bbbc652660cfd41d"
+}

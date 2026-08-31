@@ -1,0 +1,17 @@
+﻿{
+    "run_id":  "c1_native_dma_loopback_wire_elab_20260825",
+    "frame":  "3x640x480",
+    "state":  "complete",
+    "step":  "elaboration",
+    "exit_code":  0,
+    "message":  "C1_R1_NATIVE_DMA_LOOPBACK_ELAB_PASS frame=3x640x480",
+    "process_id":  11408,
+    "elapsed_seconds":  6.194,
+    "step_seconds":  {
+                         "xvlog":  2.017,
+                         "xelab":  4.033
+                     },
+    "updated":  "2026-08-25T11:18:58.2468655+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_dma_loopback_runs\\c1_native_dma_loopback_wire_elab_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\native_dma_loopback_run_c1_native_dma_loopback_wire_elab_20260825"
+}

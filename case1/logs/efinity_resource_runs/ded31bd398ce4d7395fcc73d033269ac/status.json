@@ -1,0 +1,55 @@
+﻿{
+    "run_id":  "ded31bd398ce4d7395fcc73d033269ac",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TI60_DW_LEAF_WRAPPER_MAP_PNR_PASS",
+    "process_id":  51616,
+    "elapsed_seconds":  18.572,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\ded31bd398ce4d7395fcc73d033269ac",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\ded31bd398ce4d7395fcc73d033269ac\\summary.json",
+    "metrics":  {
+                    "le":  1252,
+                    "registers":  1451,
+                    "dsp":  44,
+                    "ebr":  0,
+                    "report_lines":  1520,
+                    "primitive_counts":  {
+                                             "EFX_DSP24":  36,
+                                             "EFX_DSP48":  8
+                                         },
+                    "module_row":  "c1_ti60_dw_leaf_wrapper:c1_ti60_dw_leaf_wrapper      1451(118)      0(0)   634(38)   1252(59)      0(0)      0(0)     44(0)",
+                    "module_rows":  [
+                                        "c1_ti60_dw_leaf_wrapper:c1_ti60_dw_leaf_wrapper      1451(118)      0(0)   634(38)   1252(59)      0(0)      0(0)     44(0)"
+                                    ],
+                    "module":  {
+                                   "ff":  1451,
+                                   "srl":  0,
+                                   "adds":  634,
+                                   "luts":  1252,
+                                   "comb4":  0,
+                                   "rams":  0,
+                                   "dsp_mults":  44
+                               },
+                    "timing":  {
+                                   "post_place_period_ns":  3.476,
+                                   "post_place_frequency_mhz":  287.687,
+                                   "final_period_ns":  3.682,
+                                   "final_frequency_mhz":  271.592,
+                                   "max_period_ns":  3.682,
+                                   "max_frequency_mhz":  271.592,
+                                   "post_place_slack_ns":  6.524,
+                                   "post_place_hold_slack_ns":  0.079,
+                                   "final_slack_ns":  6.318,
+                                   "final_hold_slack_ns":  0.09
+                               },
+                    "pnr_resources":  {
+                                          "memory_blocks_used":  0,
+                                          "memory_blocks_total":  256,
+                                          "memory_blocks_percent":  0,
+                                          "dsp_blocks_used":  28,
+                                          "dsp_blocks_total":  160,
+                                          "dsp_blocks_percent":  17.5
+                                      }
+                }
+}

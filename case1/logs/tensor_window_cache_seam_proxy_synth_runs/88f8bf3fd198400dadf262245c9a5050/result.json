@@ -1,0 +1,24 @@
+﻿{
+    "run_id":  "88f8bf3fd198400dadf262245c9a5050",
+    "marker":  "C1_TENSOR_WINDOW_CACHE_SEAM_PROXY_SYNTH_PASS",
+    "state":  "timing_failed",
+    "metrics":  {
+                    "part":  "xc7a200tsbg484-1",
+                    "clock_period_ns":  10,
+                    "clock_mhz":  100,
+                    "data_w":  64,
+                    "line_rows":  3,
+                    "max_row_words":  1280,
+                    "max_groups":  8,
+                    "slice_luts":  817,
+                    "slice_registers":  353,
+                    "bram_tiles":  7.5,
+                    "dsps":  4,
+                    "wns_ns":  -9.572,
+                    "tns_ns":  -856.253,
+                    "timing_met":  false,
+                    "utilization_report":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\tensor_window_cache_seam_proxy_synth_88f8bf3fd198400dadf262245c9a5050\\reports\\utilization.rpt",
+                    "hierarchical_utilization_report":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\tensor_window_cache_seam_proxy_synth_88f8bf3fd198400dadf262245c9a5050\\reports\\utilization_hierarchical.rpt",
+                    "timing_report":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\tensor_window_cache_seam_proxy_synth_88f8bf3fd198400dadf262245c9a5050\\reports\\timing.rpt"
+                }
+}

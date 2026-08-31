@@ -1,0 +1,18 @@
+﻿{
+    "run_id":  "c9d88d74853a475e938f9f7098cea567",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TI60_RESOURCE_PROXY_MAP_PASS",
+    "process_id":  39728,
+    "elapsed_seconds":  57.353,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\c9d88d74853a475e938f9f7098cea567",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\c9d88d74853a475e938f9f7098cea567\\summary.json",
+    "metrics":  {
+                    "le":  null,
+                    "registers":  9311,
+                    "dsp":  16,
+                    "ebr":  null,
+                    "report_lines":  24022
+                }
+}

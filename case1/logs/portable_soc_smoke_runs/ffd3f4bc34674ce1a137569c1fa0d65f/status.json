@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "ffd3f4bc34674ce1a137569c1fa0d65f",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_SMOKE_PASS",
+    "process_id":  10340,
+    "elapsed_seconds":  13.32,
+    "updated":  "2026-08-24T11:27:59.9099396+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_smoke_runs\\ffd3f4bc34674ce1a137569c1fa0d65f",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_smoke_run_ffd3f4bc34674ce1a137569c1fa0d65f"
+}

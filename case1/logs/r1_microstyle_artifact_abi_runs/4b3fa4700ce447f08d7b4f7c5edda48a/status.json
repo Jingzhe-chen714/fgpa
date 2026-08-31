@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "4b3fa4700ce447f08d7b4f7c5edda48a",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "xsim reported Fatal/Error/FAIL",
+    "process_id":  7380,
+    "elapsed_seconds":  9.223,
+    "updated":  "2026-08-24T13:59:10.9172742+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_artifact_abi_runs\\4b3fa4700ce447f08d7b4f7c5edda48a",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_r1_microstyle_artifact_abi_4b3fa4700ce447f08d7b4f7c5edda48a"
+}

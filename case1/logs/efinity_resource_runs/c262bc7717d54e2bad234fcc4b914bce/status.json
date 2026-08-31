@@ -1,0 +1,38 @@
+﻿{
+    "run_id":  "c262bc7717d54e2bad234fcc4b914bce",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TI60_ENGINE_GROUPS2_WRAPPER_MAP_PASS",
+    "process_id":  51756,
+    "elapsed_seconds":  20.903,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\c262bc7717d54e2bad234fcc4b914bce",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\c262bc7717d54e2bad234fcc4b914bce\\summary.json",
+    "metrics":  {
+                    "le":  null,
+                    "registers":  null,
+                    "dsp":  null,
+                    "ebr":  null,
+                    "report_lines":  4622,
+                    "primitive_lines":  [
+
+                                        ],
+                    "primitive_counts":  {
+
+                                         },
+                    "module_row":  null,
+                    "module_rows":  [
+                                        "  +u_engine:c1_r1_microstyle_engine(REQUIRED_STAGES=1,MAX...    32(29)      0(0)      6(0)    58(46)      0(0)      0(0)      0(0)",
+                                        "   +u_parameter_scheduler:c1_r1_c8_parameter_scheduler(MA...      0(0)      0(0)      6(6)      0(0)      0(0)      0(0)      0(0)"
+                                    ],
+                    "module":  {
+                                   "ff":  null,
+                                   "srl":  null,
+                                   "adds":  null,
+                                   "luts":  null,
+                                   "comb4":  null,
+                                   "rams":  null,
+                                   "dsp_mults":  null
+                               }
+                }
+}

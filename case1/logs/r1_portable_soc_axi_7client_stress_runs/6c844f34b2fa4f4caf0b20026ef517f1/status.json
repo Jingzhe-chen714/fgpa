@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "6c844f34b2fa4f4caf0b20026ef517f1",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "xsim reported Fatal/Error/FAIL",
+    "process_id":  43688,
+    "elapsed_seconds":  13.345,
+    "updated":  "2026-08-24T23:48:07.1724132+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_portable_soc_axi_7client_stress_runs\\6c844f34b2fa4f4caf0b20026ef517f1",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\r1_portable_soc_axi_7client_stress_xsim_run_6c844f34b2fa4f4caf0b20026ef517f1"
+}

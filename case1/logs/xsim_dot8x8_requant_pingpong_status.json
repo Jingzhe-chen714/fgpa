@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "tagfull_default_20260827",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_DOT8X8_REQUANT_PINGPONG_PASS",
+    "process_id":  41596,
+    "elapsed_seconds":  9.242,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\xsim_runs\\dot8x8_requant_pingpong\\tagfull_default_20260827",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_dot8x8_requant_pingpong_tagfull_default_20260827"
+}

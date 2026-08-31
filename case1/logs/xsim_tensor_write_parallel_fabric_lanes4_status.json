@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "lanes4_next",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TENSOR_MEM_AXI128_WRITE_PARALLEL_LANES4_PASS",
+    "process_id":  47064,
+    "elapsed_seconds":  9.186,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\xsim_runs\\tensor_write_parallel_fabric_lanes4\\lanes4_next",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_tensor_write_parallel_fabric_lanes4_lanes4_next"
+}

@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "portable_soc_descriptor_relaxed_pipelined2_startcfg_treefull_descr_replay_proxy_20260825",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_PORTABLE_SOC_DESCRIPTOR_RELAXED_PROXY_SYNTH_PASS frame=640x480",
+    "process_id":  36764,
+    "elapsed_seconds":  291.979,
+    "updated":  "2026-08-25T19:20:52.7429429+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_descriptor_relaxed_runs\\portable_soc_descriptor_relaxed_pipelined2_startcfg_treefull_descr_replay_proxy_20260825",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_descriptor_relaxed_run_portable_soc_descriptor_relaxed_pipelined2_startcfg_treefull_descr_replay_proxy_20260825\\reports"
+}

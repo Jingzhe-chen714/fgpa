@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "awbefore_after_rsp_patch_20260827",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_AXI128_WRITE_MLP_AW_EARLY_PASS",
+    "process_id":  40012,
+    "elapsed_seconds":  9.232,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\xsim_runs\\axi128_write_mlp_aw_before_payload\\awbefore_after_rsp_patch_20260827",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_axi128_write_mlp_aw_before_payload_awbefore_after_rsp_patch_20260827"
+}

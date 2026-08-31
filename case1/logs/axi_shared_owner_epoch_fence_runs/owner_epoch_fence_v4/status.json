@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "owner_epoch_fence_v4",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_AXI_SHARED_OWNER_EPOCH_FENCE_PASS",
+    "process_id":  14228,
+    "elapsed_seconds":  8.255,
+    "updated":  "2026-08-28T00:34:45.1584649+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi_shared_owner_epoch_fence_runs\\owner_epoch_fence_v4",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_axi_shared_owner_epoch_fence_owner_epoch_fence_v4"
+}

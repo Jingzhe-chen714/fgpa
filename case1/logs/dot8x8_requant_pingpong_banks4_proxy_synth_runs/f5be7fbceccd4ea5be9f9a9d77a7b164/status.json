@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "f5be7fbceccd4ea5be9f9a9d77a7b164",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_DOT8X8_REQUANT_PINGPONG_BANKS4_PROXY_SYNTH_PASS",
+    "process_id":  38400,
+    "elapsed_seconds":  111.098,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\dot8x8_requant_pingpong_banks4_proxy_synth_runs\\f5be7fbceccd4ea5be9f9a9d77a7b164",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\.tmp_dot8x8_requant_pingpong_banks4_proxy_synth_f5be7fbceccd4ea5be9f9a9d77a7b164"
+}

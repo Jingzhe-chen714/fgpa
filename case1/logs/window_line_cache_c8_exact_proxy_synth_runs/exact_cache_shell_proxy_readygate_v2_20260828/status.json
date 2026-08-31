@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "exact_cache_shell_proxy_readygate_v2_20260828",
+    "state":  "failed",
+    "step":  "vivado",
+    "exit_code":  1,
+    "message":  "Vivado exit code 1",
+    "process_id":  28904,
+    "elapsed_seconds":  22.809,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\window_line_cache_c8_exact_proxy_synth_runs\\exact_cache_shell_proxy_readygate_v2_20260828",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\window_line_cache_c8_exact_proxy_synth_runs\\exact_cache_shell_proxy_readygate_v2_20260828\\summary.json",
+    "metrics":  null
+}

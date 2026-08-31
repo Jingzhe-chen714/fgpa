@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "38ffbb419d814fd398e1033d0e3086f2",
+    "state":  "failed",
+    "step":  "setup",
+    "exit_code":  1,
+    "message":  "Vivado failed with exit code 1",
+    "process_id":  39500,
+    "elapsed_seconds":  14.184,
+    "updated":  "2026-08-24T15:53:46.0539510+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\tensor_mem_path_seam_proxy_synth_runs\\38ffbb419d814fd398e1033d0e3086f2",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\tensor_mem_path_seam_proxy_synth_38ffbb419d814fd398e1033d0e3086f2"
+}

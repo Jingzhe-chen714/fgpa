@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "21c110f8ae9547d39006950047078b9e",
+    "frame":  "640x480",
+    "state":  "failed",
+    "step":  "xelab",
+    "exit_code":  1,
+    "message":  "xelab exit 1",
+    "process_id":  29892,
+    "elapsed_seconds":  5.244,
+    "updated":  "2026-08-28T19:20:44.1380150+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\21c110f8ae9547d39006950047078b9e",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_21c110f8ae9547d39006950047078b9e"
+}

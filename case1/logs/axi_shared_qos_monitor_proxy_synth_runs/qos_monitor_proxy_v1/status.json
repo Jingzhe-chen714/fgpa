@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "qos_monitor_proxy_v1",
+    "state":  "failed",
+    "step":  "setup",
+    "exit_code":  1,
+    "message":  "Vivado exit code 1",
+    "process_id":  35820,
+    "elapsed_seconds":  15.218,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi_shared_qos_monitor_proxy_synth_runs\\qos_monitor_proxy_v1",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi_shared_qos_monitor_proxy_synth_runs\\qos_monitor_proxy_v1\\summary.json",
+    "metrics":  null
+}

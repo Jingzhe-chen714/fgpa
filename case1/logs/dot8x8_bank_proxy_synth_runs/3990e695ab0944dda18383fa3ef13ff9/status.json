@@ -1,0 +1,27 @@
+﻿{
+    "run_id":  "3990e695ab0944dda18383fa3ef13ff9",
+    "lanes":  2,
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_DOT8X8_BANK_PROXY_SYNTH_PASS lanes=2",
+    "process_id":  30276,
+    "elapsed_seconds":  49.613,
+    "updated":  "2026-08-27T01:36:19.0731215+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\dot8x8_bank_proxy_synth_runs\\3990e695ab0944dda18383fa3ef13ff9",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\dot8x8_bank_proxy_synth_runs\\3990e695ab0944dda18383fa3ef13ff9\\summary.json",
+    "metrics":  {
+                    "part":  "xc7a200tsbg484-1",
+                    "lanes":  2,
+                    "clock_period_ns":  10,
+                    "clock_mhz":  100,
+                    "slice_luts":  16576,
+                    "slice_registers":  4874,
+                    "bram_tiles":  0,
+                    "dsps":  32,
+                    "wns_ns":  2.26,
+                    "tns_ns":  0,
+                    "timing_met":  true,
+                    "marker":  "C1_DOT8X8_BANK_PROXY_SYNTH_PASS lanes=2"
+                }
+}

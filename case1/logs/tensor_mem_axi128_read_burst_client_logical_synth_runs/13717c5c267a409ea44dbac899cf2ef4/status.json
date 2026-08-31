@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "13717c5c267a409ea44dbac899cf2ef4",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TENSOR_MEM_AXI128_READ_BURST_CLIENT_LOGICAL_SYNTH_PASS",
+    "process_id":  39276,
+    "elapsed_seconds":  65.016,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\tensor_mem_axi128_read_burst_client_logical_synth_runs\\13717c5c267a409ea44dbac899cf2ef4",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\.tmp_tensor_read_logical_synth_13717c5c267a409ea44dbac899cf2ef4"
+}

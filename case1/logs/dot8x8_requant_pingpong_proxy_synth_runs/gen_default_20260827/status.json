@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "gen_default_20260827",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_DOT8X8_REQUANT_PINGPONG_PROXY_SYNTH_PASS",
+    "process_id":  24356,
+    "elapsed_seconds":  76.881,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\dot8x8_requant_pingpong_proxy_synth_runs\\gen_default_20260827",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\.tmp_dot8x8_requant_pingpong_proxy_synth_gen_default_20260827"
+}

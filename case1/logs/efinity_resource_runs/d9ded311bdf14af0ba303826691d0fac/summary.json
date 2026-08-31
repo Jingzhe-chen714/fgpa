@@ -1,0 +1,17 @@
+﻿{
+    "run_id":  "d9ded311bdf14af0ba303826691d0fac",
+    "marker":  "C1_TI60_RESOURCE_PROXY_MAP_PASS",
+    "state":  "complete",
+    "efinity_version":  "2026.1.132.3.9",
+    "family":  "Titanium",
+    "device":  "Ti60F225",
+    "flow":  "map",
+    "metrics":  {
+                    "le":  null,
+                    "registers":  9311,
+                    "dsp":  64,
+                    "ebr":  null,
+                    "report_lines":  24022
+                },
+    "report_file_count":  8
+}

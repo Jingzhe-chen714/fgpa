@@ -1,0 +1,27 @@
+﻿{
+    "run_id":  "0e4a17d0196c45aa8fa8a83ab56b815f",
+    "marker":  "C1_TI60_RESOURCE_PROXY_MAP_PASS",
+    "state":  "complete",
+    "efinity_version":  "2026.1.132.3.9",
+    "family":  "Titanium",
+    "device":  "Ti60F225",
+    "flow":  "map",
+    "metrics":  {
+                    "le":  null,
+                    "registers":  353,
+                    "dsp":  64,
+                    "ebr":  null,
+                    "report_lines":  187,
+                    "module_row":  " +u_tile_bank3:c1_ti60_ebr_bank                    32(32)      0(0)       0(0)      0(0)      0(0)      2(2)      0(0)",
+                    "module":  {
+                                   "ff":  32,
+                                   "srl":  0,
+                                   "adds":  0,
+                                   "luts":  0,
+                                   "comb4":  0,
+                                   "rams":  2,
+                                   "dsp_mults":  0
+                               }
+                },
+    "report_file_count":  8
+}

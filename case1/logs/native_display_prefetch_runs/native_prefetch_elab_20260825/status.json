@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "native_prefetch_elab_20260825",
+    "frame":  "640x480",
+    "state":  "failed",
+    "step":  "xvlog",
+    "exit_code":  1,
+    "message":  "xvlog exit 1",
+    "process_id":  41588,
+    "elapsed_seconds":  3.166,
+    "updated":  "2026-08-25T03:58:02.1284613+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_display_prefetch_runs\\native_prefetch_elab_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\native_display_prefetch_run_native_prefetch_elab_20260825"
+}

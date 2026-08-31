@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "interp_operand_pipe_ticket_proxy_20260826",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_PORTABLE_SOC_DESCRIPTOR_RELAXED_PROXY_SYNTH_PASS frame=640x480; cleaned_files=234; cleaned_bytes=45541437",
+    "process_id":  42768,
+    "elapsed_seconds":  202.516,
+    "updated":  "2026-08-27T00:00:42.8122928+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_descriptor_relaxed_runs\\interp_operand_pipe_ticket_proxy_20260826",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_descriptor_relaxed_runs\\interp_operand_pipe_ticket_proxy_20260826\\reports"
+}

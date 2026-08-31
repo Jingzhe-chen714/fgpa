@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "cache_req_beatfifo_20260827",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_WINDOW_LINE_CACHE_C8_BURST_SHELL_PASS",
+    "process_id":  46476,
+    "elapsed_seconds":  10.25,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\xsim_runs\\cache_burst_shell_beatfifo\\cache_req_beatfifo_20260827",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_cache_burst_shell_beatfifo_cache_req_beatfifo_20260827"
+}

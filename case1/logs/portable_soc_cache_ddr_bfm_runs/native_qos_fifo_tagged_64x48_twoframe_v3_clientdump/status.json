@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "native_qos_fifo_tagged_64x48_twoframe_v3_clientdump",
+    "frame":  "64x48",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_CACHE_DDR_BFM_TWO_FRAME_PASS",
+    "process_id":  38240,
+    "elapsed_seconds":  256.054,
+    "updated":  "2026-08-28T05:27:13.3331781+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\native_qos_fifo_tagged_64x48_twoframe_v3_clientdump",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_native_qos_fifo_tagged_64x48_twoframe_v3_clientdump"
+}

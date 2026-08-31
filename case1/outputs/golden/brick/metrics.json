@@ -1,0 +1,33 @@
+{
+  "input": "brick.png",
+  "source_size": [
+    512,
+    512
+  ],
+  "processed_size": [
+    256,
+    256
+  ],
+  "style_output_size": [
+    252,
+    252
+  ],
+  "raw10_bytes": 81920,
+  "raw10_roundtrip_exact": true,
+  "demosaic_psnr_db": 28.874829224313313,
+  "style_saturation_fraction": 0.0,
+  "layer_ranges": {
+    "conv1": [
+      82,
+      185
+    ],
+    "depthwise": [
+      45,
+      234
+    ],
+    "output": [
+      32,
+      245
+    ]
+  }
+}

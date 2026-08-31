@@ -1,0 +1,16 @@
+﻿{
+    "run_id":  "740a9aa71e53445ab0d87b558f2403b2",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "frame-pair resolver xsim regression complete",
+    "process_id":  5488,
+    "elapsed_seconds":  9.233,
+    "step_seconds":  {
+                         "xvlog":  2.015,
+                         "xelab_frame_pair_resolver":  3.036,
+                         "xsim_frame_pair_resolver":  4.031
+                     },
+    "updated":  "2026-08-24T05:31:27.8990279+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\frame_pair_resolver_runs\\740a9aa71e53445ab0d87b558f2403b2"
+}

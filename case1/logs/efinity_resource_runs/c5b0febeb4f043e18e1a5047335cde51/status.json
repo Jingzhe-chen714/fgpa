@@ -1,0 +1,37 @@
+﻿{
+    "run_id":  "c5b0febeb4f043e18e1a5047335cde51",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TI60_AFFINE_UNPACKED16_MAP_PASS",
+    "process_id":  43960,
+    "elapsed_seconds":  2.843,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\c5b0febeb4f043e18e1a5047335cde51",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\c5b0febeb4f043e18e1a5047335cde51\\summary.json",
+    "metrics":  {
+                    "le":  null,
+                    "registers":  null,
+                    "dsp":  null,
+                    "ebr":  null,
+                    "report_lines":  722,
+                    "primitive_lines":  [
+
+                                        ],
+                    "primitive_counts":  {
+
+                                         },
+                    "module_row":  null,
+                    "module_rows":  [
+
+                                    ],
+                    "module":  {
+                                   "ff":  null,
+                                   "srl":  null,
+                                   "adds":  null,
+                                   "luts":  null,
+                                   "comb4":  null,
+                                   "rams":  null,
+                                   "dsp_mults":  null
+                               }
+                }
+}

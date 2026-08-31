@@ -1,0 +1,17 @@
+﻿{
+    "run_id":  "portable_soc_tensor_burst_beat_place_v1",
+    "mode":  "beat",
+    "implementation":  "place_route",
+    "state":  "failed",
+    "step":  "vivado",
+    "exit_code":  1,
+    "message":  "Vivado failed with exit code 1; cleaned_files=237; cleaned_bytes=48076456",
+    "process_id":  54936,
+    "elapsed_seconds":  339.604,
+    "updated":  "2026-08-28T09:06:39.0715306+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_beat_place_v1",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_beat_place_v1\\reports",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_beat_place_v1\\summary.json",
+    "temporary_run_root":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_tensor_burst_proxy_run_portable_soc_tensor_burst_beat_place_v1",
+    "rsp_fifo_depth":  64
+}

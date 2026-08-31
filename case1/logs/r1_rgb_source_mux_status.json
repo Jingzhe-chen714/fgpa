@@ -1,0 +1,16 @@
+﻿{
+    "run_id":  "dc358aaaee5d486f829d0365cd97753f",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "R1 RGB-source-mux xsim regression complete",
+    "process_id":  12424,
+    "elapsed_seconds":  9.231,
+    "step_seconds":  {
+                         "xvlog":  2.028,
+                         "xelab_r1_rgb_source_mux":  3.022,
+                         "xsim_r1_rgb_source_mux":  4.041
+                     },
+    "updated":  "2026-08-24T04:31:01.6585440+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_rgb_source_mux_runs\\dc358aaaee5d486f829d0365cd97753f"
+}

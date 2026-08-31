@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "current_treefull_prevalidate_nofifo_nohelper_20260825",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_PORTABLE_SOC_DESCRIPTOR_RELAXED_PROXY_SYNTH_PASS frame=640x480",
+    "process_id":  25888,
+    "elapsed_seconds":  232.076,
+    "updated":  "2026-08-25T21:32:24.5238335+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_descriptor_relaxed_runs\\current_treefull_prevalidate_nofifo_nohelper_20260825",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_descriptor_relaxed_run_current_treefull_prevalidate_nofifo_nohelper_20260825\\reports"
+}

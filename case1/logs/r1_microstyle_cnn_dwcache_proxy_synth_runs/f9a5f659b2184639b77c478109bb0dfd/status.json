@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "f9a5f659b2184639b77c478109bb0dfd",
+    "state":  "failed",
+    "step":  "vivado",
+    "exit_code":  1,
+    "message":  "Vivado failed with exit code 1",
+    "process_id":  40548,
+    "elapsed_seconds":  18.443,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_cnn_dwcache_proxy_synth_runs\\f9a5f659b2184639b77c478109bb0dfd",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_cnn_dwcache_proxy_synth_runs\\f9a5f659b2184639b77c478109bb0dfd\\summary.json",
+    "metrics":  null
+}

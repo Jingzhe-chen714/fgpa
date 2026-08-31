@@ -1,0 +1,19 @@
+﻿{
+    "run_id":  "1cdd364787744eeb81e62af1dfd5aa5b",
+    "marker":  "C1_TENSOR_MEM_AXI128_READ_FABRIC_PROXY_SYNTH_PASS",
+    "state":  "complete",
+    "metrics":  {
+                    "part":  "xc7a200tsbg484-1",
+                    "clients":  2,
+                    "fabric_fifo_depth":  8,
+                    "leaf_burst_beats":  4,
+                    "luts":  31905,
+                    "registers":  10075,
+                    "bram_tiles":  0,
+                    "dsps":  0,
+                    "wns_ns":  1.928,
+                    "tns_ns":  0,
+                    "timing_met":  true,
+                    "marker":  "C1_TENSOR_MEM_AXI128_READ_FABRIC_PROXY_SYNTH_PASS"
+                }
+}

@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "preclamped_tap_8x8_twoframe_v1",
+    "frame":  "8x8",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_CACHE_DDR_BFM_TWO_FRAME_PASS",
+    "process_id":  39040,
+    "elapsed_seconds":  140.24,
+    "updated":  "2026-08-28T16:41:47.8028950+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\preclamped_tap_8x8_twoframe_v1",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_preclamped_tap_8x8_twoframe_v1"
+}

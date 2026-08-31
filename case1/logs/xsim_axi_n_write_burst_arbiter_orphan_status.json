@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "45f0c0dbb5a945f688364f40e93df39a",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_AXI_N_WRITE_BURST_ARBITER_ORPHAN_PASS",
+    "process_id":  35600,
+    "elapsed_seconds":  8.228,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\xsim_runs\\axi_n_write_burst_arbiter_orphan\\45f0c0dbb5a945f688364f40e93df39a",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_axi_n_write_burst_arbiter_orphan_45f0c0dbb5a945f688364f40e93df39a"
+}

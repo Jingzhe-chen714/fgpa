@@ -1,0 +1,10 @@
+﻿{
+    "run_id":  "f1c7e5d44bff4f4c952e89efdd959069",
+    "state":  "failed",
+    "step":  "xelab",
+    "exit_code":  1,
+    "message":  "xelab exit 1",
+    "process_id":  40964,
+    "updated":  "2026-08-28T17:22:46.7099009+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\sapphire_apb_adapter_runs\\f1c7e5d44bff4f4c952e89efdd959069"
+}

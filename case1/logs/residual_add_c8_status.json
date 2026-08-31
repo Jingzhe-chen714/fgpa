@@ -1,0 +1,18 @@
+﻿{
+    "run_id":  "7b0e7c0660d64cca978a0655699e9768",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C8 residual-add xsim regression complete",
+    "process_id":  20208,
+    "elapsed_seconds":  10.229,
+    "step_seconds":  {
+                         "vector_gen":  1.017,
+                         "xvlog":  2.019,
+                         "xelab_residual_add_c8":  3.02,
+                         "xsim_residual_add_c8":  4.025
+                     },
+    "updated":  "2026-08-24T04:10:43.5428037+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\residual_add_c8_runs\\7b0e7c0660d64cca978a0655699e9768",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_residual_add_c8_run_7b0e7c0660d64cca978a0655699e9768"
+}

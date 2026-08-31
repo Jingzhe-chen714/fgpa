@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "eaa8ce0c80224bdeb47fe9ea290f2ddf",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_AXI128_WRITE_MLP_PROXY_SYNTH_PASS",
+    "process_id":  9668,
+    "elapsed_seconds":  45.524,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi128_write_mlp_synth_runs\\eaa8ce0c80224bdeb47fe9ea290f2ddf",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\.tmp_axi128_write_mlp_synth_eaa8ce0c80224bdeb47fe9ea290f2ddf"
+}

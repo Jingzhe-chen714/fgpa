@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "e7b8cdaf31a247f994273af039f1eed3",
+    "state":  "failed",
+    "step":  "setup",
+    "exit_code":  1,
+    "message":  "Vivado failed with exit code 1",
+    "process_id":  32516,
+    "elapsed_seconds":  14.296,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\tensor_write_mlp_fabric_2c_proxy_synth_runs\\e7b8cdaf31a247f994273af039f1eed3",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\tensor_write_mlp_fabric_2c_proxy_synth_runs\\e7b8cdaf31a247f994273af039f1eed3\\summary.json",
+    "metrics":  null
+}

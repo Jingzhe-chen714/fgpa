@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "4fdb28345b6b4b2c8342357e2e0d82ec",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_PROXY_SYNTH_PASS components=14",
+    "process_id":  46224,
+    "elapsed_seconds":  294.464,
+    "updated":  "2026-08-24T10:37:04.6963111+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_proxy_synth_runs\\4fdb28345b6b4b2c8342357e2e0d82ec",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\r1_proxy_synth_run_4fdb28345b6b4b2c8342357e2e0d82ec\\reports"
+}

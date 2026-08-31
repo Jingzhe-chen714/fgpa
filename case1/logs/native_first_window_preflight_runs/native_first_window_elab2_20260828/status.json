@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "native_first_window_elab2_20260828",
+    "state":  "complete",
+    "step":  "elab",
+    "exit_code":  0,
+    "message":  "C1_R1_NATIVE_FIRST_WINDOW_PREFLIGHT_ELAB_PASS frame=640x480 stages=22",
+    "process_id":  53436,
+    "elapsed_seconds":  5.232,
+    "updated":  "2026-08-28T22:08:51.8196074+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_first_window_preflight_runs\\native_first_window_elab2_20260828",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_native_first_window_native_first_window_elab2_20260828"
+}

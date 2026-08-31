@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "ready_fifo_directed_20260826",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_FRAME_MANAGER_READY_FIFO_PASS",
+    "process_id":  30424,
+    "elapsed_seconds":  8.215,
+    "updated":  "2026-08-26T22:30:28.1463452+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\frame_manager_ready_fifo_runs\\ready_fifo_directed_20260826",
+    "temp_files_deleted":  22,
+    "temp_bytes_deleted":  158884
+}

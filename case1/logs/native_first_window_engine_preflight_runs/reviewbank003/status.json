@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "reviewbank003",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_NATIVE_FIRST_WINDOW_ENGINE_PREFLIGHT_PASS",
+    "process_id":  56708,
+    "elapsed_seconds":  16.37,
+    "updated":  "2026-08-28T22:45:43.2030578+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_first_window_engine_preflight_runs\\reviewbank003",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_native_first_window_engine_reviewbank003"
+}

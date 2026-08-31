@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "native_artifact_preflight_current_20260828",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_NATIVE_ARTIFACT_PREFLIGHT_PASS",
+    "process_id":  46212,
+    "elapsed_seconds":  9.313,
+    "updated":  "2026-08-28T21:50:16.3293319+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_artifact_preflight_runs\\native_artifact_preflight_current_20260828",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_native_artifact_preflight_native_artifact_preflight_current_20260828"
+}

@@ -1,0 +1,18 @@
+﻿{
+    "run_id":  "c1_native_dma_loopback_regready_debug3_20260825",
+    "frame":  "3x640x480",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "xsim reported ERROR/FATAL/FAIL; inspect D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_dma_loopback_runs\\c1_native_dma_loopback_regready_debug3_20260825\\xsim.stdout.log and D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_dma_loopback_runs\\c1_native_dma_loopback_regready_debug3_20260825\\xsim.stderr.log",
+    "process_id":  4992,
+    "elapsed_seconds":  10.244,
+    "step_seconds":  {
+                         "xvlog":  2.029,
+                         "xelab":  4.039,
+                         "xsim":  4.039
+                     },
+    "updated":  "2026-08-25T11:34:03.2019956+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_dma_loopback_runs\\c1_native_dma_loopback_regready_debug3_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\native_dma_loopback_run_c1_native_dma_loopback_regready_debug3_20260825"
+}

@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "descriptor_pipelined2_startcfg_treefull_8x8_20260825",
+    "frame":  "8x8",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_CACHE_DDR_BFM_PASS",
+    "process_id":  30472,
+    "elapsed_seconds":  52.715,
+    "updated":  "2026-08-25T18:43:30.0070854+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\descriptor_pipelined2_startcfg_treefull_8x8_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_descriptor_pipelined2_startcfg_treefull_8x8_20260825"
+}

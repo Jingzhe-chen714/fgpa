@@ -1,0 +1,16 @@
+﻿{
+    "run_id":  "2afff26a33fa41209e0af69c33daa098",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "R1 compute-egress xsim regression complete",
+    "process_id":  11848,
+    "elapsed_seconds":  9.242,
+    "step_seconds":  {
+                         "xvlog":  2.031,
+                         "xelab_r1_compute_egress":  3.03,
+                         "xsim_r1_compute_egress":  4.032
+                     },
+    "updated":  "2026-08-24T04:24:15.6820013+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_compute_egress_runs\\2afff26a33fa41209e0af69c33daa098"
+}

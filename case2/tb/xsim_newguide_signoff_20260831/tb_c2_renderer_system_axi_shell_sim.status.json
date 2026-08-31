@@ -1,0 +1,14 @@
+{
+  "worker_pid": 33472,
+  "command": [
+    "D:\\vivado\\vivado\\Vivado\\2023.1\\bin\\xsim.bat",
+    "tb_c2_renderer_system_axi_shell_verified",
+    "-runall"
+  ],
+  "started": "2026-08-30T16:17:07.129721+00:00",
+  "worker_in_job": false,
+  "state": "completed",
+  "tool_pid": 38888,
+  "returncode": 0,
+  "finished": "2026-08-30T16:17:10.715135+00:00"
+}

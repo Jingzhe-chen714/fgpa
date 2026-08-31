@@ -1,0 +1,18 @@
+﻿{
+    "run_id":  "76927b77e5b14cc998e43951d162bae8",
+    "frame":  "640x480",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_NATIVE_BOARDLESS_JOB_PASS frame=640x480",
+    "process_id":  33344,
+    "elapsed_seconds":  23.41,
+    "step_seconds":  {
+                         "xvlog":  2.022,
+                         "xelab":  5.059,
+                         "xsim":  16.183
+                     },
+    "updated":  "2026-08-29T21:23:03.1495557+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_boardless_job_runs\\76927b77e5b14cc998e43951d162bae8",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\native_boardless_job_run_76927b77e5b14cc998e43951d162bae8"
+}

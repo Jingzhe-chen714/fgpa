@@ -1,0 +1,16 @@
+﻿{
+    "run_id":  "4e035ad9cea447eb98bfd6595a52cfa2",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "AXI two-master serial-arbiter xsim regression complete",
+    "process_id":  33156,
+    "elapsed_seconds":  9.234,
+    "step_seconds":  {
+                         "xvlog":  2.031,
+                         "xelab_axi2_arbiter":  3.027,
+                         "xsim_axi2_arbiter":  4.04
+                     },
+    "updated":  "2026-08-25T11:40:56.3816171+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi2_arbiter_runs\\4e035ad9cea447eb98bfd6595a52cfa2"
+}

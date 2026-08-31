@@ -1,0 +1,17 @@
+﻿{
+    "run_id":  "aad1d4efe8fa444f9feac6cbaad6efce",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_JOB_FRONTEND_PASS",
+    "process_id":  16224,
+    "elapsed_seconds":  10.247,
+    "step_seconds":  {
+                         "xvlog":  2.021,
+                         "xelab":  4.037,
+                         "xsim":  4.051
+                     },
+    "updated":  "2026-08-24T06:08:35.4842901+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_job_frontend_runs\\aad1d4efe8fa444f9feac6cbaad6efce",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\r1_job_frontend_xsim_run_aad1d4efe8fa444f9feac6cbaad6efce"
+}

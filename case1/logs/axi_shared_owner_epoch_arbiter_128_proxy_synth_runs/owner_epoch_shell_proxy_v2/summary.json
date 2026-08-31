@@ -1,0 +1,19 @@
+﻿{
+    "run_id":  "owner_epoch_shell_proxy_v2",
+    "marker":  "C1_AXI_SHARED_OWNER_EPOCH_ARBITER_128_PROXY_SYNTH_PASS",
+    "state":  "complete",
+    "metrics":  {
+                    "part":  "xc7a200tsbg484-1",
+                    "clock_mhz":  100,
+                    "clients":  2,
+                    "read_response_skid":  0,
+                    "luts":  null,
+                    "registers":  null,
+                    "bram_tiles":  null,
+                    "dsps":  null,
+                    "wns_ns":  5.782,
+                    "tns_ns":  0,
+                    "timing_met":  true,
+                    "marker":  "C1_AXI_SHARED_OWNER_EPOCH_ARBITER_128_PROXY_SYNTH_PASS"
+                }
+}

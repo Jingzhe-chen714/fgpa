@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "owner_epoch_fence_v2",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "xsim log contains an error/failure marker",
+    "process_id":  51536,
+    "elapsed_seconds":  8.254,
+    "updated":  "2026-08-28T00:32:29.4131581+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi_shared_owner_epoch_fence_runs\\owner_epoch_fence_v2",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_axi_shared_owner_epoch_fence_owner_epoch_fence_v2"
+}

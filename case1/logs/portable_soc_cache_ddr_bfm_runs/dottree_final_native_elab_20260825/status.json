@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "dottree_final_native_elab_20260825",
+    "frame":  "640x480",
+    "state":  "complete",
+    "step":  "elaboration",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_SHAPE_ELAB_PASS frame=640x480",
+    "process_id":  20168,
+    "elapsed_seconds":  10.294,
+    "updated":  "2026-08-25T18:27:48.8388446+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\dottree_final_native_elab_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_dottree_final_native_elab_20260825"
+}

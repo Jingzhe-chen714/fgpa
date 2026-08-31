@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "native_first_window_engine_full_20260828",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_NATIVE_FIRST_WINDOW_ENGINE_PREFLIGHT_PASS",
+    "process_id":  44508,
+    "elapsed_seconds":  17.411,
+    "updated":  "2026-08-28T22:48:03.5000896+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_first_window_engine_preflight_runs\\native_first_window_engine_full_20260828",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_native_first_window_engine_native_first_window_engine_full_20260828"
+}

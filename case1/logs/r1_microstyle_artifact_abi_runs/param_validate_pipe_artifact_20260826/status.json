@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "param_validate_pipe_artifact_20260826",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_MICROSTYLE_ARTIFACT_ABI_PASS",
+    "process_id":  16232,
+    "elapsed_seconds":  9.228,
+    "updated":  "2026-08-26T19:29:23.5620673+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_artifact_abi_runs\\param_validate_pipe_artifact_20260826",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_r1_microstyle_artifact_abi_param_validate_pipe_artifact_20260826"
+}

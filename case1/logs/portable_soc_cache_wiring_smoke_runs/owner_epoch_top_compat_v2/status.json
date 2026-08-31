@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "owner_epoch_top_compat_v2",
+    "state":  "failed",
+    "step":  "xvlog",
+    "exit_code":  1,
+    "message":  "xvlog exit 1",
+    "process_id":  18000,
+    "elapsed_seconds":  2.186,
+    "updated":  "2026-08-28T01:16:20.5648991+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_wiring_smoke_runs\\owner_epoch_top_compat_v2",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_wiring_smoke_run_owner_epoch_top_compat_v2"
+}

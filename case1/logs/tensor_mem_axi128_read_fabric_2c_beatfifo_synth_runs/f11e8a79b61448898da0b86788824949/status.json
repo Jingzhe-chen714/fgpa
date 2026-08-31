@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "f11e8a79b61448898da0b86788824949",
+    "state":  "failed",
+    "step":  "setup",
+    "exit_code":  1,
+    "message":  "vivado failed with exit code 1",
+    "process_id":  36256,
+    "elapsed_seconds":  20.729,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\tensor_mem_axi128_read_fabric_2c_beatfifo_synth_runs\\f11e8a79b61448898da0b86788824949",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\.tmp_read_fabric_beatfifo_synth_f11e8a79b61448898da0b86788824949"
+}

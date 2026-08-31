@@ -1,0 +1,14 @@
+﻿{
+    "run_id":  "cca47b1ca44e478e985bbc3853754f48",
+    "state":  "failed",
+    "step":  "reports",
+    "exit_code":  1,
+    "message":  "100 MHz proxy timing failed: WNS=-2.41 ns",
+    "process_id":  17960,
+    "elapsed_seconds":  37.62,
+    "updated":  "2026-08-24T18:15:55.8395575+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\window_line_cache_c8_proxy_synth_runs\\cca47b1ca44e478e985bbc3853754f48",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\window_line_cache_c8_proxy_synth_cca47b1ca44e478e985bbc3853754f48",
+    "result_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\window_line_cache_c8_proxy_synth_runs\\cca47b1ca44e478e985bbc3853754f48\\result.json",
+    "metrics":  null
+}

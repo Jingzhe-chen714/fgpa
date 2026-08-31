@@ -1,0 +1,27 @@
+﻿{
+    "run_id":  "1b732b6e73d445a997ada07dbdce2147",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TENSOR_MEM_AXI128_WRITE_MLP_FABRIC_2C_PROXY_SYNTH_PASS",
+    "process_id":  42020,
+    "elapsed_seconds":  95.87,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\tensor_write_mlp_fabric_2c_proxy_synth_runs\\1b732b6e73d445a997ada07dbdce2147",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\tensor_write_mlp_fabric_2c_proxy_synth_runs\\1b732b6e73d445a997ada07dbdce2147\\summary.json",
+    "metrics":  {
+                    "part":  "xc7a200tsbg484-1",
+                    "clock_mhz":  100,
+                    "max_outstanding":  4,
+                    "max_beats":  16,
+                    "adapter_rsp_fifo_depth":  4,
+                    "fabric_fifo_depth":  6,
+                    "luts":  16211,
+                    "registers":  28286,
+                    "bram_tiles":  0,
+                    "dsps":  0,
+                    "wns_ns":  2.197,
+                    "tns_ns":  0,
+                    "timing_met":  true,
+                    "marker":  "C1_TENSOR_MEM_AXI128_WRITE_MLP_FABRIC_2C_PROXY_SYNTH_PASS"
+                }
+}

@@ -1,0 +1,18 @@
+﻿{
+    "run_id":  "native_fabric_outer_elab_20260825",
+    "frame":  "640x480",
+    "clients":  7,
+    "state":  "complete",
+    "step":  "elaboration",
+    "exit_code":  0,
+    "message":  "C1_R1_NATIVE_BOARDLESS_FABRIC_ELAB_PASS frame=640x480 clients=7",
+    "process_id":  37008,
+    "elapsed_seconds":  7.215,
+    "step_seconds":  {
+                         "xvlog":  2.026,
+                         "xelab":  5.055
+                     },
+    "updated":  "2026-08-25T12:54:36.6998921+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_boardless_fabric_runs\\native_fabric_outer_elab_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\native_boardless_fabric_run_native_fabric_outer_elab_20260825"
+}

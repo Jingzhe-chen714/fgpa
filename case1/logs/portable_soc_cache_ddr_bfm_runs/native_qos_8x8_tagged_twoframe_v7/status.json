@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "native_qos_8x8_tagged_twoframe_v7",
+    "frame":  "8x8",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_CACHE_DDR_BFM_TWO_FRAME_PASS",
+    "process_id":  25980,
+    "elapsed_seconds":  166.581,
+    "updated":  "2026-08-28T04:39:09.1346392+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\native_qos_8x8_tagged_twoframe_v7",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_native_qos_8x8_tagged_twoframe_v7"
+}

@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "portable_display_fifo128_gate_64x48_20260825",
+    "frame":  "64x48",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "xsim log contains ERROR/FATAL/FAIL",
+    "process_id":  13632,
+    "elapsed_seconds":  109.962,
+    "updated":  "2026-08-25T13:43:58.9908190+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\portable_display_fifo128_gate_64x48_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_portable_display_fifo128_gate_64x48_20260825"
+}

@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "portable_display_fifo_credit_only_twoframe_elab_20260825",
+    "frame":  "8x8",
+    "state":  "complete",
+    "step":  "elaboration",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_SHAPE_ELAB_PASS frame=8x8",
+    "process_id":  9776,
+    "elapsed_seconds":  9.206,
+    "updated":  "2026-08-25T14:15:32.6808960+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\portable_display_fifo_credit_only_twoframe_elab_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_portable_display_fifo_credit_only_twoframe_elab_20260825"
+}

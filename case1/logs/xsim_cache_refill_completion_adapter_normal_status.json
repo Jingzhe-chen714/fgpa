@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "completion_normal_final_v6_20260827",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_CACHE_REFILL_COMPLETION_ADAPTER_NORMAL_PASS",
+    "process_id":  28504,
+    "elapsed_seconds":  9.277,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\xsim_runs\\cache_refill_completion_adapter_normal\\completion_normal_final_v6_20260827",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_cache_refill_completion_adapter_normal_completion_normal_final_v6_20260827"
+}

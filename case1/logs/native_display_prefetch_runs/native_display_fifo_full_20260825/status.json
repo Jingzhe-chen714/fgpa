@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "native_display_fifo_full_20260825",
+    "frame":  "640x480",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_NATIVE_DISPLAY_PREFETCH_PASS frame=640x480",
+    "process_id":  10840,
+    "elapsed_seconds":  11.261,
+    "updated":  "2026-08-25T14:07:06.0469449+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_display_prefetch_runs\\native_display_fifo_full_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\native_display_prefetch_run_native_display_fifo_full_20260825"
+}

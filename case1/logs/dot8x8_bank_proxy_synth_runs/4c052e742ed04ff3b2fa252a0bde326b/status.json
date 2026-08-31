@@ -1,0 +1,14 @@
+﻿{
+    "run_id":  "4c052e742ed04ff3b2fa252a0bde326b",
+    "lanes":  1,
+    "state":  "failed",
+    "step":  "vivado",
+    "exit_code":  1,
+    "message":  "Vivado failed with exit code 1",
+    "process_id":  39384,
+    "elapsed_seconds":  11.193,
+    "updated":  "2026-08-27T01:37:05.2280779+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\dot8x8_bank_proxy_synth_runs\\4c052e742ed04ff3b2fa252a0bde326b",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\dot8x8_bank_proxy_synth_runs\\4c052e742ed04ff3b2fa252a0bde326b\\summary.json",
+    "metrics":  null
+}

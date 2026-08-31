@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "c11fd1eaea804946b8e6e29a2a10f0de",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_CACHE_FABRIC_DDR_BFM_PASS",
+    "process_id":  24016,
+    "elapsed_seconds":  10.212,
+    "updated":  "2026-08-24T20:19:51.0864750+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\cache_fabric_ddr_bfm_runs\\c11fd1eaea804946b8e6e29a2a10f0de",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_cache_fabric_ddr_bfm_run_c11fd1eaea804946b8e6e29a2a10f0de"
+}

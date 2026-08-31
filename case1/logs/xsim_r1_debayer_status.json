@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "8752612643394ecc84ee4d6487308808",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_DEBAYER_PASS cases=48 input=3840 output=2304",
+    "process_id":  44860,
+    "updated":  "2026-08-24T03:10:47.0723958+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_debayer_runs\\8752612643394ecc84ee4d6487308808",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\r1_debayer_xsim_run_8752612643394ecc84ee4d6487308808"
+}

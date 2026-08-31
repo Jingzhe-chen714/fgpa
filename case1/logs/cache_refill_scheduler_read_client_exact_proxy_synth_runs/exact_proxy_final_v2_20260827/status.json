@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "exact_proxy_final_v2_20260827",
+    "state":  "failed",
+    "step":  "vivado",
+    "exit_code":  1,
+    "message":  "Vivado exit code 1",
+    "process_id":  55088,
+    "elapsed_seconds":  18.359,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\cache_refill_scheduler_read_client_exact_proxy_synth_runs\\exact_proxy_final_v2_20260827",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\cache_refill_scheduler_read_client_exact_proxy_synth_runs\\exact_proxy_final_v2_20260827\\summary.json",
+    "metrics":  null
+}

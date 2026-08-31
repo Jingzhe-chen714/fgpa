@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "63dd92664be74806af309bf31fba659b",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_RESIZE_LINE_SAMPLER_PASS configs=7 outputs=127 errors=5",
+    "process_id":  40308,
+    "updated":  "2026-08-24T10:31:48.1811892+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_resize_line_sampler_runs\\63dd92664be74806af309bf31fba659b",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\r1_resize_line_sampler_xsim_run_63dd92664be74806af309bf31fba659b"
+}

@@ -1,0 +1,44 @@
+﻿{
+    "run_id":  "52b9b5d9e6aa41df9ac203f54a0b8986",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TI60_DOT_CORE_MAP_PNR_PASS",
+    "process_id":  51060,
+    "elapsed_seconds":  47.819,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\52b9b5d9e6aa41df9ac203f54a0b8986",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\52b9b5d9e6aa41df9ac203f54a0b8986\\summary.json",
+    "metrics":  {
+                    "le":  null,
+                    "registers":  null,
+                    "dsp":  80,
+                    "ebr":  0,
+                    "report_lines":  346,
+                    "primitive_counts":  {
+                                             "EFX_DSP24":  64,
+                                             "EFX_DSP48":  16
+                                         },
+                    "module_row":  null,
+                    "module":  {
+                                   "ff":  null,
+                                   "srl":  null,
+                                   "adds":  null,
+                                   "luts":  null,
+                                   "comb4":  null,
+                                   "rams":  null,
+                                   "dsp_mults":  null
+                               },
+                    "timing":  {
+                                   "post_place_period_ns":  4.452,
+                                   "post_place_frequency_mhz":  224.618,
+                                   "final_period_ns":  5.271,
+                                   "final_frequency_mhz":  189.717,
+                                   "max_period_ns":  5.271,
+                                   "max_frequency_mhz":  189.717,
+                                   "post_place_slack_ns":  5.548,
+                                   "post_place_hold_slack_ns":  0.175,
+                                   "final_slack_ns":  4.729,
+                                   "final_hold_slack_ns":  0.091
+                               }
+                }
+}

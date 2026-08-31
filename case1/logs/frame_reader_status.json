@@ -1,0 +1,16 @@
+﻿{
+    "run_id":  "7289a07e435249e8a3e2fc601acad96c",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "AXI XRGB frame-reader xsim regression complete",
+    "process_id":  42904,
+    "elapsed_seconds":  9.23,
+    "step_seconds":  {
+                         "xvlog":  2.014,
+                         "xelab_frame_reader":  3.037,
+                         "xsim_frame_reader":  4.038
+                     },
+    "updated":  "2026-08-24T10:20:09.1169397+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\frame_reader_runs\\7289a07e435249e8a3e2fc601acad96c"
+}

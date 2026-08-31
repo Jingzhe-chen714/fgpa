@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "45b7cfd0f5af457b882dadbe74202cf2",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_DISPLAY_PREFETCH_CDC_PASS",
+    "process_id":  8728,
+    "elapsed_seconds":  8.213,
+    "updated":  "2026-08-24T10:18:47.8676731+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\display_prefetch_runs\\45b7cfd0f5af457b882dadbe74202cf2"
+}

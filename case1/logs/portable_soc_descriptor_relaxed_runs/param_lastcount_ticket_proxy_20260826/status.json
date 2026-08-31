@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "param_lastcount_ticket_proxy_20260826",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_PORTABLE_SOC_DESCRIPTOR_RELAXED_PROXY_SYNTH_PASS frame=640x480",
+    "process_id":  25084,
+    "elapsed_seconds":  218.975,
+    "updated":  "2026-08-26T19:41:35.6203537+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_descriptor_relaxed_runs\\param_lastcount_ticket_proxy_20260826",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_descriptor_relaxed_run_param_lastcount_ticket_proxy_20260826\\reports"
+}

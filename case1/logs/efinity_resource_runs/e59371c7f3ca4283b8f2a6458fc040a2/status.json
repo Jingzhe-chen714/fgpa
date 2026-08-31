@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "e59371c7f3ca4283b8f2a6458fc040a2",
+    "state":  "failed",
+    "step":  "efx_pnr",
+    "exit_code":  1,
+    "message":  "Efinity PNR runner exit code 1; failure_tail=WARNING  : IO cell \"error_code[4]\" has no assigned placement; it will be placed randomly | WARNING  : IO cell \"error_pulse\" has no assigned placement; it will be placed randomly | ERROR    : Number of unassigned IO pins has has exceed auto-assignment eligible IO resources: [PackerMsg::AutoPinIOResourceExhaustion] | ERROR    : Failed to run packer | ERROR    : Efinity Place and Route flow has failed | |         error_code[0]         |    Output    | | |         error_code[1]         |    Output    | | |         error_code[2]         |    Output    | | |         error_code[3]         |    Output    | | |         error_code[4]         |    Output    | | |          error_pulse          |    Output    | | [EFX-0011 VERI-WARNING] Input/inout port descriptor_error_override[4] is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\control\\c1_layer_command_decoder.sv:42)",
+    "process_id":  44148,
+    "elapsed_seconds":  6.205,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\e59371c7f3ca4283b8f2a6458fc040a2",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\e59371c7f3ca4283b8f2a6458fc040a2\\summary.json",
+    "metrics":  null
+}

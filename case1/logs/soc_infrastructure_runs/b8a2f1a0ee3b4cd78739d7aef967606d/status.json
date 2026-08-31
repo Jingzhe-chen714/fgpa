@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "b8a2f1a0ee3b4cd78739d7aef967606d",
+    "state":  "failed",
+    "step":  "exception",
+    "exit_code":  1,
+    "message":  "xsim log contains ERROR/FATAL/FAIL",
+    "process_id":  44824,
+    "elapsed_seconds":  9.253,
+    "updated":  "2026-08-24T11:26:37.9774112+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\soc_infrastructure_runs\\b8a2f1a0ee3b4cd78739d7aef967606d"
+}

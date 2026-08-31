@@ -1,0 +1,28 @@
+﻿{
+    "run_id":  "cd312f166af949368e688e9113f315c4",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TI60_DOT_CORE_MAP_PASS",
+    "process_id":  51056,
+    "elapsed_seconds":  24.537,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\cd312f166af949368e688e9113f315c4",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\cd312f166af949368e688e9113f315c4\\summary.json",
+    "metrics":  {
+                    "le":  167,
+                    "registers":  74,
+                    "dsp":  8,
+                    "ebr":  null,
+                    "report_lines":  294,
+                    "module_row":  " +g_dot[0].g_legacy.u_dot:c1_s8_dot8_accum(ASSERT_ON_OVER...     74(74)      0(0)   156(156)   167(167)      0(0)      0(0)      8(8)",
+                    "module":  {
+                                   "ff":  74,
+                                   "srl":  0,
+                                   "adds":  156,
+                                   "luts":  167,
+                                   "comb4":  0,
+                                   "rams":  0,
+                                   "dsp_mults":  8
+                               }
+                }
+}

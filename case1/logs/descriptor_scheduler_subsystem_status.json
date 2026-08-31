@@ -1,0 +1,16 @@
+﻿{
+    "run_id":  "029f1c1caa45484c8532478ccce1db1e",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "descriptor-scheduler subsystem xsim regression complete",
+    "process_id":  12720,
+    "elapsed_seconds":  9.249,
+    "step_seconds":  {
+                         "xvlog":  2.024,
+                         "xelab_descriptor_scheduler_subsystem":  3.042,
+                         "xsim_descriptor_scheduler_subsystem":  4.048
+                     },
+    "updated":  "2026-08-24T03:31:16.4543016+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\descriptor_scheduler_subsystem_runs\\029f1c1caa45484c8532478ccce1db1e"
+}

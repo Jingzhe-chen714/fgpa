@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "050fce26849d4c8a9243f6c22e19ba3d",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "xsim reported Fatal/Error/FAIL",
+    "process_id":  46132,
+    "elapsed_seconds":  10.214,
+    "updated":  "2026-08-24T20:17:44.1979389+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\cache_fabric_ddr_bfm_runs\\050fce26849d4c8a9243f6c22e19ba3d",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_cache_fabric_ddr_bfm_run_050fce26849d4c8a9243f6c22e19ba3d"
+}

@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "175578278d524a9dadddd8ae45a729a4",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_AXI_N_READ_BURST_ARBITER_PASS",
+    "process_id":  30872,
+    "elapsed_seconds":  9.251,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\xsim_runs\\axi_n_read_burst_arbiter\\175578278d524a9dadddd8ae45a729a4",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_axi_n_read_burst_arbiter_175578278d524a9dadddd8ae45a729a4"
+}

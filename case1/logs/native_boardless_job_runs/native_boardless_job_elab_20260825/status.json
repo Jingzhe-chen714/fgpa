@@ -1,0 +1,17 @@
+﻿{
+    "run_id":  "native_boardless_job_elab_20260825",
+    "frame":  "640x480",
+    "state":  "failed",
+    "step":  "xelab",
+    "exit_code":  1,
+    "message":  "xelab failed with exit code 1",
+    "process_id":  44968,
+    "elapsed_seconds":  4.207,
+    "step_seconds":  {
+                         "xvlog":  2.032,
+                         "xelab":  2.032
+                     },
+    "updated":  "2026-08-25T12:13:12.1002123+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_boardless_job_runs\\native_boardless_job_elab_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\native_boardless_job_run_native_boardless_job_elab_20260825"
+}

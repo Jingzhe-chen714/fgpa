@@ -1,0 +1,58 @@
+{
+  "artifact_role": "functional_checkpoint_not_final_visual_convergence",
+  "images": [
+    {
+      "image": "astronaut.png",
+      "size": 64,
+      "integer_qat_max_abs_error": 0,
+      "output_change_mae_u8": 44.805989583333336,
+      "output_saturation_fraction": 0.033854166666666664,
+      "output_luma_std": 52.772692172607265
+    },
+    {
+      "image": "brick.png",
+      "size": 64,
+      "integer_qat_max_abs_error": 0,
+      "output_change_mae_u8": 18.250325520833332,
+      "output_saturation_fraction": 0.0,
+      "output_luma_std": 7.691598627727704
+    },
+    {
+      "image": "camera.png",
+      "size": 64,
+      "integer_qat_max_abs_error": 0,
+      "output_change_mae_u8": 30.42041015625,
+      "output_saturation_fraction": 0.2080078125,
+      "output_luma_std": 76.3997277764615
+    },
+    {
+      "image": "chelsea.png",
+      "size": 64,
+      "integer_qat_max_abs_error": 0,
+      "output_change_mae_u8": 30.150390625,
+      "output_saturation_fraction": 0.0,
+      "output_luma_std": 18.74414621352052
+    },
+    {
+      "image": "coffee.png",
+      "size": 64,
+      "integer_qat_max_abs_error": 0,
+      "output_change_mae_u8": 50.296142578125,
+      "output_saturation_fraction": 0.009358723958333334,
+      "output_luma_std": 41.04490793735114
+    },
+    {
+      "image": "rocket.jpg",
+      "size": 64,
+      "integer_qat_max_abs_error": 0,
+      "output_change_mae_u8": 15.302815755208334,
+      "output_saturation_fraction": 0.0,
+      "output_luma_std": 24.675782167409693
+    }
+  ],
+  "image_count": 6,
+  "integer_qat_max_abs_error": 0,
+  "mean_output_change_mae_u8": 31.53767903645834,
+  "mean_output_saturation_fraction": 0.0418701171875,
+  "quality_boundary": "Degeneracy and bit-exactness check only; no claim of final artistic quality."
+}

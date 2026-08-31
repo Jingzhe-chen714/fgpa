@@ -1,0 +1,82 @@
+﻿{
+    "run_id":  "26e69f9662ec49c78d7679d9084166ff",
+    "marker":  "C1_TI60_DOT_CORE_MAP_PNR_PASS",
+    "state":  "complete",
+    "efinity_version":  "2026.1.132.3.9",
+    "family":  "Titanium",
+    "device":  "Ti60F225",
+    "flow":  "map+pnr",
+    "pnr_exit_code":  0,
+    "timing":  {
+                   "post_place_period_ns":  4.452,
+                   "post_place_frequency_mhz":  224.618,
+                   "final_period_ns":  5.271,
+                   "final_frequency_mhz":  189.717,
+                   "max_period_ns":  5.271,
+                   "max_frequency_mhz":  189.717,
+                   "post_place_slack_ns":  5.548,
+                   "post_place_hold_slack_ns":  0.175,
+                   "final_slack_ns":  4.729,
+                   "final_hold_slack_ns":  0.091
+               },
+    "pnr_resources":  {
+                          "memory_blocks_used":  0,
+                          "memory_blocks_total":  256,
+                          "memory_blocks_percent":  0,
+                          "dsp_blocks_used":  80,
+                          "dsp_blocks_total":  160,
+                          "dsp_blocks_percent":  50
+                      },
+    "metrics":  {
+                    "le":  null,
+                    "registers":  null,
+                    "dsp":  80,
+                    "ebr":  0,
+                    "report_lines":  346,
+                    "primitive_counts":  {
+                                             "EFX_DSP24":  64,
+                                             "EFX_DSP48":  16
+                                         },
+                    "module_row":  null,
+                    "module_rows":  [
+                                        " +g_dot[0].g_legacy.u_dot:c1_s8_dot8_accum(ASSERT_ON_OVER...     74(74)      0(0)   156(156)   167(167)      0(0)      0(0)      8(8)",
+                                        " +g_dot[1].g_legacy.u_dot:c1_s8_dot8_accum(ASSERT_ON_OVER...     51(51)      0(0)   156(156)   161(161)      0(0)      0(0)      8(8)",
+                                        " +g_dot[2].g_legacy.u_dot:c1_s8_dot8_accum(ASSERT_ON_OVER...     51(51)      0(0)   156(156)   161(161)      0(0)      0(0)      8(8)",
+                                        " +g_dot[3].g_legacy.u_dot:c1_s8_dot8_accum(ASSERT_ON_OVER...     51(51)      0(0)   156(156)   161(161)      0(0)      0(0)      8(8)",
+                                        " +g_dot[4].g_legacy.u_dot:c1_s8_dot8_accum(ASSERT_ON_OVER...     51(51)      0(0)   156(156)   161(161)      0(0)      0(0)      8(8)",
+                                        " +g_dot[5].g_legacy.u_dot:c1_s8_dot8_accum(ASSERT_ON_OVER...     51(51)      0(0)   156(156)   161(161)      0(0)      0(0)      8(8)",
+                                        " +g_dot[6].g_legacy.u_dot:c1_s8_dot8_accum(ASSERT_ON_OVER...     51(51)      0(0)   156(156)   161(161)      0(0)      0(0)      8(8)",
+                                        " +g_dot[7].g_legacy.u_dot:c1_s8_dot8_accum(ASSERT_ON_OVER...     51(51)      0(0)   156(156)   161(161)      0(0)      0(0)      8(8)"
+                                    ],
+                    "module":  {
+                                   "ff":  null,
+                                   "srl":  null,
+                                   "adds":  null,
+                                   "luts":  null,
+                                   "comb4":  null,
+                                   "rams":  null,
+                                   "dsp_mults":  null
+                               },
+                    "timing":  {
+                                   "post_place_period_ns":  4.452,
+                                   "post_place_frequency_mhz":  224.618,
+                                   "final_period_ns":  5.271,
+                                   "final_frequency_mhz":  189.717,
+                                   "max_period_ns":  5.271,
+                                   "max_frequency_mhz":  189.717,
+                                   "post_place_slack_ns":  5.548,
+                                   "post_place_hold_slack_ns":  0.175,
+                                   "final_slack_ns":  4.729,
+                                   "final_hold_slack_ns":  0.091
+                               },
+                    "pnr_resources":  {
+                                          "memory_blocks_used":  0,
+                                          "memory_blocks_total":  256,
+                                          "memory_blocks_percent":  0,
+                                          "dsp_blocks_used":  80,
+                                          "dsp_blocks_total":  160,
+                                          "dsp_blocks_percent":  50
+                                      }
+                },
+    "report_file_count":  17
+}

@@ -1,0 +1,19 @@
+﻿{
+    "run_id":  "46269dd62c2545d8aeccecdcfad47cf0",
+    "part":  "xc7a200tsbg484-1",
+    "clients":  2,
+    "leaf_req_fifo_depth":  16,
+    "leaf_burst_beats":  4,
+    "leaf_max_outstanding":  4,
+    "leaf_rsp_fifo_depth":  16,
+    "leaf_rsp_fifo_beat_mode":  true,
+    "fabric_fifo_depth":  8,
+    "luts":  2194,
+    "registers":  1630,
+    "bram_tiles":  0,
+    "dsps":  0,
+    "wns_ns":  1.815,
+    "tns_ns":  0,
+    "timing_met":  true,
+    "marker":  "C1_TENSOR_MEM_AXI128_READ_FABRIC_BEAT_FIFO_PROXY_SYNTH_PASS"
+}

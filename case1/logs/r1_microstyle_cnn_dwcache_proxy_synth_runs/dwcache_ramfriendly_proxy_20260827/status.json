@@ -1,0 +1,29 @@
+﻿{
+    "run_id":  "dwcache_ramfriendly_proxy_20260827",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_MICROSTYLE_CNN_TOP_DWCACHE_PROXY_SYNTH_PASS CACHE_DW_WEIGHT_TILES=1 PART=xc7a200tsbg484-1",
+    "process_id":  9752,
+    "elapsed_seconds":  194.799,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_cnn_dwcache_proxy_synth_runs\\dwcache_ramfriendly_proxy_20260827",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_cnn_dwcache_proxy_synth_runs\\dwcache_ramfriendly_proxy_20260827\\summary.json",
+    "metrics":  {
+                    "part":  "xc7a200tsbg484-1",
+                    "clock_mhz":  100,
+                    "cache_dw_weight_tiles":  1,
+                    "pipelined_dot_tree":  0,
+                    "pipelined_dot_tree_full":  0,
+                    "pipelined_descriptor_replay":  0,
+                    "prevalidate_descriptor_replay":  0,
+                    "mac_prefetch_overlap":  1,
+                    "luts":  36413,
+                    "registers":  14889,
+                    "bram_tiles":  2,
+                    "dsps":  35,
+                    "wns_ns":  -4.959,
+                    "tns_ns":  -1969.185,
+                    "timing_met":  false,
+                    "marker":  "C1_R1_MICROSTYLE_CNN_TOP_DWCACHE_PROXY_SYNTH_PASS CACHE_DW_WEIGHT_TILES=1 PART=xc7a200tsbg484-1"
+                }
+}

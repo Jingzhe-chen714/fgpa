@@ -1,0 +1,34 @@
+﻿{
+    "run_id":  "f88dc0093098492b80a9fcb9dfd1755e",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TI60_DECODER_MAP_PASS",
+    "process_id":  51300,
+    "elapsed_seconds":  4.49,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\f88dc0093098492b80a9fcb9dfd1755e",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\f88dc0093098492b80a9fcb9dfd1755e\\summary.json",
+    "metrics":  {
+                    "le":  null,
+                    "registers":  null,
+                    "dsp":  2,
+                    "ebr":  0,
+                    "report_lines":  66,
+                    "primitive_counts":  {
+                                             "EFX_DSP48":  2
+                                         },
+                    "module_row":  null,
+                    "module_rows":  [
+
+                                    ],
+                    "module":  {
+                                   "ff":  null,
+                                   "srl":  null,
+                                   "adds":  null,
+                                   "luts":  null,
+                                   "comb4":  null,
+                                   "rams":  null,
+                                   "dsp_mults":  null
+                               }
+                }
+}

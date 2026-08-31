@@ -1,0 +1,12 @@
+﻿ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/vivado/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe tb_c1_r1_native_tensor_window_preflight -s native_tensor_window_sim 
+Multi-threading is on. Using 30 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3818] variable 'adapter_abort' is driven by invalid combination of procedural drivers [D:/contest/2026FPGA/yilingsi/case1/sim/tb_c1_r1_native_tensor_window_preflight.sv:11]
+WARNING: [VRFC 10-2921] 'adapter_abort' driven by this always_ff block should not be driven by any other process [D:/contest/2026FPGA/yilingsi/case1/sim/tb_c1_r1_native_tensor_window_preflight.sv:38]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

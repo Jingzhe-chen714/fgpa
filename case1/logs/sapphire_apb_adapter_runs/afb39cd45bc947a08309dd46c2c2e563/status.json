@@ -1,0 +1,10 @@
+﻿{
+    "run_id":  "afb39cd45bc947a08309dd46c2c2e563",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "Sapphire APB/IRQ adapter regression passed",
+    "process_id":  50024,
+    "updated":  "2026-08-28T17:25:08.9441550+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\sapphire_apb_adapter_runs\\afb39cd45bc947a08309dd46c2c2e563"
+}

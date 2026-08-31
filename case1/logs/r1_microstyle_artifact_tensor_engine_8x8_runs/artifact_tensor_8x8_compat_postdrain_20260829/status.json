@@ -1,0 +1,10 @@
+﻿{
+    "run_id":  "artifact_tensor_8x8_compat_postdrain_20260829",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "trained artifact tensor-engine probe passed",
+    "elapsed_seconds":  11.287,
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_r1_microstyle_artifact_tensor_engine_8x8_artifact_tensor_8x8_compat_postdrain_20260829",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_artifact_tensor_engine_8x8_runs\\artifact_tensor_8x8_compat_postdrain_20260829"
+}

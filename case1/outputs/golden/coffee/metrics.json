@@ -1,0 +1,33 @@
+{
+  "input": "coffee.png",
+  "source_size": [
+    600,
+    400
+  ],
+  "processed_size": [
+    256,
+    256
+  ],
+  "style_output_size": [
+    252,
+    252
+  ],
+  "raw10_bytes": 81920,
+  "raw10_roundtrip_exact": true,
+  "demosaic_psnr_db": 25.62624384176212,
+  "style_saturation_fraction": 0.1659737969261779,
+  "layer_ranges": {
+    "conv1": [
+      0,
+      255
+    ],
+    "depthwise": [
+      0,
+      255
+    ],
+    "output": [
+      0,
+      255
+    ]
+  }
+}

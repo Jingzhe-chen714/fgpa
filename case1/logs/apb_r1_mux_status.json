@@ -1,0 +1,16 @@
+﻿{
+    "run_id":  "c63d7863d1c6416b8e0276f91e58e570",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "APB R1 mux xsim regression complete",
+    "process_id":  30400,
+    "elapsed_seconds":  8.215,
+    "step_seconds":  {
+                         "xvlog":  2.029,
+                         "xelab_apb_r1_mux":  2.022,
+                         "xsim_apb_r1_mux":  4.032
+                     },
+    "updated":  "2026-08-24T04:11:20.7303922+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\apb_r1_mux_runs\\c63d7863d1c6416b8e0276f91e58e570"
+}

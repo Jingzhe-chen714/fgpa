@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "7e8139f74a014ddab605e2f7644da20b",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "xsim log contains ERROR/FATAL/FAIL",
+    "process_id":  35688,
+    "elapsed_seconds":  132.469,
+    "updated":  "2026-08-25T00:51:30.8566943+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\7e8139f74a014ddab605e2f7644da20b",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_7e8139f74a014ddab605e2f7644da20b"
+}

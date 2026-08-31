@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "dwcache_base2",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_MICROSTYLE_ENGINE_PASS",
+    "process_id":  43276,
+    "elapsed_seconds":  11.234,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_engine_dwcache_runs\\dwcache_base2",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_r1_microstyle_engine_dwcache_dwcache_base2"
+}

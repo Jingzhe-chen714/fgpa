@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "display_fifo_proxy_async_final_20260825",
+    "state":  "failed",
+    "step":  "vivado",
+    "exit_code":  1,
+    "message":  "Vivado failed with exit code 1",
+    "process_id":  8092,
+    "elapsed_seconds":  11.243,
+    "updated":  "2026-08-25T14:46:48.7036752+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\display_prefetch_fifo_proxy_runs\\display_fifo_proxy_async_final_20260825",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\display_prefetch_fifo_proxy_run_display_fifo_proxy_async_final_20260825\\reports"
+}

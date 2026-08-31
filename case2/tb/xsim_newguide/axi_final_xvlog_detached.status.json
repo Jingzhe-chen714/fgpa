@@ -1,0 +1,15 @@
+{
+  "worker_pid": 42172,
+  "command": [
+    "D:\\vivado\\vivado\\Vivado\\2023.1\\bin\\xvlog.bat",
+    "-sv",
+    "../../rtl/bus/c2_mem_to_axi4_adapter.sv",
+    "../bus/tb_c2_mem_to_axi4_adapter.sv"
+  ],
+  "started": "2026-08-30T15:41:30.632033+00:00",
+  "worker_in_job": true,
+  "state": "failed",
+  "error": "Worker is still in a Job Object; tool not started.",
+  "returncode": 1,
+  "finished": "2026-08-30T15:41:30.632033+00:00"
+}

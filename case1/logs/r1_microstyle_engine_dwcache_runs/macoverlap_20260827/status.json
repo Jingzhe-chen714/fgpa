@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "macoverlap_20260827",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "无法将“System.Management.Automation.SwitchParameter”类型的“True”值转换为“System.Int32”类型。",
+    "process_id":  37600,
+    "elapsed_seconds":  9.276,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_engine_dwcache_runs\\macoverlap_20260827",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_r1_microstyle_engine_dwcache_macoverlap_20260827"
+}

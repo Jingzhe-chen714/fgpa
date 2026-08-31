@@ -1,0 +1,33 @@
+{
+  "input": "camera.png",
+  "source_size": [
+    512,
+    512
+  ],
+  "processed_size": [
+    256,
+    256
+  ],
+  "style_output_size": [
+    252,
+    252
+  ],
+  "raw10_bytes": 81920,
+  "raw10_roundtrip_exact": true,
+  "demosaic_psnr_db": 26.48479479126845,
+  "style_saturation_fraction": 0.015531830015957,
+  "layer_ranges": {
+    "conv1": [
+      3,
+      254
+    ],
+    "depthwise": [
+      0,
+      255
+    ],
+    "output": [
+      0,
+      255
+    ]
+  }
+}

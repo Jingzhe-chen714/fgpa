@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "exact_shell_after_cancel_param_v1",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_WINDOW_LINE_CACHE_C8_EXACT_BURST_SHELL_PASS",
+    "process_id":  48904,
+    "elapsed_seconds":  10.279,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\xsim_runs\\window_line_cache_c8_exact\\exact_shell_after_cancel_param_v1",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_window_line_cache_c8_exact_exact_shell_after_cancel_param_v1"
+}

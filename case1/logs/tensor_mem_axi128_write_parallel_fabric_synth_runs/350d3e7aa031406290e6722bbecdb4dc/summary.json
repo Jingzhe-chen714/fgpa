@@ -1,0 +1,17 @@
+﻿{
+    "run_id":  "350d3e7aa031406290e6722bbecdb4dc",
+    "part":  "xc7a200tsbg484-1",
+    "lanes":  2,
+    "block_logical":  16,
+    "req_fifo_depth":  32,
+    "burst_beats":  16,
+    "fabric_fifo_depth":  4,
+    "tag_fifo_depth":  64,
+    "luts":  4374,
+    "registers":  10091,
+    "bram_tiles":  0,
+    "dsps":  0,
+    "wns_ns":  -0.16,
+    "tns_ns":  -1.924,
+    "timing_met":  false
+}

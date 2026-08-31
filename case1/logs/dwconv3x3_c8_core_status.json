@@ -1,0 +1,17 @@
+﻿{
+    "run_id":  "04e2a6999bf642f993b32971cd52dd68",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C8 depthwise 3x3 core xsim regression complete",
+    "process_id":  43228,
+    "elapsed_seconds":  9.261,
+    "step_seconds":  {
+                         "xvlog":  2.026,
+                         "xelab_dwconv3x3_c8_core":  3.039,
+                         "xsim_dwconv3x3_c8_core":  4.035
+                     },
+    "updated":  "2026-08-24T10:47:23.5191636+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\dwconv3x3_c8_core_runs\\04e2a6999bf642f993b32971cd52dd68",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_dwconv3x3_c8_core_run_04e2a6999bf642f993b32971cd52dd68"
+}

@@ -1,0 +1,17 @@
+﻿{
+    "run_id":  "dot_tree_full_engine_v1",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "MicroStyle C8 engine xsim regression complete",
+    "process_id":  55692,
+    "elapsed_seconds":  11.313,
+    "step_seconds":  {
+                         "xvlog":  2.028,
+                         "xelab_microstyle_engine":  5.045,
+                         "xsim_microstyle_engine":  4.03
+                     },
+    "updated":  "2026-08-28T12:29:40.6970241+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_engine_runs\\dot_tree_full_engine_v1",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_r1_microstyle_engine_run_dot_tree_full_engine_v1"
+}

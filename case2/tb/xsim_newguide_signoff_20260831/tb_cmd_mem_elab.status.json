@@ -1,0 +1,15 @@
+{
+  "worker_pid": 28808,
+  "command": [
+    "D:\\vivado\\vivado\\Vivado\\2023.1\\bin\\xelab.bat",
+    "tb_cmd_mem",
+    "-s",
+    "tb_cmd_mem_verified"
+  ],
+  "started": "2026-08-30T16:16:42.516394+00:00",
+  "worker_in_job": false,
+  "state": "completed",
+  "tool_pid": 24676,
+  "returncode": 0,
+  "finished": "2026-08-30T16:16:46.242508+00:00"
+}

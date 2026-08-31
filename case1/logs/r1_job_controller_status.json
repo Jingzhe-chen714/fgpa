@@ -1,0 +1,16 @@
+﻿{
+    "run_id":  "bec136b2ce5b4882bfde8e202a70ef18",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "R1 job-controller xsim regression complete",
+    "process_id":  40396,
+    "elapsed_seconds":  9.227,
+    "step_seconds":  {
+                         "xvlog":  2.026,
+                         "xelab_r1_job_controller":  3.017,
+                         "xsim_r1_job_controller":  4.042
+                     },
+    "updated":  "2026-08-24T05:38:56.5500546+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_job_controller_runs\\bec136b2ce5b4882bfde8e202a70ef18"
+}

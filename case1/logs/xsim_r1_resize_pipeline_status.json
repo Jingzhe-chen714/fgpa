@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "resize_pipeline_abortreg_v1",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_RESIZE_PIPELINE_PASS configs=7 outputs=127 cfg_errors=3 aborts=2",
+    "process_id":  40376,
+    "updated":  "2026-08-28T11:06:57.6016475+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_resize_pipeline_runs\\resize_pipeline_abortreg_v1",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\r1_resize_pipeline_xsim_run_resize_pipeline_abortreg_v1"
+}

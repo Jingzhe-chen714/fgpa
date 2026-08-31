@@ -1,0 +1,8 @@
+missing PASS marker
+ËùÔÚÎ»ÖÃ D:\contest\2026FPGA\yilingsi\case1\scripts\run_unified_output_skid_xsim_detached.ps1:11 ×Ö·û: 534
++ ... T_SKID_PASS depth=1 payload=103'){throw 'missing PASS marker'}; 'C1_R ...
++                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (missing PASS marker:String) [], RuntimeException
+    + FullyQualifiedErrorId : missing PASS marker
+ 
+

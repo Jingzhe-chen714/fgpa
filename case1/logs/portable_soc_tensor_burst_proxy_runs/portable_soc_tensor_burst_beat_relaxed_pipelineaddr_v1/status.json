@@ -1,0 +1,19 @@
+﻿{
+    "run_id":  "portable_soc_tensor_burst_beat_relaxed_pipelineaddr_v1",
+    "mode":  "beat",
+    "implementation":  "synthesis",
+    "descriptor_validation":  "relaxed",
+    "pipelined_address":  1,
+    "state":  "timing_failed",
+    "step":  "done",
+    "exit_code":  2,
+    "message":  "C1_PORTABLE_SOC_TENSOR_BURST_PROXY_SYNTH_PASS mode=beat beat_mode=1 implementation=synthesis descriptor_validation=relaxed pipelined_address=1 rsp_depth=64 display_fifo=0 cleaned_files=237 cleaned_bytes=46807723; timing_met=false; WNS=-5.899 ns",
+    "process_id":  15232,
+    "elapsed_seconds":  312.789,
+    "updated":  "2026-08-28T09:28:34.6380433+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_beat_relaxed_pipelineaddr_v1",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_beat_relaxed_pipelineaddr_v1\\reports",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_beat_relaxed_pipelineaddr_v1\\summary.json",
+    "temporary_run_root":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_tensor_burst_proxy_run_portable_soc_tensor_burst_beat_relaxed_pipelineaddr_v1",
+    "rsp_fifo_depth":  64
+}

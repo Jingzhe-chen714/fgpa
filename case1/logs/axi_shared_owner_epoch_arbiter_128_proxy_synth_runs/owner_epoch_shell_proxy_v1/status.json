@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "owner_epoch_shell_proxy_v1",
+    "state":  "failed",
+    "step":  "setup",
+    "exit_code":  1,
+    "message":  "Vivado exit code 1",
+    "process_id":  41372,
+    "elapsed_seconds":  14.323,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi_shared_owner_epoch_arbiter_128_proxy_synth_runs\\owner_epoch_shell_proxy_v1",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi_shared_owner_epoch_arbiter_128_proxy_synth_runs\\owner_epoch_shell_proxy_v1\\summary.json",
+    "metrics":  null
+}

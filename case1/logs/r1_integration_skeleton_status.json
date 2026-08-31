@@ -1,0 +1,16 @@
+﻿{
+    "run_id":  "1e0cec42d7bc4a15b79070b5c050a0db",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "R1 integration-skeleton xsim smoke complete",
+    "process_id":  32456,
+    "elapsed_seconds":  9.219,
+    "step_seconds":  {
+                         "xvlog":  2.023,
+                         "xelab_r1_integration_skeleton":  3.031,
+                         "xsim_r1_integration_skeleton":  4.028
+                     },
+    "updated":  "2026-08-24T05:47:49.4624073+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_integration_skeleton_runs\\1e0cec42d7bc4a15b79070b5c050a0db"
+}

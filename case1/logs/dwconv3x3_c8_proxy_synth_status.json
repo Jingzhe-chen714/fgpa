@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "ba43851ef5a24071bad06edeb2460c7c",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_DWCONV3X3_C8_PROXY_SYNTH_PASS",
+    "process_id":  32424,
+    "elapsed_seconds":  42.484,
+    "updated":  "2026-08-24T10:48:35.4719794+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\dwconv3x3_c8_proxy_synth_runs\\ba43851ef5a24071bad06edeb2460c7c",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\dwconv3x3_c8_proxy_synth_run_ba43851ef5a24071bad06edeb2460c7c\\reports"
+}

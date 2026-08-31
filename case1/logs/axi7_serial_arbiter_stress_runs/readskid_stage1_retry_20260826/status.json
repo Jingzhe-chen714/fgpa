@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "readskid_stage1_retry_20260826",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_AXI7_SERIAL_ARBITER_STRESS_PASS",
+    "process_id":  13252,
+    "elapsed_seconds":  9.243,
+    "updated":  "2026-08-26T17:22:54.3925039+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi7_serial_arbiter_stress_runs\\readskid_stage1_retry_20260826",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_axi7_serial_arbiter_readskid_stage1_retry_20260826"
+}

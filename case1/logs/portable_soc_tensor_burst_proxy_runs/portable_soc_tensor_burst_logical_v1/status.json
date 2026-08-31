@@ -1,0 +1,14 @@
+﻿{
+    "run_id":  "portable_soc_tensor_burst_logical_v1",
+    "mode":  "logical",
+    "state":  "failed",
+    "step":  "setup",
+    "exit_code":  1,
+    "message":  "无法处理对参数“ExitCode”的参数转换。无法将值“detached tensor burst proxy synthesis started (mode=logical)”转换为类型“System.Int32”。错误:“输入字符串的格式不正确。”; cleaned_files=0; cleaned_bytes=0",
+    "process_id":  35044,
+    "elapsed_seconds":  0.136,
+    "updated":  "2026-08-28T08:04:24.1285923+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_logical_v1",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_logical_v1\\reports",
+    "temporary_run_root":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_tensor_burst_proxy_run_portable_soc_tensor_burst_logical_v1"
+}

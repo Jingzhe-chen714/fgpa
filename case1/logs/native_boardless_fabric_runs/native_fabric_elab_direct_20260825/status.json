@@ -1,0 +1,18 @@
+﻿{
+    "run_id":  "native_fabric_elab_direct_20260825",
+    "frame":  "640x480",
+    "clients":  7,
+    "state":  "failed",
+    "step":  "xelab",
+    "exit_code":  1,
+    "message":  "xelab failed with exit code 1",
+    "process_id":  34272,
+    "elapsed_seconds":  4.186,
+    "step_seconds":  {
+                         "xvlog":  2.024,
+                         "xelab":  2.034
+                     },
+    "updated":  "2026-08-25T12:49:43.0325120+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_boardless_fabric_runs\\native_fabric_elab_direct_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\native_boardless_fabric_run_native_fabric_elab_direct_20260825"
+}

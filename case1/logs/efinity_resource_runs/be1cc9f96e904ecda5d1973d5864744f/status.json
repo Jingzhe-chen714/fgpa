@@ -1,0 +1,54 @@
+﻿{
+    "run_id":  "be1cc9f96e904ecda5d1973d5864744f",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TI60_SCHEDULER_MAP_PNR_PASS",
+    "process_id":  51476,
+    "elapsed_seconds":  9.943,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\be1cc9f96e904ecda5d1973d5864744f",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\be1cc9f96e904ecda5d1973d5864744f\\summary.json",
+    "metrics":  {
+                    "le":  null,
+                    "registers":  null,
+                    "dsp":  1,
+                    "ebr":  0,
+                    "report_lines":  338,
+                    "primitive_counts":  {
+                                             "EFX_DSP48":  1
+                                         },
+                    "module_row":  null,
+                    "module_rows":  [
+                                        "c1_r1_c8_parameter_scheduler:c1_r1_c8_parameter_scheduler    293(293)      0(0)  201(201)  613(613)      0(0)      0(0)      1(1)"
+                                    ],
+                    "module":  {
+                                   "ff":  null,
+                                   "srl":  null,
+                                   "adds":  null,
+                                   "luts":  null,
+                                   "comb4":  null,
+                                   "rams":  null,
+                                   "dsp_mults":  null
+                               },
+                    "timing":  {
+                                   "post_place_period_ns":  3.831,
+                                   "post_place_frequency_mhz":  261.028,
+                                   "final_period_ns":  4.222,
+                                   "final_frequency_mhz":  236.855,
+                                   "max_period_ns":  4.222,
+                                   "max_frequency_mhz":  236.855,
+                                   "post_place_slack_ns":  6.169,
+                                   "post_place_hold_slack_ns":  0.161,
+                                   "final_slack_ns":  5.778,
+                                   "final_hold_slack_ns":  0.104
+                               },
+                    "pnr_resources":  {
+                                          "memory_blocks_used":  0,
+                                          "memory_blocks_total":  256,
+                                          "memory_blocks_percent":  0,
+                                          "dsp_blocks_used":  1,
+                                          "dsp_blocks_total":  160,
+                                          "dsp_blocks_percent":  0.62
+                                      }
+                }
+}

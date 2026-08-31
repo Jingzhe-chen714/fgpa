@@ -1,0 +1,19 @@
+﻿{
+    "run_id":  "f062687eeb07467e88953168a71d4264",
+    "marker":  "C1_AXI128_WRITE_MLP_PROXY_SYNTH_PASS",
+    "state":  "complete",
+    "metrics":  {
+                    "part":  "xc7a200tsbg484-1",
+                    "max_outstanding":  4,
+                    "max_beats":  16,
+                    "rsp_fifo_depth":  4,
+                    "slice_luts":  5882,
+                    "slice_registers":  10308,
+                    "bram_tiles":  0,
+                    "dsps":  0,
+                    "wns_ns":  3.249,
+                    "tns_ns":  0,
+                    "timing_met":  true,
+                    "marker":  "C1_AXI128_WRITE_MLP_PROXY_SYNTH_PASS"
+                }
+}

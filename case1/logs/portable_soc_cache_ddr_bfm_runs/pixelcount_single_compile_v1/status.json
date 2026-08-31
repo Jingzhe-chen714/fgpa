@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "pixelcount_single_compile_v1",
+    "frame":  "8x8",
+    "state":  "failed",
+    "step":  "xelab",
+    "exit_code":  1,
+    "message":  "xelab exit 1",
+    "process_id":  38880,
+    "elapsed_seconds":  4.288,
+    "updated":  "2026-08-28T14:12:53.3430911+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\pixelcount_single_compile_v1",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_pixelcount_single_compile_v1"
+}

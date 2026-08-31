@@ -1,0 +1,10 @@
+﻿{
+    "run_id":  "31e1280a9b634f85a212db4a3535351e",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1 xsim regression complete",
+    "process_id":  10108,
+    "updated":  "2026-08-24T12:12:34.6015847+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\xsim_runs\\31e1280a9b634f85a212db4a3535351e"
+}

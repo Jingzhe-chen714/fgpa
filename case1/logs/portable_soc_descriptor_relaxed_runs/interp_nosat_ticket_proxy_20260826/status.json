@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "interp_nosat_ticket_proxy_20260826",
+    "state":  "failed",
+    "step":  "vivado",
+    "exit_code":  1,
+    "message":  "Vivado failed with exit code 1",
+    "process_id":  37148,
+    "elapsed_seconds":  11.333,
+    "updated":  "2026-08-26T22:52:52.5608804+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_descriptor_relaxed_runs\\interp_nosat_ticket_proxy_20260826",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_descriptor_relaxed_run_interp_nosat_ticket_proxy_20260826\\reports"
+}

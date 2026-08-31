@@ -1,0 +1,38 @@
+﻿{
+    "run_id":  "f1010619705a449ea5fb73afc0ac73bb",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TI60_ENGINE_FULLCHANNEL_PACKED_AFFINE_WRAPPER_MAP_PASS",
+    "process_id":  14332,
+    "elapsed_seconds":  23.917,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\f1010619705a449ea5fb73afc0ac73bb",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\f1010619705a449ea5fb73afc0ac73bb\\summary.json",
+    "metrics":  {
+                    "le":  null,
+                    "registers":  null,
+                    "dsp":  null,
+                    "ebr":  null,
+                    "report_lines":  5418,
+                    "primitive_lines":  [
+
+                                        ],
+                    "primitive_counts":  {
+
+                                         },
+                    "module_row":  null,
+                    "module_rows":  [
+                                        "  +u_engine:c1_r1_microstyle_engine(REQUIRED_STAGES=1,MAX...    32(29)      0(0)      6(0)    57(41)      0(0)      0(0)      0(0)",
+                                        "   +u_parameter_scheduler:c1_r1_c8_parameter_scheduler(MA...      0(0)      0(0)      6(6)      0(0)      0(0)      0(0)      0(0)"
+                                    ],
+                    "module":  {
+                                   "ff":  null,
+                                   "srl":  null,
+                                   "adds":  null,
+                                   "luts":  null,
+                                   "comb4":  null,
+                                   "rams":  null,
+                                   "dsp_mults":  null
+                               }
+                }
+}

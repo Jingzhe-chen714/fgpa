@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "92a7cd5574d141dc8b3e2f24019e35ac",
+    "state":  "failed",
+    "step":  "efx_map",
+    "exit_code":  1,
+    "message":  "Efinity runner exit code 1; failure_tail=[EFX-0021 ERROR] Elaboration of module \u0027c1_ti60_portable_soc_packed_wrapper\u0027 failed. Please check previous error messages. | ERROR    : D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\top\\c1_r1_soc_control.sv(945): instantiating unknown module \u0027c1_frame_manager\u0027 [VERI-1063] | INFO     : D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\top\\c1_r1_soc_control.sv(4): module \u0027c1_r1_soc_control\u0027 remains a black box due to errors in its contents [VERI-1073] | INFO     : D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\top\\c1_r1_portable_soc.sv(16): module \u0027c1_r1_portable_soc\u0027 remains a black box due to errors in its contents [VERI-1073] | INFO     : D:\\contest\\2026FPGA\\yilingsi\\case1\\efinity\\c1_ti60_portable_soc_packed_wrapper.sv(12): module \u0027c1_ti60_portable_soc_packed_wrapper\u0027 remains a black box due to errors in its contents [VERI-1073] | ERROR    : Elaboration of module \u0027c1_ti60_portable_soc_packed_wrapper\u0027 failed. Please check previous error messages. [EFX-0021] | efx_map process returned error code : 0x5 | ERROR    : D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\top\\c1_r1_soc_control.sv(945): instantiating unknown module \u0027c1_frame_manager\u0027 [VERI-1063] | INFO     : D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\top\\c1_r1_soc_control.sv(4): module \u0027c1_r1_soc_control\u0027 remains a black box due to errors in its contents [VERI-1073] | INFO     : D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\top\\c1_r1_portable_soc.sv(16): module \u0027c1_r1_portable_soc\u0027 remains a black box due to errors in its contents [VERI-1073] | INFO     : D:\\contest\\2026FPGA\\yilingsi\\case1\\efinity\\c1_ti60_portable_soc_packed_wrapper.sv(12): module \u0027c1_ti60_portable_soc_packed_wrapper\u0027 remains a black box due to errors in its contents [VERI-1073] | ERROR    : Elaboration of module \u0027c1_ti60_portable_soc_packed_wrapper\u0027 failed. Please check previous error messages. [EFX-0021]",
+    "process_id":  40060,
+    "elapsed_seconds":  1.776,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\92a7cd5574d141dc8b3e2f24019e35ac",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\92a7cd5574d141dc8b3e2f24019e35ac\\summary.json",
+    "metrics":  null
+}

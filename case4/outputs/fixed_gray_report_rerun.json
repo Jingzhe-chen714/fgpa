@@ -1,0 +1,20 @@
+[
+  {
+    "format": "RGB565 expanded to RGB888",
+    "samples": 65536,
+    "max_continuous_error_lsb": 0.9310000000000116,
+    "mae_continuous_lsb": 0.2777992553710935,
+    "max_rounded_code_difference": 1,
+    "rounded_mismatch_count": 9218,
+    "pass_continuous_lt_1_lsb": true
+  },
+  {
+    "format": "RGB888",
+    "samples": 16777216,
+    "max_continuous_error_lsb": 0.9450000000000074,
+    "mae_continuous_lsb": 0.2763166284561155,
+    "max_rounded_code_difference": 1,
+    "rounded_mismatch_count": 2243412,
+    "pass_continuous_lt_1_lsb": true
+  }
+]

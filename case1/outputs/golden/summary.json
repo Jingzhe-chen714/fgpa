@@ -1,0 +1,211 @@
+{
+  "images": [
+    {
+      "input": "astronaut.png",
+      "source_size": [
+        512,
+        512
+      ],
+      "processed_size": [
+        256,
+        256
+      ],
+      "style_output_size": [
+        252,
+        252
+      ],
+      "raw10_bytes": 81920,
+      "raw10_roundtrip_exact": true,
+      "demosaic_psnr_db": 25.56231698294156,
+      "style_saturation_fraction": 0.21968169984043,
+      "layer_ranges": {
+        "conv1": [
+          0,
+          255
+        ],
+        "depthwise": [
+          0,
+          255
+        ],
+        "output": [
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "input": "brick.png",
+      "source_size": [
+        512,
+        512
+      ],
+      "processed_size": [
+        256,
+        256
+      ],
+      "style_output_size": [
+        252,
+        252
+      ],
+      "raw10_bytes": 81920,
+      "raw10_roundtrip_exact": true,
+      "demosaic_psnr_db": 28.874829224313313,
+      "style_saturation_fraction": 0.0,
+      "layer_ranges": {
+        "conv1": [
+          82,
+          185
+        ],
+        "depthwise": [
+          45,
+          234
+        ],
+        "output": [
+          32,
+          245
+        ]
+      }
+    },
+    {
+      "input": "camera.png",
+      "source_size": [
+        512,
+        512
+      ],
+      "processed_size": [
+        256,
+        256
+      ],
+      "style_output_size": [
+        252,
+        252
+      ],
+      "raw10_bytes": 81920,
+      "raw10_roundtrip_exact": true,
+      "demosaic_psnr_db": 26.48479479126845,
+      "style_saturation_fraction": 0.015531830015957,
+      "layer_ranges": {
+        "conv1": [
+          3,
+          254
+        ],
+        "depthwise": [
+          0,
+          255
+        ],
+        "output": [
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "input": "chelsea.png",
+      "source_size": [
+        451,
+        300
+      ],
+      "processed_size": [
+        256,
+        256
+      ],
+      "style_output_size": [
+        252,
+        252
+      ],
+      "raw10_bytes": 81920,
+      "raw10_roundtrip_exact": true,
+      "demosaic_psnr_db": 31.73339351126511,
+      "style_saturation_fraction": 0.008687116822037457,
+      "layer_ranges": {
+        "conv1": [
+          2,
+          210
+        ],
+        "depthwise": [
+          0,
+          228
+        ],
+        "output": [
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "input": "coffee.png",
+      "source_size": [
+        600,
+        400
+      ],
+      "processed_size": [
+        256,
+        256
+      ],
+      "style_output_size": [
+        252,
+        252
+      ],
+      "raw10_bytes": 81920,
+      "raw10_roundtrip_exact": true,
+      "demosaic_psnr_db": 25.62624384176212,
+      "style_saturation_fraction": 0.1659737969261779,
+      "layer_ranges": {
+        "conv1": [
+          0,
+          255
+        ],
+        "depthwise": [
+          0,
+          255
+        ],
+        "output": [
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "input": "rocket.jpg",
+      "source_size": [
+        640,
+        427
+      ],
+      "processed_size": [
+        256,
+        256
+      ],
+      "style_output_size": [
+        252,
+        252
+      ],
+      "raw10_bytes": 81920,
+      "raw10_roundtrip_exact": true,
+      "demosaic_psnr_db": 27.013549286951157,
+      "style_saturation_fraction": 0.009815654656924497,
+      "layer_ranges": {
+        "conv1": [
+          0,
+          254
+        ],
+        "depthwise": [
+          0,
+          255
+        ],
+        "output": [
+          0,
+          255
+        ]
+      }
+    }
+  ],
+  "rtl_vector_image": "astronaut.png",
+  "rtl_vectors": {
+    "input_width": 16,
+    "input_height": 12,
+    "output_width": 12,
+    "output_height": 8,
+    "input_pixels": 192,
+    "output_pixels": 96
+  }
+}

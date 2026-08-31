@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "535336097f314fdd8729bc2cfe09a3dc",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_PARAMETER_BANK_PASS words=1056 switches=2 errors=2 aborts=1",
+    "process_id":  20888,
+    "updated":  "2026-08-24T04:31:15.7925019+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_parameter_bank_runs\\535336097f314fdd8729bc2cfe09a3dc",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\r1_parameter_bank_xsim_run_535336097f314fdd8729bc2cfe09a3dc"
+}

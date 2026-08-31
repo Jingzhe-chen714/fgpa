@@ -1,0 +1,16 @@
+﻿{
+    "run_id":  "portable_soc_tensor_burst_logical_v4",
+    "mode":  "logical",
+    "state":  "timing_failed",
+    "step":  "done",
+    "exit_code":  2,
+    "message":  "C1_PORTABLE_SOC_TENSOR_BURST_PROXY_SYNTH_PASS mode=logical beat_mode=0 rsp_depth=128 display_fifo=0 cleaned_files=237 cleaned_bytes=48162360; timing_met=false; WNS=-52.2 ns",
+    "process_id":  42672,
+    "elapsed_seconds":  411.063,
+    "updated":  "2026-08-28T08:35:33.0946006+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_logical_v4",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_logical_v4\\reports",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_logical_v4\\summary.json",
+    "temporary_run_root":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_tensor_burst_proxy_run_portable_soc_tensor_burst_logical_v4",
+    "rsp_fifo_depth":  128
+}

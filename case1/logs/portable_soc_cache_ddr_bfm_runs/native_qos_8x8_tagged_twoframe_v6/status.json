@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "native_qos_8x8_tagged_twoframe_v6",
+    "frame":  "8x8",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "xsim log contains ERROR/FATAL/FAIL: C1_QOS_EVENT t=20443755000 start=1 raw_done=0 new_done=0 swap=0 active_tag=0 loading_new=0 request_new=0 prefetch_busy=0 monitor_active=0 monitor_frame=1 C1_QOS_EVENT t=34650175000 start=0 raw_done=0 new_done=0 swap=1 active_tag=1 loading_new=0 request_new=1 prefetch_busy=1 monitor_active=1 monitor_frame=1 C1_QOS_EVENT t=54908935000 start=0 raw_done=1 new_done=1 swap=0 active_tag=1 loading_new=0 request_new=1 prefetch_busy=0 monitor_active=1 monitor_frame=1 DDR BFM traffic aw=1704 w=1736 b=1704 ar=2188 r=3374 stalls aw/w/ar/r/fabric_r/b=259/549/240/5343029/5343029/0 gaps r/b=6167/5299 C1_QOS_EVENT_COUNTS start=2 prefetch_done=3 new_done=2 swap=2 monitor_frame=2 monitor_active=0 Fatal: QoS APB aggregate readback mismatch status=00000019 frame=2 last=3446518 deadline=2 underflow=2 read_busy=5358385 write_busy=12955 r_owner=3364427 w_owner=10 protocol=0 Time: 54909270 ns  Iteration: 0  Process: /tb_c1_r1_portable_soc_cache_ddr_bfm/Initial870_337  Scope: tb_c1_r1_portable_soc_cache_ddr_bfm.main_test  File: D:/contest/2026FPGA/yilingsi/case1/sim/tb_c1_r1_portable_soc_cache_ddr_bfm.sv Line: 1201 $finish called at time : 54909270 ns run: Time (s): cpu = 00:00:00 ; elapsed = 00:02:31 . Memory (MB): peak = 209.707 ; gain = 0.000 exit INFO: xsimkernel Simulation Memory Usage: 16704 KB (Peak: 16704 KB), Simulation CPU Usage: 150078 ms INFO: [Common 17-206] Exiting xsim at Fri Aug 28 04:34:08 2026...",
+    "process_id":  40608,
+    "elapsed_seconds":  164.668,
+    "updated":  "2026-08-28T04:34:08.9557178+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\native_qos_8x8_tagged_twoframe_v6",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_native_qos_8x8_tagged_twoframe_v6"
+}

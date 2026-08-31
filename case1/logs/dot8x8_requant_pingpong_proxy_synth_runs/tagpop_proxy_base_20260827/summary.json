@@ -1,0 +1,21 @@
+﻿{
+    "run_id":  "tagpop_proxy_base_20260827",
+    "marker":  "C1_DOT8X8_REQUANT_PINGPONG_OUTPUT_RESTART_PROXY_SYNTH_PASS",
+    "state":  "complete",
+    "metrics":  {
+                    "part":  "xc7a200tsbg484-1",
+                    "banks":  2,
+                    "lanes":  2,
+                    "output_restart":  true,
+                    "tag_pop_push":  false,
+                    "tag_fifo_depth":  8,
+                    "slice_luts":  31163,
+                    "slice_registers":  22833,
+                    "bram_tiles":  0,
+                    "dsps":  64,
+                    "wns_ns":  1.247,
+                    "tns_ns":  0,
+                    "timing_met":  true,
+                    "marker":  "C1_DOT8X8_REQUANT_PINGPONG_OUTPUT_RESTART_PROXY_SYNTH_PASS"
+                }
+}

@@ -1,0 +1,16 @@
+﻿{
+    "run_id":  "9644b42b28784fb1805f09ac5577c934",
+    "part":  "xc7a200tsbg484-1",
+    "req_fifo_depth":  16,
+    "burst_beats":  16,
+    "max_outstanding":  4,
+    "rsp_fifo_depth":  64,
+    "rsp_fifo_beat_mode":  true,
+    "luts":  1714,
+    "registers":  1182,
+    "bram_tiles":  0,
+    "dsps":  0,
+    "wns_ns":  1.38,
+    "tns_ns":  0,
+    "timing_met":  true
+}

@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "param_ce_eager_soc8x8_20260826",
+    "frame":  "8x8",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_CACHE_DDR_BFM_PASS",
+    "process_id":  7268,
+    "elapsed_seconds":  50.559,
+    "updated":  "2026-08-26T19:19:59.7255687+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\param_ce_eager_soc8x8_20260826",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_param_ce_eager_soc8x8_20260826"
+}

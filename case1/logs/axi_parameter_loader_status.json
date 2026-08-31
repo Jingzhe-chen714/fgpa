@@ -1,0 +1,17 @@
+﻿{
+    "run_id":  "e9c83cb6178640938ece86108abd018e",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "AXI parameter-loader xsim regression complete",
+    "process_id":  12484,
+    "elapsed_seconds":  9.223,
+    "step_seconds":  {
+                         "xvlog":  2.022,
+                         "xelab_axi_parameter_loader":  3.025,
+                         "xsim_axi_parameter_loader":  4.042
+                     },
+    "updated":  "2026-08-24T05:09:35.2976630+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi_parameter_loader_runs\\e9c83cb6178640938ece86108abd018e",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_axi_parameter_loader_run_e9c83cb6178640938ece86108abd018e"
+}

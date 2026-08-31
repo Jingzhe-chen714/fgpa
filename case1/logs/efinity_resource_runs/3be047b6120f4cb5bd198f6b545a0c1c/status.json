@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "3be047b6120f4cb5bd198f6b545a0c1c",
+    "state":  "failed",
+    "step":  "efx_map",
+    "exit_code":  1,
+    "message":  "Efinity runner exit code 1; failure_tail=   Process expired with timeout of 60 seconds :\tFAIL  | ERROR: D:/ELS/Efinity/2026.1\\bin\\efx_map.exe expired with timeout of 60 seconds | ERROR: D:/ELS/Efinity/2026.1\\bin\\efx_map.exe expired with timeout of 60 seconds | [EFX-0200 WARNING] Removing redundant signal : capture_error_code[7:4]. (D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\top\\c1_r1_soc_control.sv:85) | [EFX-0200 WARNING] Removing redundant signal : descriptor_error_override[4:0]. (D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\control\\c1_layer_command_decoder.sv:42) | [EFX-0200 WARNING] Removing redundant signal : cnn_error_code[7]. (D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\top\\c1_r1_compute_shell.sv:70) | [EFX-0200 WARNING] Removing redundant signal : descriptor_error_override[4:0]. (D:\\contest\\2026FPGA\\yilingsi\\case1\\rtl\\control\\c1_layer_command_decoder.sv:42)",
+    "process_id":  53036,
+    "elapsed_seconds":  76.647,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\3be047b6120f4cb5bd198f6b545a0c1c",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\efinity_resource_runs\\3be047b6120f4cb5bd198f6b545a0c1c\\summary.json",
+    "metrics":  null
+}

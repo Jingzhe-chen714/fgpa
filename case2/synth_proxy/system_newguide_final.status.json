@@ -1,0 +1,18 @@
+{
+  "worker_pid": 15712,
+  "command": [
+    "D:\\vivado\\vivado\\Vivado\\2023.1\\bin\\vivado.bat",
+    "-mode",
+    "batch",
+    "-source",
+    "synth_system_ip_stub.tcl",
+    "-nolog",
+    "-nojournal"
+  ],
+  "started": "2026-08-30T15:50:21.847917+00:00",
+  "worker_in_job": false,
+  "state": "completed",
+  "tool_pid": 34820,
+  "returncode": 1,
+  "finished": "2026-08-30T15:50:35.125680+00:00"
+}

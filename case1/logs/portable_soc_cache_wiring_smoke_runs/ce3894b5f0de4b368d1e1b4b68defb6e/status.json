@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "ce3894b5f0de4b368d1e1b4b68defb6e",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "xsim log contains ERROR/FATAL/FAIL",
+    "process_id":  21084,
+    "elapsed_seconds":  13.278,
+    "updated":  "2026-08-24T19:05:48.0421080+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_wiring_smoke_runs\\ce3894b5f0de4b368d1e1b4b68defb6e",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_wiring_smoke_run_ce3894b5f0de4b368d1e1b4b68defb6e"
+}

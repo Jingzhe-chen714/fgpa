@@ -1,0 +1,14 @@
+﻿{
+    "part":  "xc7a200tsbg484-1",
+    "frame":  "640x480",
+    "mode":  "logical",
+    "beat_mode":  0,
+    "rsp_fifo_depth":  128,
+    "luts":  80791,
+    "registers":  39369,
+    "bram_tiles":  32,
+    "dsps":  100,
+    "wns_ns":  -52.2,
+    "tns_ns":  -175089.359,
+    "timing_met":  false
+}

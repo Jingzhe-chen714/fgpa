@@ -1,0 +1,14 @@
+﻿{
+    "run_id":  "eaa8ce0c80224bdeb47fe9ea290f2ddf",
+    "part":  "xc7a200tsbg484-1",
+    "max_outstanding":  4,
+    "max_beats":  16,
+    "rsp_fifo_depth":  4,
+    "luts":  5882,
+    "registers":  10308,
+    "bram_tiles":  0,
+    "dsps":  0,
+    "wns_ns":  3.249,
+    "tns_ns":  0,
+    "timing_met":  true
+}

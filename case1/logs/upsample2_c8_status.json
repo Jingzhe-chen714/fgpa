@@ -1,0 +1,18 @@
+﻿{
+    "run_id":  "48dbc99b226044a1b12fb718cff935e6",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C8 upsample2 xsim regression complete",
+    "process_id":  33484,
+    "elapsed_seconds":  10.27,
+    "step_seconds":  {
+                         "vector_gen":  1.012,
+                         "xvlog":  2.017,
+                         "xelab_upsample2_c8":  3.035,
+                         "xsim_upsample2_c8":  4.03
+                     },
+    "updated":  "2026-08-24T03:55:22.5351632+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\upsample2_c8_runs\\48dbc99b226044a1b12fb718cff935e6",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_upsample2_c8_run_48dbc99b226044a1b12fb718cff935e6"
+}

@@ -1,0 +1,21 @@
+﻿{
+    "run_id":  "portable_soc_tensor_burst_beat_pipelined_split_v1",
+    "mode":  "beat",
+    "implementation":  "synthesis",
+    "descriptor_validation":  "strict",
+    "pipelined_address":  0,
+    "pipelined_descriptor_validation":  1,
+    "narrow_descriptor_size_check":  1,
+    "state":  "failed",
+    "step":  "vivado",
+    "exit_code":  1,
+    "message":  "Vivado failed with exit code 1; cleaned_files=233; cleaned_bytes=45559236",
+    "process_id":  14528,
+    "elapsed_seconds":  291.519,
+    "updated":  "2026-08-28T10:28:56.2279033+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_beat_pipelined_split_v1",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_beat_pipelined_split_v1\\reports",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_tensor_burst_proxy_runs\\portable_soc_tensor_burst_beat_pipelined_split_v1\\summary.json",
+    "temporary_run_root":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_tensor_burst_proxy_run_portable_soc_tensor_burst_beat_pipelined_split_v1",
+    "rsp_fifo_depth":  64
+}

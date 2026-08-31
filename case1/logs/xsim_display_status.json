@@ -1,0 +1,10 @@
+﻿{
+    "run_id":  "2fa65ecd7f4c47c2a3db49b488401593",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1 display xsim verification complete",
+    "process_id":  18260,
+    "updated":  "2026-08-25T00:38:06.9516653+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\display_xsim_runs\\2fa65ecd7f4c47c2a3db49b488401593"
+}

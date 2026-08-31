@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "fabric_rsp_pop_audit_20260827",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_TENSOR_MEM_AXI128_WRITE_MLP_FABRIC_2C_PASS",
+    "process_id":  25096,
+    "elapsed_seconds":  10.261,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\xsim_runs\\tensor_write_mlp_fabric_2c\\fabric_rsp_pop_audit_20260827",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_tensor_write_mlp_fabric_2c_fabric_rsp_pop_audit_20260827"
+}

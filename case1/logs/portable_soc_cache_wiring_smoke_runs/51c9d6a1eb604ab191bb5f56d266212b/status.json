@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "51c9d6a1eb604ab191bb5f56d266212b",
+    "state":  "failed",
+    "step":  "xelab",
+    "exit_code":  1,
+    "message":  "xelab exit 1",
+    "process_id":  51628,
+    "elapsed_seconds":  6.299,
+    "updated":  "2026-08-29T20:22:45.6092294+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_wiring_smoke_runs\\51c9d6a1eb604ab191bb5f56d266212b",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_wiring_smoke_run_51c9d6a1eb604ab191bb5f56d266212b"
+}

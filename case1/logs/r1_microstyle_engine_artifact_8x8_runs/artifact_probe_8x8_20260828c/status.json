@@ -1,0 +1,10 @@
+﻿{
+    "run_id":  "artifact_probe_8x8_20260828c",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "trained artifact 8x8 engine probe passed",
+    "elapsed_seconds":  9.237,
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_r1_microstyle_engine_artifact_8x8_artifact_probe_8x8_20260828c",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_engine_artifact_8x8_runs\\artifact_probe_8x8_20260828c"
+}

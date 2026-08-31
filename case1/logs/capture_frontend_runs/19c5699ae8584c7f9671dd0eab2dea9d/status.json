@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "19c5699ae8584c7f9671dd0eab2dea9d",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_CAPTURE_FRONTEND_PASS",
+    "process_id":  30740,
+    "elapsed_seconds":  9.22,
+    "updated":  "2026-08-24T10:33:27.8444354+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\capture_frontend_runs\\19c5699ae8584c7f9671dd0eab2dea9d"
+}

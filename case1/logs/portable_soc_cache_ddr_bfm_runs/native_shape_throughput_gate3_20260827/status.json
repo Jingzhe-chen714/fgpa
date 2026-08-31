@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "native_shape_throughput_gate3_20260827",
+    "frame":  "640x480",
+    "state":  "complete",
+    "step":  "elaboration",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_SHAPE_ELAB_PASS frame=640x480",
+    "process_id":  44028,
+    "elapsed_seconds":  8.238,
+    "updated":  "2026-08-27T19:35:25.3958918+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\native_shape_throughput_gate3_20260827",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_native_shape_throughput_gate3_20260827"
+}

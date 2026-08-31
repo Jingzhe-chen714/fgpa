@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "native_shape_throughput_gate_20260827",
+    "frame":  "640x480",
+    "state":  "failed",
+    "step":  "xvlog",
+    "exit_code":  1,
+    "message":  "xvlog exit 1",
+    "process_id":  17124,
+    "elapsed_seconds":  1.16,
+    "updated":  "2026-08-27T19:13:11.2256278+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\native_shape_throughput_gate_20260827",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_native_shape_throughput_gate_20260827"
+}

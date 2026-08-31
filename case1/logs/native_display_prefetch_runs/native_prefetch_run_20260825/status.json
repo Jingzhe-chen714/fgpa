@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "native_prefetch_run_20260825",
+    "frame":  "640x480",
+    "state":  "failed",
+    "step":  "xsim",
+    "exit_code":  1,
+    "message":  "xsim log contains ERROR/FATAL/FAIL",
+    "process_id":  30700,
+    "elapsed_seconds":  11.255,
+    "updated":  "2026-08-25T03:59:26.6807801+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_display_prefetch_runs\\native_prefetch_run_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\native_display_prefetch_run_native_prefetch_run_20260825"
+}

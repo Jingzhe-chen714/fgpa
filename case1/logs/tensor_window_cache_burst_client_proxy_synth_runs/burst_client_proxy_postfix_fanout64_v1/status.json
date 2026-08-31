@@ -1,0 +1,32 @@
+﻿{
+    "run_id":  "burst_client_proxy_postfix_fanout64_v1",
+    "state":  "timing_failed",
+    "step":  "done",
+    "exit_code":  2,
+    "message":  "C1_TENSOR_WINDOW_CACHE_BURST_CLIENT_PROXY_SYNTH_PASS; timing_met=false; WNS=-0.319 ns",
+    "process_id":  30160,
+    "elapsed_seconds":  165.012,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\tensor_window_cache_burst_client_proxy_synth_runs\\burst_client_proxy_postfix_fanout64_v1",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\tensor_window_cache_burst_client_proxy_synth_burst_client_proxy_postfix_fanout64_v1",
+    "summary_path":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\tensor_window_cache_burst_client_proxy_synth_runs\\burst_client_proxy_postfix_fanout64_v1\\summary.json",
+    "metrics":  {
+                    "part":  "xc7a200tsbg484-1",
+                    "clock_mhz":  100,
+                    "fanout_limit":  64,
+                    "line_rows":  3,
+                    "max_row_words":  1280,
+                    "max_groups":  8,
+                    "burst_beats":  16,
+                    "reader_max_outstanding":  4,
+                    "reader_rsp_fifo_depth":  128,
+                    "refill_skid_depth":  2,
+                    "cancel_is_protocol_error":  0,
+                    "luts":  35718,
+                    "registers":  10806,
+                    "bram_tiles":  7.5,
+                    "dsps":  0,
+                    "wns_ns":  -0.319,
+                    "tns_ns":  -0.598,
+                    "timing_met":  false
+                }
+}

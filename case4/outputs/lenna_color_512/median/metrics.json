@@ -1,0 +1,25 @@
+{
+  "input": "D:\\contest\\2026FPGA\\yilingsi\\case4\\images\\lenna_color_512.tif",
+  "shape": [
+    512,
+    512
+  ],
+  "threshold": 320,
+  "median": true,
+  "gray_coeffs": [
+    77,
+    150,
+    29
+  ],
+  "gray_denominator": 256,
+  "sobel_magnitude": "abs(Gx)+abs(Gy)",
+  "gray_float_vs_fixed": {
+    "max_abs": 1,
+    "mae": 0.14231491088867188,
+    "exact_fraction": 0.8576850891113281,
+    "psnr_db_8bit": 56.59829955671781
+  },
+  "valid_pixels": 258064,
+  "edge_density": 0.017665863037109375,
+  "edge_pixels": 4631
+}

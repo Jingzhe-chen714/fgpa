@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "owner_epoch_shell_api_v2",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_AXI_SHARED_OWNER_EPOCH_ARBITER_PASS",
+    "process_id":  47020,
+    "elapsed_seconds":  9.22,
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\axi_shared_owner_epoch_arbiter_128_runs\\owner_epoch_shell_api_v2",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_axi_shared_owner_epoch_arbiter_128_owner_epoch_shell_api_v2"
+}

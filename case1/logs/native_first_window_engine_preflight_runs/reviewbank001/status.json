@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "reviewbank001",
+    "state":  "failed",
+    "step":  "xelab",
+    "exit_code":  1,
+    "message":  "无法将“System.Management.Automation.SwitchParameter”类型的“False”值转换为“System.Int32”类型。",
+    "process_id":  47580,
+    "elapsed_seconds":  5.237,
+    "updated":  "2026-08-28T22:43:59.9695902+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\native_first_window_engine_preflight_runs\\reviewbank001",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_native_first_window_engine_reviewbank001"
+}

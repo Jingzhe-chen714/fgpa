@@ -1,0 +1,11 @@
+﻿{
+    "run_id":  "7f568345d38e45b2ac4cb330e16e4a83",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_SOC_CONTROL_PASS",
+    "process_id":  6748,
+    "elapsed_seconds":  9.304,
+    "updated":  "2026-08-24T11:33:49.5367229+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\soc_control_runs\\7f568345d38e45b2ac4cb330e16e4a83"
+}

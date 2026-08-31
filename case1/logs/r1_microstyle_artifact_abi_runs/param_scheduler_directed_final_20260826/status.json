@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "param_scheduler_directed_final_20260826",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_MICROSTYLE_ARTIFACT_ABI_PASS",
+    "process_id":  32212,
+    "elapsed_seconds":  9.235,
+    "updated":  "2026-08-26T19:50:49.6588044+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\r1_microstyle_artifact_abi_runs\\param_scheduler_directed_final_20260826",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_run_r1_microstyle_artifact_abi_param_scheduler_directed_final_20260826"
+}

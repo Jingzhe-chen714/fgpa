@@ -1,0 +1,12 @@
+﻿{
+    "run_id":  "fabric_readskid_fulltree_proxy_retry_20260826",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_PORTABLE_SOC_DESCRIPTOR_RELAXED_PROXY_SYNTH_PASS frame=640x480",
+    "process_id":  29920,
+    "elapsed_seconds":  226.969,
+    "updated":  "2026-08-26T17:37:07.6708989+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_descriptor_relaxed_runs\\fabric_readskid_fulltree_proxy_retry_20260826",
+    "report_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_descriptor_relaxed_run_fabric_readskid_fulltree_proxy_retry_20260826\\reports"
+}

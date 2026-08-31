@@ -1,0 +1,13 @@
+﻿{
+    "run_id":  "descriptor_relaxed_pipelined2_fifo_8x8_20260825",
+    "frame":  "8x8",
+    "state":  "complete",
+    "step":  "done",
+    "exit_code":  0,
+    "message":  "C1_R1_PORTABLE_SOC_CACHE_DDR_BFM_PASS",
+    "process_id":  45012,
+    "elapsed_seconds":  48.548,
+    "updated":  "2026-08-25T16:24:12.4135316+08:00",
+    "log_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\logs\\portable_soc_cache_ddr_bfm_runs\\descriptor_relaxed_pipelined2_fifo_8x8_20260825",
+    "run_directory":  "D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\portable_soc_cache_ddr_bfm_run_descriptor_relaxed_pipelined2_fifo_8x8_20260825"
+}

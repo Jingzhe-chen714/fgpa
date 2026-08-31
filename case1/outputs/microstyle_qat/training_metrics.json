@@ -1,0 +1,260 @@
+{
+  "artifact_dir": "model\\microstyle24_starry_functional",
+  "descriptor_count": 22,
+  "descriptor_bytes": 1408,
+  "parameter_arena_bytes": 16896,
+  "convolution_weights": 12212,
+  "integer_qat_max_abs_error": 0,
+  "integer_layer_max_abs_error": {
+    "encoder1.conv3x3_s2": 0,
+    "encoder2.conv3x3_s2": 0,
+    "res0.expand1x1": 0,
+    "res0.depthwise3x3": 0,
+    "res0.project1x1": 0,
+    "res0.add_relu": 0,
+    "res1.expand1x1": 0,
+    "res1.depthwise3x3": 0,
+    "res1.project1x1": 0,
+    "res1.add_relu": 0,
+    "res2.expand1x1": 0,
+    "res2.depthwise3x3": 0,
+    "res2.project1x1": 0,
+    "res2.add_relu": 0,
+    "decoder1.upsample2": 0,
+    "decoder1.depthwise3x3": 0,
+    "decoder1.pointwise1x1": 0,
+    "decoder2.upsample2": 0,
+    "decoder2.depthwise3x3": 0,
+    "decoder2.pointwise1x1": 0,
+    "output.conv3x3": 0
+  },
+  "training": {
+    "status": "functional_checkpoint_not_final_visual_convergence",
+    "seed": 20260824,
+    "device": "cuda",
+    "torch_version": "2.12.1+cu130",
+    "float_steps": 240,
+    "qat_steps": 80,
+    "batch_size": 2,
+    "patch_size": 64,
+    "content_files": [
+      "astronaut.png",
+      "brick.png",
+      "camera.png",
+      "chelsea.png",
+      "coffee.png",
+      "rocket.jpg"
+    ],
+    "content_license_boundary": "case1/assets/SOURCES.md public default set",
+    "style_file": "starry_night_public_domain.jpg",
+    "style_source_page": "https://commons.wikimedia.org/wiki/File:TheStarryNightByVincentVanGogh.jpg",
+    "style_license": "Public Domain Mark 1.0 / public-domain painting",
+    "style_palette_rgb01": [
+      [
+        0.11116103082895279,
+        0.12774935364723206,
+        0.21482238173484802
+      ],
+      [
+        0.17672714591026306,
+        0.2018299102783203,
+        0.3140796422958374
+      ],
+      [
+        0.2357882559299469,
+        0.27087560296058655,
+        0.3889043629169464
+      ],
+      [
+        0.3100741505622864,
+        0.35454171895980835,
+        0.47161343693733215
+      ],
+      [
+        0.4671538174152374,
+        0.4983319044113159,
+        0.5458737015724182
+      ],
+      [
+        0.7815132141113281,
+        0.7886444330215454,
+        0.7198759317398071
+      ]
+    ],
+    "loss": "style-palette supervised target + low-frequency content + fixed-feature style Gram/colour + edge + TV",
+    "float_first": {
+      "total": 2.2793264389038086,
+      "content": 0.3304397165775299,
+      "edge": 0.11511056870222092,
+      "target": 0.35724741220474243,
+      "gram": 0.09375402331352234,
+      "colour": 0.25311142206192017,
+      "tv": 0.28044822812080383
+    },
+    "float_last": {
+      "total": 0.9053572416305542,
+      "content": 0.12633463740348816,
+      "edge": 0.04310719668865204,
+      "target": 0.12788516283035278,
+      "gram": 0.06634289026260376,
+      "colour": 0.12278251349925995,
+      "tv": 0.05350577458739281
+    },
+    "qat_first": {
+      "total": 0.8123887777328491,
+      "content": 0.21150653064250946,
+      "edge": 0.051318056881427765,
+      "target": 0.09284721314907074,
+      "gram": 0.022690443322062492,
+      "colour": 0.13022203743457794,
+      "tv": 0.048143282532691956
+    },
+    "qat_last": {
+      "total": 1.5489120483398438,
+      "content": 0.18418554961681366,
+      "edge": 0.033845484256744385,
+      "target": 0.1627955436706543,
+      "gram": 0.24718576669692993,
+      "colour": 0.29016709327697754,
+      "tv": 0.04446600005030632
+    },
+    "preview": {
+      "total": 0.8495957851409912,
+      "content": 0.13611042499542236,
+      "edge": 0.08718720078468323,
+      "target": 0.11695773899555206,
+      "gram": 0.06597472727298737,
+      "colour": 0.0808943584561348,
+      "tv": 0.07401920855045319
+    },
+    "weight_delta_l2_from_seeded_initialization": 23.139442443847656,
+    "preview_output_change_mae_u8": 43.22576904296875,
+    "preview_output_saturation_fraction": 0.061258951822916664,
+    "elapsed_seconds": 11.742880599980708,
+    "quality_boundary": "Small six-image/one-style engineering run. It proves optimization, QAT and RTL export, not competition-grade perceptual quality."
+  },
+  "float_trace": [
+    {
+      "step": 1,
+      "total": 2.2793264389038086,
+      "content": 0.3304397165775299,
+      "edge": 0.11511056870222092,
+      "target": 0.35724741220474243,
+      "gram": 0.09375402331352234,
+      "colour": 0.25311142206192017,
+      "tv": 0.28044822812080383
+    },
+    {
+      "step": 48,
+      "total": 1.0124183893203735,
+      "content": 0.2080509066581726,
+      "edge": 0.04496491700410843,
+      "target": 0.13131019473075867,
+      "gram": 0.06718414276838303,
+      "colour": 0.11568320542573929,
+      "tv": 0.061423156410455704
+    },
+    {
+      "step": 96,
+      "total": 1.2833236455917358,
+      "content": 0.21206149458885193,
+      "edge": 0.034859295934438705,
+      "target": 0.2019580602645874,
+      "gram": 0.03566782921552658,
+      "colour": 0.15161535143852234,
+      "tv": 0.03913576900959015
+    },
+    {
+      "step": 144,
+      "total": 0.9152857661247253,
+      "content": 0.1501997858285904,
+      "edge": 0.050693921744823456,
+      "target": 0.12218289077281952,
+      "gram": 0.03781788796186447,
+      "colour": 0.1675102710723877,
+      "tv": 0.03599488362669945
+    },
+    {
+      "step": 192,
+      "total": 1.3253915309906006,
+      "content": 0.23642253875732422,
+      "edge": 0.04066086560487747,
+      "target": 0.1933264434337616,
+      "gram": 0.05984250456094742,
+      "colour": 0.16050481796264648,
+      "tv": 0.03691691905260086
+    },
+    {
+      "step": 240,
+      "total": 0.9053572416305542,
+      "content": 0.12633463740348816,
+      "edge": 0.04310719668865204,
+      "target": 0.12788516283035278,
+      "gram": 0.06634289026260376,
+      "colour": 0.12278251349925995,
+      "tv": 0.05350577458739281
+    }
+  ],
+  "qat_trace": [
+    {
+      "step": 1,
+      "total": 0.8123887777328491,
+      "content": 0.21150653064250946,
+      "edge": 0.051318056881427765,
+      "target": 0.09284721314907074,
+      "gram": 0.022690443322062492,
+      "colour": 0.13022203743457794,
+      "tv": 0.048143282532691956
+    },
+    {
+      "step": 16,
+      "total": 0.722863495349884,
+      "content": 0.048103682696819305,
+      "edge": 0.023554349318146706,
+      "target": 0.04116232693195343,
+      "gram": 0.10465315729379654,
+      "colour": 0.33245572447776794,
+      "tv": 0.032651208341121674
+    },
+    {
+      "step": 32,
+      "total": 1.1428418159484863,
+      "content": 0.16424188017845154,
+      "edge": 0.03023250214755535,
+      "target": 0.0947774350643158,
+      "gram": 0.1417292356491089,
+      "colour": 0.3405553698539734,
+      "tv": 0.027991266921162605
+    },
+    {
+      "step": 48,
+      "total": 0.45730605721473694,
+      "content": 0.046946313232183456,
+      "edge": 0.02971457876265049,
+      "target": 0.05811471864581108,
+      "gram": 0.02513069659471512,
+      "colour": 0.11631084978580475,
+      "tv": 0.05237771198153496
+    },
+    {
+      "step": 64,
+      "total": 0.5567588210105896,
+      "content": 0.08060949295759201,
+      "edge": 0.03972914442420006,
+      "target": 0.060108523815870285,
+      "gram": 0.025241047143936157,
+      "colour": 0.16359677910804749,
+      "tv": 0.044866882264614105
+    },
+    {
+      "step": 80,
+      "total": 1.5489120483398438,
+      "content": 0.18418554961681366,
+      "edge": 0.033845484256744385,
+      "target": 0.1627955436706543,
+      "gram": 0.24718576669692993,
+      "colour": 0.29016709327697754,
+      "tv": 0.04446600005030632
+    }
+  ]
+}
