@@ -1,6 +1,0 @@
-﻿ECHO 处于关闭状态。
-ECHO 处于关闭状态。
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/contest/2026FPGA/yilingsi/case1/rtl/cnn/c1_r1_microstyle_tensor_adapter.sv" into library work
-INFO: [VRFC 10-311] analyzing module c1_r1_microstyle_tensor_adapter
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/contest/2026FPGA/yilingsi/case1/sim/tb_c1_r1_native_tensor_window_preflight.sv" into library work
-INFO: [VRFC 10-311] analyzing module tb_c1_r1_native_tensor_window_preflight

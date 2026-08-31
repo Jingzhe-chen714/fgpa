@@ -1,5 +1,0 @@
-﻿{
-    "run_id":  "native_tensor_window_preflight_20260828d",
-    "state":  "failed",
-    "message":  "字符串 D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_native_tensor_window_native_tensor_window_preflight_20260828d\\xsim.raw.log 不是有效的正则表达式: 正在分析“D:\\contest\\2026FPGA\\yilingsi\\case1\\sim\\xsim_native_tensor_window_native_tensor_window_preflight_20260828d\\xsim.raw.log”－ 无法识别的转义序列 \\y。"
-}

@@ -1,5 +1,0 @@
-﻿{
-    "message":  "无法对参数“ArgumentList”执行参数验证。该参数为 Null、为空或参数集合的某个元素包含 Null 值。请提供一个不包含任何 Null 值的集合，然后重试此命令。",
-    "run_id":  "b811060ce8d64a2e934b0ba6c1fde707",
-    "state":  "failed"
-}
