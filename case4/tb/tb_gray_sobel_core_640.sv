@@ -85,11 +85,11 @@ module tb_gray_sobel_core_640 #(
         end
         @(posedge clk);
         #2;
-        if (count != EXPECTED) begin
+        if (count !== EXPECTED) begin
             $display("ERROR 640x480 output count=%0d expected=%0d", count, EXPECTED);
             errors = errors + 1;
         end
-        if (last_x != W-2 || last_y != H-2) begin
+        if (last_x !== W-2 || last_y !== H-2) begin
             $display("ERROR final center=(%0d,%0d) expected=(%0d,%0d)", last_x,last_y,W-2,H-2);
             errors = errors + 1;
         end

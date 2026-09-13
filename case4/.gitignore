@@ -1,0 +1,17 @@
+# Sources and documentation only; never publish local FPGA tool products.
+/build/
+/audit_20260913/
+/outputs/
+/tmp/
+**/__pycache__/
+*.pyc
+**/.Xil/
+**/xsim.dir/
+*.log
+*.jou
+*.rpt
+*.wdb
+*.dcp
+*.pb
+*.str
+*.zip

@@ -9,7 +9,8 @@ module case4_gray_median_sobel_core_xilinx_bram #(
     parameter integer IMG_HEIGHT   = 480,
     parameter integer X_BITS       = (IMG_WIDTH  <= 1) ? 1 : $clog2(IMG_WIDTH),
     parameter integer Y_BITS       = (IMG_HEIGHT <= 1) ? 1 : $clog2(IMG_HEIGHT),
-    parameter integer MAG_W        = 11
+    parameter integer MAG_W        = 11,
+    parameter integer MEDIAN_PIPELINE_STAGES = 3
 ) (
     input  logic                   clk,
     input  logic                   rst,
@@ -36,7 +37,7 @@ module case4_gray_median_sobel_core_xilinx_bram #(
     case4_gray_median_sobel_core #(
         .PIXEL_FORMAT(PIXEL_FORMAT), .IMG_WIDTH(IMG_WIDTH),
         .IMG_HEIGHT(IMG_HEIGHT), .X_BITS(X_BITS), .Y_BITS(Y_BITS),
-        .MAG_W(MAG_W), .WINDOW_BACKEND(1)
+        .MAG_W(MAG_W), .WINDOW_BACKEND(1), .MEDIAN_PIPELINE_STAGES(MEDIAN_PIPELINE_STAGES)
     ) u_core (
         .clk(clk), .rst(rst), .in_valid(in_valid), .in_sof(in_sof),
         .in_eol(in_eol), .in_eof(in_eof), .in_x(in_x), .in_y(in_y),

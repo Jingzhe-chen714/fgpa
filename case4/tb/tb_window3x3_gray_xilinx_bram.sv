@@ -78,7 +78,7 @@ module tb_window3x3_gray_xilinx_bram;
         end
         @(posedge clk);
         #2;
-        if (count != (W-2)*(H-2)) begin
+        if (count !== (W-2)*(H-2)) begin
             $display("ERROR BRAM window count=%0d expected=%0d", count,
                      (W-2)*(H-2));
             errors = errors + 1;

@@ -45,10 +45,6 @@ module tb_gray_median_sobel_core #(
     integer ex_gx, ex_gy, ex_mag;
     integer errors, count;
 
-    function automatic integer pix(input logic [7:0] v);
-        begin pix = v; end
-    endfunction
-
     function automatic [7:0] median9(
         input integer a0, input integer a1, input integer a2,
         input integer a3, input integer a4, input integer a5,
@@ -75,14 +71,20 @@ module tb_gray_median_sobel_core #(
                 med_image[iy][ix] = 0;
             end
         end
+        // Explicit casts keep each sample value independent during nested
+        // function evaluation; an X reference must fail before comparison.
         for (iy = 1; iy < H-1; iy = iy + 1)
             for (ix = 1; ix < W-1; ix = ix + 1)
                 med_image[iy][ix] = median9(
-                    pix(image[iy-1][ix-1]), pix(image[iy-1][ix]),
-                    pix(image[iy-1][ix+1]), pix(image[iy][ix-1]),
-                    pix(image[iy][ix]),   pix(image[iy][ix+1]),
-                    pix(image[iy+1][ix-1]), pix(image[iy+1][ix]),
-                    pix(image[iy+1][ix+1]));
+                    int'(image[iy-1][ix-1]), int'(image[iy-1][ix]),
+                    int'(image[iy-1][ix+1]), int'(image[iy][ix-1]),
+                    int'(image[iy][ix]),   int'(image[iy][ix+1]),
+                    int'(image[iy+1][ix-1]), int'(image[iy+1][ix]),
+                    int'(image[iy+1][ix+1]));
+
+        for (iy=1; iy<H-1; iy=iy+1)
+            for (ix=1; ix<W-1; ix=ix+1)
+                if ($isunknown(med_image[iy][ix])) $fatal(1,"REFERENCE_UNINITIALIZED");
 
         errors = 0;
         count = 0;
@@ -118,7 +120,7 @@ module tb_gray_median_sobel_core #(
         end
         @(posedge clk);
         #2;
-        if (count != EXPECTED) begin
+        if (count !== EXPECTED) begin
             $display("ERROR median/Sobel count=%0d expected=%0d", count, EXPECTED);
             errors = errors + 1;
         end
@@ -131,7 +133,11 @@ module tb_gray_median_sobel_core #(
 
     always @(posedge clk) begin
         #1;
+        if (!rst && $isunknown({out_valid, out_win_valid, out_sof, out_eol, out_eof}))
+            $fatal(1, "CHECKER_REJECT_X_CONTROL");
         if (!rst && out_valid) begin
+            if ($isunknown({out_x, out_y, out_gx, out_gy, out_magnitude, out_edge}))
+                $fatal(1, "CHECKER_REJECT_X_DATA");
             cx = out_x;
             cy = out_y;
             count = count + 1;
@@ -139,16 +145,16 @@ module tb_gray_median_sobel_core #(
                 $display("ERROR median/Sobel coordinate/valid x=%0d y=%0d win=%b", cx, cy, out_win_valid);
                 errors = errors + 1;
             end else begin
-                ex_gx = (pix(med_image[cy-1][cx+1])-pix(med_image[cy-1][cx-1]))
-                      + 2*(pix(med_image[cy][cx+1])-pix(med_image[cy][cx-1]))
-                      + (pix(med_image[cy+1][cx+1])-pix(med_image[cy+1][cx-1]));
-                ex_gy = (pix(med_image[cy+1][cx-1])-pix(med_image[cy-1][cx-1]))
-                      + 2*(pix(med_image[cy+1][cx])-pix(med_image[cy-1][cx]))
-                      + (pix(med_image[cy+1][cx+1])-pix(med_image[cy-1][cx+1]));
+                ex_gx = (int'(med_image[cy-1][cx+1])-int'(med_image[cy-1][cx-1]))
+                      + 2*(int'(med_image[cy][cx+1])-int'(med_image[cy][cx-1]))
+                      + (int'(med_image[cy+1][cx+1])-int'(med_image[cy+1][cx-1]));
+                ex_gy = (int'(med_image[cy+1][cx-1])-int'(med_image[cy-1][cx-1]))
+                      + 2*(int'(med_image[cy+1][cx])-int'(med_image[cy-1][cx]))
+                      + (int'(med_image[cy+1][cx+1])-int'(med_image[cy-1][cx+1]));
                 ex_mag = (ex_gx < 0 ? -ex_gx : ex_gx)
                        + (ex_gy < 0 ? -ex_gy : ex_gy);
-                if ($signed(out_gx) != ex_gx || $signed(out_gy) != ex_gy ||
-                    out_magnitude != ex_mag || out_edge != (ex_mag >= 100)) begin
+                if ($signed(out_gx) !== ex_gx || $signed(out_gy) !== ex_gy ||
+                    out_magnitude !== ex_mag || out_edge !== (ex_mag >= 100)) begin
                     $display("ERROR median/Sobel (%0d,%0d) exp gx=%0d gy=%0d mag=%0d edge=%b got gx=%0d gy=%0d mag=%0d edge=%b",
                         cx, cy, ex_gx, ex_gy, ex_mag, (ex_mag >= 100),
                         out_gx, out_gy, out_magnitude, out_edge);

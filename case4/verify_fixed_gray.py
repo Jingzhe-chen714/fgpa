@@ -7,8 +7,9 @@ formula used by the RTL::
 
     Y = (77*R + 150*G + 29*B + 128) >> 8
 
-The reported ``max_continuous_error`` is measured before rounding.  A value
-below one output-code LSB is the relevant quantization guarantee.  We also
+The reported ``max_continuous_error`` compares the rounded hardware output
+against the unrounded real-valued reference. A value below one output-code
+LSB is the relevant quantization guarantee. We also
 report the stricter comparison against a rounded floating reference; that
 comparison may differ by one code because two independently rounded values can
 land on opposite sides of a half-code boundary.

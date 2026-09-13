@@ -35,6 +35,13 @@ module gray_rgb_stream #(
     output reg [16:0]           m_acc
 );
 
+    initial begin
+        if (PIXEL_FORMAT != 0 && PIXEL_FORMAT != 1)
+            $fatal(1, "CASE4_PARAM_FORMAT: PIXEL_FORMAT must be 0 (RGB565) or 1 (RGB888)");
+        if (X_W < 1 || Y_W < 1)
+            $fatal(1, "CASE4_PARAM_RGB_WIDTH: coordinate widths must be positive");
+    end
+
     reg [7:0] r_unpacked;
     reg [7:0] g_unpacked;
     reg [7:0] b_unpacked;

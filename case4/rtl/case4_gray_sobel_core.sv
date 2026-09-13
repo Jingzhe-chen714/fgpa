@@ -10,8 +10,7 @@
 // join it by (frame,x,y) before applying the overlay module.
 //
 // Reset convention at this boundary is rst high, synchronous.  The Sobel and
-// threshold primitives use rst_n low, asynchronous reset internally, so the
-// inversion is explicit at their instances.
+// threshold primitives also reset synchronously; rst_n only changes polarity.
 //
 // WINDOW_BACKEND selects the line-buffer implementation:
 //   0 = portable simulation/reference array window3x3_gray
@@ -104,7 +103,7 @@ module case4_gray_sobel_core #(
                 .out_p20(p20), .out_p21(p21), .out_p22(p22)
             );
         end else begin : g_bad_window_backend
-            initial $error("Unsupported WINDOW_BACKEND=%0d", WINDOW_BACKEND);
+            initial $fatal(1, "CASE4_PARAM_BACKEND: Unsupported WINDOW_BACKEND=%0d", WINDOW_BACKEND);
         end
     endgenerate
 

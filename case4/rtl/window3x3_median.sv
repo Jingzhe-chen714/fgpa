@@ -1,6 +1,6 @@
 // Convenience wrapper: 3x3 line-buffer window followed by a median filter.
 // The window generator uses VALID_ONLY borders and contributes one cycle of
-// latency; median3x3_u8 contributes one more cycle by default.
+// latency; median3x3_u8 contributes THREE registered stages by default.
 
 `timescale 1ns/1ps
 
@@ -10,7 +10,8 @@ module window3x3_median #(
     parameter integer PIXEL_BITS = 8,
     parameter integer X_BITS = (IMG_WIDTH  <= 1) ? 1 : $clog2(IMG_WIDTH),
     parameter integer Y_BITS = (IMG_HEIGHT <= 1) ? 1 : $clog2(IMG_HEIGHT),
-    parameter bit MEDIAN_REGISTER_OUTPUT = 1'b1
+    parameter bit MEDIAN_REGISTER_OUTPUT = 1'b1,
+    parameter integer MEDIAN_PIPELINE_STAGES = MEDIAN_REGISTER_OUTPUT ? 3 : 0
 ) (
     input  logic                   clk,
     input  logic                   rst,
@@ -86,7 +87,8 @@ module window3x3_median #(
         .PIXEL_BITS     (PIXEL_BITS),
         .X_BITS         (X_BITS),
         .Y_BITS         (Y_BITS),
-        .REGISTER_OUTPUT(MEDIAN_REGISTER_OUTPUT)
+        .REGISTER_OUTPUT(MEDIAN_REGISTER_OUTPUT),
+        .PIPELINE_STAGES(MEDIAN_PIPELINE_STAGES)
     ) u_median (
         .clk      (clk),
         .rst      (rst),

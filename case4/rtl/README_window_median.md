@@ -70,16 +70,20 @@ portable reference 实现使用数组组合读，优先保证 Vivado XSIM 的逐
 
 ## `median3x3_u8`
 
-模块对九个无符号样本执行固定边界的 compare/swap 排序，输出排序后第 5
-个样本（索引 4）。默认 `REGISTER_OUTPUT=1`，在 `in_valid` 后增加一拍，
-仍保持 II=1；设为 0 时为组合输出。它不定义边界填充，通常直接接
-`window3x3_gray` 的有效窗口。
+模块使用 19 次比较决策的中值选择网络：每行先求 lo/mid/hi，再求
+`median(max(row_lo), median(row_mid), min(row_hi))`。不是“各行中值再取中值”。
+默认 `REGISTER_OUTPUT=1, PIPELINE_STAGES=3`，分为行内排序、跨行选择、最终中值
+三个寄存级，输入在 N 沿被接受后，输出在 N+2 沿更新，II=1。
+`PIPELINE_STAGES=1` 为显式低频兼容选项；`REGISTER_OUTPUT=0` 默认组合输出。
+它不定义边界填充，通常直接接 `window3x3_gray` 的有效窗口。
+三级模式同步延迟 valid、SOF/EOL/EOF 和 x/y；复位清空全部流水。
 
 ## 复位
 
 `window3x3_gray`、`median3x3_u8` 及 RGB/灰度前端使用高有效同步 `rst`；
-`case4_sobel_edge_ops.sv` 使用低有效异步 `rst_n`。顶层必须显式做极性转换
-（例如 `rst_n = ~rst`），并在需要时同步释放复位。
+`case4_sobel_edge_ops.sv` 和 `case4_edge_expand.sv` 使用低有效同步 `rst_n`。
+`rst_n = ~rst` 只转换极性，所有寄存模块仅在时钟上升沿采样复位。
+外部异步复位的同步处理由后续系统层承担；非时钟沿短脉冲不能清空内部流水。
 
 ## 资源估算（640 像素宽）
 

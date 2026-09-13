@@ -1,6 +1,6 @@
 # 赛题四：实时图像边缘检测
 
-本目录现在包含赛题四的算法分析、Python Golden Model、测试图像和第一版算子级
+本目录包含赛题四的算法分析、Python Golden Model、测试图像和修订后的算子级
 SystemVerilog RTL。摄像头协议、HDMI/VGA 时序、DDR 和最终板级顶层仍然留在
 后续系统集成阶段。
 
@@ -14,6 +14,11 @@ case4/
   rtl/                                        算子 RTL
   tb/                                         Vivado XSIM 自检 testbench
   scripts/run_xsim_xilinx_bram.ps1            Xilinx XPM/BRAM 专用回归
+  scripts/run_validation.ps1                 当前完整验收入口（推荐）
+  scripts/implement_zynq.tcl                 Zynq UltraScale+ 时序/资源参考
+  constraints/reference_zynq.xdc             100 MHz OOC 参考约束
+  build/                                     本地生成结果，不上传
+  verification.md                            修复说明、延迟合同与验收证据
   BRAM_PORTABILITY.md                         Xilinx BRAM/IP 适配边界（重点）
   generate_rtl_vectors.py                     生成 Python→RTL HEX 向量
   fixed_point_spec.md                         RGB565/RGB888 固定点契约
@@ -41,10 +46,15 @@ case4/
 
 * 灰度化使用 BT.601 的 8-bit 定点近似系数 `(77, 150, 29)`，除数为 256；RGB565 先按标准位复制扩展为 RGB888；对全部 RGB565 和 RGB888 组合穷举，连续量化误差分别为 0.931/0.945 LSB；
 * Sobel 使用题目给出的 3x3 核，梯度幅值使用 `abs(Gx) + abs(Gy)`，不计算平方根；
-* 梯度内部保留有符号 16-bit 以上精度，阈值在完整幅值范围 `0..2040` 上比较；
+* Golden 梯度使用有符号整数；RTL 默认 12-bit 有符号梯度、11-bit 无符号幅值，阈值支持 `0..2047`；
 * 默认边界策略为 `zero`：边界窗口补 0，并把最终边界像素置为 0，便于后续和行缓存 RTL 对齐；
 * 中值滤波默认使用 `replicate` 边界以便观察去噪效果；若要严格模拟 RTL，可改为 `zero`；
 * 所有中间结果都会保存为 PNG（便于肉眼检查）和 HEX/NPY（便于后续 `$readmemh`/数值回归）。
+
+2026-09-13 修订：Golden 无效边界在阈值 0 时也保持零；算法寄存模块统一同步复位；
+公开参数增加合法性检查；中值默认使用 19 次比较决策、三级流水，II=1。
+基础核心从补齐窗口的输入沿 N 到输出为 N+5（数组）/N+6（XPM）；中值级联为
+N+9/N+11，比旧中值版本增加两拍。详细接口变更与同器件 PPA 对照见 `verification.md`。
 
 ## 2. 运行环境
 
@@ -52,10 +62,20 @@ case4/
 
 ```powershell
 $py = 'C:\Users\30982\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
-& $py .\case4\golden_edge.py --input .\case4\images\lenna_color_512.tif --output-dir .\case4\outputs\lenna --median --threshold 320
+& $py .\case4\golden_edge.py --input .\case4\images\peppers.png --output-dir .\case4\outputs\peppers --median --threshold 320
 ```
 
 不加 `--median` 即运行基础链路。阈值 320 是完整 Sobel L1 幅值的示例值，不是最终硬件参数。
+
+当前推荐的完整验收（Python、参数/复位/故障注入、逐周期整帧检查、有约束布局布线）：
+
+```powershell
+& .\case4\scripts\run_validation.ps1 -PythonExe $py -Implement
+```
+
+省略 `-Implement` 可只做功能验证；加 `-Small` 仅跑小图集成场景，不能替代最终整帧验收。
+全部新流程的生成物都在 `case4/build/`。后面的 `run_xsim*.ps1` 保留为历史 smoke 入口，
+其 PASS 不替代当前完整验收，也不代表满足时序约束。
 
 批量运行已下载的图片：
 
@@ -86,25 +106,25 @@ Golden Model 已把后续 RTL 需要固定的语义显式化：
 | 项目 | 当前约定 |
 |---|---|
 | 像素顺序 | 行优先，左到右、上到下 |
-| `sof` | 第一行第一个像素前产生 |
+| `sof` | 与第一行第一个有效像素同拍 |
 | `eol` | 每行最后一个有效像素同时标记 |
-| 有效输出 | 中间流水线延迟后仍保持一个像素一个输出 |
-| Sobel 边界 | 第一/最后一行、第一/最后一列输出 0 |
+| 有效输出 | II=1，仅输出具有完整邻域的像素；侧带随流水对齐 |
+| Sobel 边界 | Golden 置零；VALID_ONLY RTL 不发出无效边界像素 |
 | 梯度位宽 | `Gx/Gy` 有符号，建议至少 12 bit；Golden HEX 用 16 bit 二补码 |
-| 幅值位宽 | `0..2040`，建议 11 bit |
+| 幅值位宽 | 默认 11 bit，8-bit Sobel L1 实际最大 1530 |
 | 边缘输出 | 0 或 255 |
 
 固定点的完整误差定义和穷举结果见 [fixed_point_spec.md](D:/contest/2026FPGA/yilingsi/case4/fixed_point_spec.md)。
 
 当前 RTL 算子和接口说明见 [rtl/README.md](D:/contest/2026FPGA/yilingsi/case4/rtl/README.md)、
 [README_rgb_gray.md](D:/contest/2026FPGA/yilingsi/case4/rtl/README_rgb_gray.md)。
-算子 testbench 按坐标 sideband 对齐 Golden 结果，不依赖某个固定的总流水延迟。
+旧 smoke testbench 按坐标对齐结果；新增独立回归同时检查精确输出周期、顺序和全部侧带。
 `tb_hex_core.sv` 进一步直接读取 `generate_rtl_vectors.py` 生成的 HEX，完成
 Python Golden 与 RTL 的跨语言 bit-exact 对照。
 
 当前统一约定：
 
-* RGB/灰度/窗口模块使用 `rst` 高有效同步复位；Sobel 算术文件保留 `rst_n` 低有效异步复位，串接时显式使用 `.rst_n(~rst)`；
+* RGB/灰度/窗口模块使用 `rst` 高有效同步复位；Sobel、阈值、叠加和边缘扩展也使用同步复位，端口 `rst_n` 保留低有效极性，串接时显式使用 `.rst_n(~rst)`；
 * `window3x3_gray` 采用 `VALID_ONLY`，只输出完整 3×3 窗口，中心坐标为 `(in_x-1,in_y-1)`；
 * Sobel 的 `in_valid` 表示窗口传输，`in_win_valid` 表示 3×3 算法有效；当前窗口模块可将两者都接到 `window.out_valid`；
 * 后续若要保持完整视频时序，应并行延迟原始 RGB/灰度流，不能直接把 valid-only 窗口当作 HDMI 全帧流。
@@ -116,8 +136,10 @@ Python Golden 与 RTL 的跨语言 bit-exact 对照。
 `case4_gray_sobel_core_xilinx_bram.sv` 提供显式入口。该版本使用两行
 `640×8` 缓存、单拍同步读、`READ_FIRST` 同地址读写，稳态吞吐仍为
 1 pixel/clock；小图 tap/sideband、打包 RGB888 核心、median→Sobel 级联和
-640×480 count 已在 XSIM 通过。基础核心 Vivado OOC 综合显示 2 个 RAMB18E1、
-296 LUT、404 FF、0 DSP；中值级联为 4 个 RAMB18E1、822 LUT、610 FF、0 DSP。
+640×480 数值/侧带已在 XSIM 检查。历史 Artix-7 OOC 数字为基础 296 LUT/404 FF、
+中值级联 822 LUT/610 FF；这些不是当前优化版本。当前 Zynq UltraScale+ 有约束
+布局布线参考为基础 261 LUT/398 FF/2 RAMB18E2、中值级联
+598 LUT/746 FF/4 RAMB18E2，均无 DSP；详见 `verification.md`。
 
 **重要：XPM 是 Xilinx 专用实现，不是赛题目标 Efinix 器件的最终 IP。** 后期
 适配 VF-Ti60F225 或其他 FPGA 时，必须替换 BRAM wrapper/IP，并重新核对

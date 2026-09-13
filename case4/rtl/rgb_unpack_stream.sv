@@ -38,6 +38,13 @@ module rgb_unpack_stream #(
     output reg [7:0]            m_b
 );
 
+    initial begin
+        if (PIXEL_FORMAT != 0 && PIXEL_FORMAT != 1)
+            $fatal(1, "CASE4_PARAM_FORMAT: PIXEL_FORMAT must be 0 (RGB565) or 1 (RGB888)");
+        if (X_W < 1 || Y_W < 1)
+            $fatal(1, "CASE4_PARAM_RGB_WIDTH: coordinate widths must be positive");
+    end
+
     reg [7:0] r_unpacked;
     reg [7:0] g_unpacked;
     reg [7:0] b_unpacked;
@@ -45,7 +52,7 @@ module rgb_unpack_stream #(
     always @* begin
         if (PIXEL_FORMAT == 0) begin
             // RGB565 -> full-range RGB888.  The replicated high bits give
-            // the nearest uniformly spaced 8-bit code for each component.
+            // the bit-replicated full-range 8-bit code for each component.
             r_unpacked = {pixel_in[15:11], pixel_in[15:13]};
             g_unpacked = {pixel_in[10:5],  pixel_in[10:9]};
             b_unpacked = {pixel_in[4:0],   pixel_in[4:2]};

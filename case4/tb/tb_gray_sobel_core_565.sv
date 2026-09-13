@@ -91,7 +91,7 @@ module tb_gray_sobel_core_565;
         end
         @(posedge clk);
         #2;
-        if (count != (W-2)*(H-2)) begin
+        if (count !== (W-2)*(H-2)) begin
             $display("ERROR RGB565 core count=%0d expected=%0d", count,
                      (W-2)*(H-2));
             errors = errors + 1;

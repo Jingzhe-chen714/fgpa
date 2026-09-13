@@ -26,7 +26,12 @@ module case4_edge_expand8 #(
     output logic                 out_edge,
     output logic [7:0]           out_edge8
 );
-    always_ff @(posedge clk or negedge rst_n) begin
+    // Active-low synchronous reset, matching the other arithmetic stages.
+    initial begin
+        if (X_W < 1 || Y_W < 1)
+            $fatal(1, "CASE4_PARAM_EDGE8_WIDTH: coordinate widths must be positive");
+    end
+    always_ff @(posedge clk) begin
         if (!rst_n) begin
             out_valid     <= 1'b0;
             out_win_valid <= 1'b0;

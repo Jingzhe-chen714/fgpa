@@ -54,7 +54,7 @@ Python Golden 的数值契约不随后端改变。中值级联会实例化两级
 5. 在目标工具链中重新综合、布局布线并检查 BRAM/FIFO、时钟和 IO 资源；本目录
    的 Vivado 数字只用于验证结构，不是 Efinix 资源承诺。
 
-## 4. 当前 Vivado 证据
+## 4. 历史 Vivado 证据（优化前）
 
 Vivado 2023.1、`xc7a35tcpg236-1`、out-of-context 综合命令：
 
@@ -92,7 +92,24 @@ powershell -ExecutionPolicy Bypass `
 中值级联的同一 Vivado OOC 参考为 4 个 RAMB18E1、822 Slice LUT、610 Slice
 FF、0 DSP；排序网络和第二级窗口的资源必须与目标器件重新评估。
 
-## 5. 变更管理规则
+## 5. 当前 Zynq UltraScale+ 有约束实现（2026-09-13）
+
+算法默认中值已从单级完整排序变成 19 次比较决策的三级流水。XPM 行缓存
+读延迟与 READ_FIRST 冲突语义没有改变；所有算法寄存级统一为同步复位。
+
+Vivado 2023.1，`xczu3eg-sbva484-1-e`，100 MHz，输入/输出 delay 均为 2 ns，
+同一 OOC synth/opt/place/route 流程：
+
+| 路径 | 旧版 LUT/FF | 当前 LUT/FF | 旧版 WNS | 当前 WNS | BRAM / DSP |
+|---|---|---|---|---|---|
+| 基础 Sobel | 284 / 404 | 261 / 398 | +6.049 ns | +6.092 ns | 2 RAMB18E2 / 0 |
+| 中值→Sobel | 960 / 610 | 598 / 746 | −0.756 ns | +6.061 ns | 4 RAMB18E2 / 0 |
+
+新实现入口 `scripts/implement_zynq.tcl` 会检查时钟/I/O/内部端点约束覆盖和
+布线后的 setup/hold 裕量；当前版出现负裕量会返回错误。旧版对照结果仅作诊断。
+生成结果在 `build/timing_zynq/`，不进入源代码仓库。此参考不能代替目标板适配。
+
+## 6. 变更管理规则
 
 * `rtl/window3x3_gray.sv` 永远保留为无厂商依赖的 reference backend；
 * Xilinx-only 文件和脚本单独命名、单独回归，不把 XPM 源混入默认 portable

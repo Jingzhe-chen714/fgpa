@@ -19,7 +19,8 @@ module case4_gray_median_sobel_core #(
     parameter integer X_BITS       = (IMG_WIDTH  <= 1) ? 1 : $clog2(IMG_WIDTH),
     parameter integer Y_BITS       = (IMG_HEIGHT <= 1) ? 1 : $clog2(IMG_HEIGHT),
     parameter integer MAG_W        = 11,
-    parameter integer WINDOW_BACKEND = 0
+    parameter integer WINDOW_BACKEND = 0,
+    parameter integer MEDIAN_PIPELINE_STAGES = 3
 ) (
     input  logic                   clk,
     input  logic                   rst,
@@ -51,9 +52,9 @@ module case4_gray_median_sobel_core #(
 
     initial begin
         if (IMG_WIDTH < 5 || IMG_HEIGHT < 5)
-            $error("case4_gray_median_sobel_core requires IMG_WIDTH/HEIGHT >= 5");
+            $fatal(1, "CASE4_PARAM_MEDIAN_SIZE: IMG_WIDTH/HEIGHT must be >= 5");
         if ((WINDOW_BACKEND != 0) && (WINDOW_BACKEND != 1))
-            $error("Unsupported WINDOW_BACKEND=%0d", WINDOW_BACKEND);
+            $fatal(1, "CASE4_PARAM_BACKEND: Unsupported WINDOW_BACKEND=%0d", WINDOW_BACKEND);
     end
 
     logic gray_valid, gray_sof, gray_eol, gray_eof;
@@ -118,7 +119,7 @@ module case4_gray_median_sobel_core #(
 
     median3x3_u8 #(
         .PIXEL_BITS(8), .X_BITS(X_BITS), .Y_BITS(Y_BITS),
-        .REGISTER_OUTPUT(1'b1)
+        .REGISTER_OUTPUT(1'b1), .PIPELINE_STAGES(MEDIAN_PIPELINE_STAGES)
     ) u_median (
         .clk(clk), .rst(rst), .in_valid(fw_valid),
         .in_sof(fw_sof), .in_eol(fw_eol), .in_eof(fw_eof),

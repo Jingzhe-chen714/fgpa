@@ -62,6 +62,31 @@ def test_threshold_monotonicity_and_valid_area() -> None:
     assert int(two["valid_mask"].sum()) == (32 - 4) * (32 - 4)
 
 
+def test_zero_threshold_masks_invalid_borders() -> None:
+    # T=0 labels every VALID zero-gradient pixel, never a missing window.
+    for height, width in [(1, 1), (2, 4), (3, 3), (4, 4), (5, 5), (7, 9)]:
+        rgb = np.zeros((height, width, 3), dtype=np.uint8)
+        for use_median in (False, True):
+            result = run_pipeline(rgb, threshold=0, use_median=use_median)
+            valid = result["valid_mask"]
+            assert np.array_equal(result["edge"], valid.astype(np.uint8) * 255)
+            assert np.array_equal(result["overlay"][~valid], rgb[~valid])
+            assert np.all(result["overlay"][valid] == [255, 0, 0])
+
+
+def test_threshold_full_unsigned_11bit_domain() -> None:
+    mag = np.array([[0, 1020, 1530]], dtype=np.int32)
+    for threshold in (1531, 2040, 2047):
+        assert not np.any(threshold_edges(mag, threshold))
+    for threshold in (-1, 2048):
+        try:
+            threshold_edges(mag, threshold)
+        except ValueError:
+            pass
+        else:
+            raise AssertionError("out-of-domain threshold was accepted")
+
+
 def main() -> None:
     tests = [value for name, value in globals().items() if name.startswith("test_")]
     for test in tests:

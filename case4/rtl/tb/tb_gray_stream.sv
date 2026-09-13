@@ -193,7 +193,7 @@ module tb_gray_stream;
         if (errors == 0)
             $display("tb_gray_stream: PASS");
         else
-            $display("tb_gray_stream: FAIL errors=%0d", errors);
+            $fatal(1,"tb_gray_stream: FAIL errors=%0d", errors);
         $finish;
     end
 endmodule

@@ -4,7 +4,8 @@
 // The active image is 5x5 and is a monotonic ramp, so the median of every
 // interior 3x3 window is its centre sample.  The test also checks all nine
 // window taps, centre coordinates, line/frame markers, and the one-cycle
-// wrapper latency.
+// wrapper latency in the EXPLICIT legacy one-stage median mode. The default
+// three-stage mode is covered by tb_median_pipeline and stream regression.
 
 module tb_window3x3_median;
     localparam integer W = 5;
@@ -38,7 +39,7 @@ module tb_window3x3_median;
         .PIXEL_BITS(8),
         .X_BITS    (XW),
         .Y_BITS    (YW),
-        .MEDIAN_REGISTER_OUTPUT(1'b1)
+        .MEDIAN_REGISTER_OUTPUT(1'b1), .MEDIAN_PIPELINE_STAGES(1)
     ) dut (
         .clk(clk), .rst(rst),
         .in_valid(in_valid), .in_sof(in_sof), .in_eol(in_eol), .in_eof(in_eof),
@@ -170,7 +171,7 @@ module tb_window3x3_median;
         if (errors == 0)
             $display("PASS: tb_window3x3_median (%0d cycles)", cycles);
         else
-            $display("FAIL: tb_window3x3_median errors=%0d", errors);
+            $fatal(1,"FAIL: tb_window3x3_median errors=%0d", errors);
         $finish;
     end
 endmodule

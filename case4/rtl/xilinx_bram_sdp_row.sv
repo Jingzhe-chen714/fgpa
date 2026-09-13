@@ -33,6 +33,10 @@ module xilinx_bram_sdp_row #(
 );
 
     localparam integer MEMORY_SIZE = DEPTH * DATA_WIDTH;
+    initial begin
+        if (DEPTH < 1 || DATA_WIDTH < 1 || ADDR_WIDTH < 1 || ADDR_WIDTH < $clog2(DEPTH))
+            $fatal(1, "CASE4_PARAM_BRAM: positive dimensions and sufficient address width required");
+    end
 
     // XPM is supplied by Vivado's Xilinx primitive library.  The regression
     // script explicitly compiles xpm_memory.sv so this module also works in

@@ -36,6 +36,11 @@ module gray_bt601_stream #(
     output reg [16:0]           m_acc
 );
 
+    initial begin
+        if (X_W < 1 || Y_W < 1)
+            $fatal(1, "CASE4_PARAM_GRAY_WIDTH: coordinate widths must be positive");
+    end
+
     // Explicit 17-bit extensions are important: in Verilog the result width
     // of a shift follows its left operand, and an 8-bit shift would truncate.
     wire [16:0] r_ext = {9'd0, in_r};

@@ -108,16 +108,19 @@ RAM。每个输入像素同时读两行并写当前行，XPM 配置为同步读�
 
 中值滤波和 Sobel 都需要 3x3 窗口。若直接串接，建议在第一阶段和第二阶段分别保留行缓存，按保守预算约需要 4 行灰度缓存；不要假设两个阶段可以无条件共享同一块 RAM。
 
-9 个 8-bit 输入的 Golden 中值是 `sorted(window9)[4]`。RTL 可选 19～25 个 compare-swap 单元的部分排序网络，按 5～7 级流水实现；具体网络必须先用随机向量和重复值验证，不能用“各行取中值再取中值”的非等价简化。
+9 个 8-bit 输入的 Golden 中值是 `sorted(window9)[4]`。2026-09-13 版 RTL 已改为
+19 次比较决策、三级寄存流水：行内 lo/mid/hi → 跨行 max/median/min → 三数中值。
+这保留精确九数中值定义，不采用“各行取中值再取中值”的非等价简化。稳态 II=1。
 
 串接中值后，最终有效区域应进一步收缩为：
 
 ```text
-valid_after_median_sobel = (x >= 3) && (x < W-2)
-                         && (y >= 3) && (y < H-2)
+valid_after_median_sobel = (x >= 2) && (x < W-2)
+                         && (y >= 2) && (y < H-2)
 ```
 
-也就是中心区域约 `(W-4) x (H-4)`；外圈 2 像素输出 0。
+即零基中心坐标 `(2..W-3,2..H-3)`，有效区域为 `(W-4)×(H-4)`。
+算法核心不输出外圈两像素；Golden 在该区域置零，完整显示补边由系统层完成。
 
 当前 `case4_gray_median_sobel_core.sv` 已按这个坐标契约实现：第一层窗口/中值
 输出的原图中心坐标 `(1..W-2,1..H-2)` 先减一，形成连续的 `(W-2)×(H-2)`
@@ -144,8 +147,8 @@ edge = (mag >= threshold) ? 8'hff : 8'h00
 | 窗口像素 | unsigned 8 bit |
 | 单项差分 | signed 10～11 bit |
 | Gx/Gy | signed 12 bit，范围约 -1020～1020 |
-| `abs(Gx)+abs(Gy)` | unsigned 11 bit，范围 0～2040 |
-| threshold 寄存器 | 11 bit（可选扩展到 12 bit），限制在 0～2040 |
+| `abs(Gx)+abs(Gy)` | unsigned 11 bit，8-bit 像素实际范围 0～1530 |
+| threshold 输入 | 默认 unsigned 11 bit，允许 0～2047；超出实际幅值时不产生边缘 |
 
 注意不能让 8-bit unsigned 像素先相减再转换为 signed，否则 `0-255` 会先回绕。必须先扩展到足够宽的有符号数再计算。
 
@@ -229,7 +232,7 @@ Canny 的高斯滤波、方向量化、非极大值抑制、双阈值和滞后�
 
 真正需要 Efinity 综合确认的，是摄像头/显示 IP、异步 FIFO、PLL、IO 约束和布局布线，而不是 Sobel 算术本身。
 
-### 当前 Vivado 原型的实测参考
+### 历史 Vivado 原型的实测参考（优化前）
 
 对 `case4_gray_sobel_core` 使用 Vivado 2023.1、器件 `xc7a35tcpg236-1` 做了
 out-of-context 综合，结果约为：574 Slice LUT、375 FF、0 DSP、0 Block RAM。
@@ -238,7 +241,7 @@ as Memory），这只是验证用原型，不应直接当作 Ti60F225 的最终�
 需要把行缓存压入片上块 RAM，应改成同步双口 RAM wrapper，并为读延迟增加相同
 数量的窗口和 sideband 流水寄存器；这会改变延迟，但不改变算法数值契约。
 
-### Xilinx BRAM 路径实测参考
+### 历史 Xilinx BRAM 路径实测参考（优化前，非时序签核）
 
 对 `case4_gray_sobel_core_xilinx_bram`（同一器件和 OOC 条件）综合得到：
 
@@ -266,8 +269,12 @@ RAMB18、Slice 等名称直接换算成 Efinix 的 EBR/ALM，目标板仍需 Efi
 逻辑存储量为 `2×640×8 + 2×638×8 = 20,448 bit`；由于 Xilinx BRAM 的深度/宽度
 粒度，综合实际使用 4 个 RAMB18E1，而不是按比特数线性折算。
 
-中值排序网络是当前额外的 LUT/FF 主要来源；后续若提高时钟频率，应把 9 点
-排序网络拆成多级 compare-swap pipeline，而不是改变 Golden 的中值定义。
+上述数字属于旧版 Artix-7 OOC 综合，不代表当前三级中值版本。
+当前已完成中值流水化、同步复位统一和参数保护；在 Zynq UltraScale+
+`xczu3eg-sbva484-1-e`、100 MHz、I/O delay 2 ns 的同约束布局布线比较中，
+中值级联由 960 LUT / 610 FF / WNS −0.756 ns，变为
+598 LUT / 746 FF / WNS +6.061 ns；均为 4 RAMB18E2、0 DSP。
+这不是 Efinix 实测，也不包含摄像头/显示/DDR。完整当前验收见 `verification.md`。
 
 ## 11. 建议的实施里程碑
 

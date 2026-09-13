@@ -76,7 +76,7 @@ module tb_gray_sobel_core;
         end
         @(posedge clk);
         #2;
-        if (count != (W-2)*(H-2)) begin
+        if (count !== (W-2)*(H-2)) begin
             $display("ERROR core count=%0d expected=%0d", count, (W-2)*(H-2));
             errors = errors + 1;
         end

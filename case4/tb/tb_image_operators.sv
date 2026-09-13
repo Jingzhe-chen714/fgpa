@@ -201,31 +201,31 @@ module tb_image_operators;
         @(posedge clk);
         #2;
 
-        if (window_count != (W-2)*(H-2)) begin
+        if (window_count !== (W-2)*(H-2)) begin
             $display("ERROR window count=%0d expected=%0d", window_count, (W-2)*(H-2));
             errors = errors + 1;
         end
-        if (median_count != (W-2)*(H-2)) begin
+        if (median_count !== (W-2)*(H-2)) begin
             $display("ERROR median count=%0d", median_count);
             errors = errors + 1;
         end
-        if (sobel_count != (W-2)*(H-2)) begin
+        if (sobel_count !== (W-2)*(H-2)) begin
             $display("ERROR sobel count=%0d", sobel_count);
             errors = errors + 1;
         end
-        if (threshold_count != (W-2)*(H-2)) begin
+        if (threshold_count !== (W-2)*(H-2)) begin
             $display("ERROR threshold count=%0d", threshold_count);
             errors = errors + 1;
         end
-        if (overlay_count != (W-2)*(H-2) || overlay565_count != (W-2)*(H-2)) begin
+        if (overlay_count !== (W-2)*(H-2) || overlay565_count !== (W-2)*(H-2)) begin
             $display("ERROR overlay count RGB888=%0d RGB565=%0d", overlay_count, overlay565_count);
             errors = errors + 1;
         end
-        if (edge8_count != (W-2)*(H-2)) begin
+        if (edge8_count !== (W-2)*(H-2)) begin
             $display("ERROR edge8 count=%0d", edge8_count);
             errors = errors + 1;
         end
-        if (window_eol_count != H-2 || threshold_eol_count != H-2) begin
+        if (window_eol_count !== H-2 || threshold_eol_count !== H-2) begin
             $display("ERROR EOL count window=%0d threshold=%0d", window_eol_count, threshold_eol_count);
             errors = errors + 1;
         end

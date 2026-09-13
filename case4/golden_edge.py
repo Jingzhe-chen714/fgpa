@@ -143,8 +143,8 @@ def sobel_gradients(
 
 
 def threshold_edges(magnitude: np.ndarray, threshold: int) -> np.ndarray:
-    if not 0 <= threshold <= 2040:
-        raise ValueError("Sobel L1 threshold must be in 0..2040")
+    if not 0 <= threshold <= 2047:
+        raise ValueError("Sobel L1 threshold must be in unsigned 11-bit range 0..2047")
     return np.where(magnitude >= threshold, 255, 0).astype(np.uint8)
 
 
@@ -226,6 +226,9 @@ def run_pipeline(
         valid_mask=valid_mask,
     )
     edge = threshold_edges(magnitude, threshold)
+    # Zero magnitude does not encode window validity: at T=0 even a zero
+    # compares true. Preserve INVALID borders and the original overlay RGB.
+    edge[~valid_mask] = 0
     return {
         "rgb": rgb,
         "gray_float": gray_float,
@@ -304,7 +307,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path, help="input image")
     parser.add_argument("--output-dir", type=Path, help="directory for outputs")
-    parser.add_argument("--threshold", type=int, default=320, help="Sobel L1 threshold, 0..2040")
+    parser.add_argument("--threshold", type=int, default=320, help="Sobel L1 threshold, 0..2047")
     parser.add_argument("--median", action="store_true", help="enable 3x3 median filter")
     parser.add_argument("--patterns-dir", type=Path, help="also generate synthetic regression patterns")
     args = parser.parse_args()

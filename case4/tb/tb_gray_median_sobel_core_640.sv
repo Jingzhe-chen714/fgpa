@@ -79,11 +79,11 @@ module tb_gray_median_sobel_core_640 #(
         end
         @(posedge clk);
         #2;
-        if (count != EXPECTED) begin
+        if (count !== EXPECTED) begin
             $display("ERROR median 640x480 output count=%0d expected=%0d", count, EXPECTED);
             errors = errors + 1;
         end
-        if (last_x != W-3 || last_y != H-3) begin
+        if (last_x !== W-3 || last_y !== H-3) begin
             $display("ERROR median final center=(%0d,%0d) expected=(%0d,%0d)",
                      last_x, last_y, W-3, H-3);
             errors = errors + 1;

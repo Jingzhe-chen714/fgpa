@@ -18,7 +18,8 @@
 // pixel data.  Downstream arithmetic should use out_win_valid; a display
 // mapper may use out_valid to retain frame timing and pass border RGB through.
 //
-// Reset is active-low and asynchronous.  All state is reset to zero.
+// Reset is active-low and SYNCHRONOUS: sampled only at posedge clk. All
+// algorithm stages share this contract; rst_n is only a polarity convention.
 //
 // Default arithmetic widths are for 8-bit pixels:
 //   partials: 11-bit signed, Gx/Gy: 12-bit signed, L1 magnitude: 11-bit.
@@ -70,6 +71,17 @@ module case4_sobel3x3 #(
     output logic signed [GRAD_W-1:0] out_gy,
     output logic [MAG_W-1:0]       out_magnitude
 );
+
+    initial begin
+        if (PIX_W < 1 || RGB_W < 1 || X_W < 1 || Y_W < 1)
+            $fatal(1, "CASE4_PARAM_SOBEL_WIDTH: port widths must be positive");
+        if (PART_W < PIX_W + 2)
+            $fatal(1, "CASE4_PARAM_PART_W: signed doubled differences need PIX_W+2 bits");
+        if (GRAD_W < PIX_W + 3)
+            $fatal(1, "CASE4_PARAM_GRAD_W: signed gradients need PIX_W+3 bits");
+        if (MAG_W < PIX_W + 3)
+            $fatal(1, "CASE4_PARAM_MAG_W: lossless L1 magnitude needs PIX_W+3 bits");
+    end
 
     // A partial difference is deliberately widened before subtraction and
     // before the *2 shift.  This avoids the common unsigned 8-bit wraparound
@@ -144,14 +156,14 @@ module case4_sobel3x3 #(
         else
             abs_gy_calc = $unsigned(gy_s2);
 
-        magnitude_calc_ext = abs_gx_calc + abs_gy_calc;
+        magnitude_calc_ext = {1'b0, abs_gx_calc} + {1'b0, abs_gy_calc};
     end
 
     // Three arithmetic stages:
     //   stage 1: six signed partial differences
     //   stage 2: complete Gx/Gy
     //   stage 3: absolute values and L1 magnitude (outputs)
-    always_ff @(posedge clk or negedge rst_n) begin
+    always_ff @(posedge clk) begin
         if (!rst_n) begin
             gx_top_s1       <= '0;
             gx_mid_s1       <= '0;
@@ -241,7 +253,9 @@ module case4_sobel3x3 #(
             if (win_valid_s2) begin
                 out_gx        <= gx_s2;
                 out_gy        <= gy_s2;
-                out_magnitude <= magnitude_calc_ext[MAG_W-1:0];
+                // Unsigned sizing zero-extends wider ports and discards only
+                // proven-unused headroom for narrower, validated MAG_W.
+                out_magnitude <= MAG_W'($unsigned(magnitude_calc_ext));
             end else begin
                 out_gx        <= '0;
                 out_gy        <= '0;
@@ -287,7 +301,11 @@ module case4_edge_threshold #(
     output logic [MAG_W-1:0]     out_magnitude,
     output logic                 out_edge
 );
-    always_ff @(posedge clk or negedge rst_n) begin
+    initial begin
+        if (MAG_W < 1 || RGB_W < 1 || X_W < 1 || Y_W < 1)
+            $fatal(1, "CASE4_PARAM_THRESHOLD_WIDTH: port widths must be positive");
+    end
+    always_ff @(posedge clk) begin
         if (!rst_n) begin
             out_valid       <= 1'b0;
             out_win_valid   <= 1'b0;
@@ -348,9 +366,14 @@ module case4_edge_overlay #(
     output logic [RGB_W-1:0]     out_rgb,
     output logic                 out_edge
 );
-    localparam logic [RGB_W-1:0] EDGE_COLOR_W = EDGE_COLOR[RGB_W-1:0];
+    // This module encodes RGB888, not an arbitrary-width packed colour.
+    initial begin
+        if (RGB_W != 24 || X_W < 1 || Y_W < 1)
+            $fatal(1, "CASE4_PARAM_OVERLAY_RGB: use RGB_W=24 or the RGB565 module");
+    end
+    localparam logic [RGB_W-1:0] EDGE_COLOR_W = RGB_W'(EDGE_COLOR);
 
-    always_ff @(posedge clk or negedge rst_n) begin
+    always_ff @(posedge clk) begin
         if (!rst_n) begin
             out_valid       <= 1'b0;
             out_win_valid   <= 1'b0;
@@ -409,7 +432,11 @@ module case4_edge_overlay_rgb565 #(
     output logic [15:0]          out_rgb565,
     output logic                 out_edge
 );
-    always_ff @(posedge clk or negedge rst_n) begin
+    initial begin
+        if (X_W < 1 || Y_W < 1)
+            $fatal(1, "CASE4_PARAM_OVERLAY565_WIDTH: coordinate widths must be positive");
+    end
+    always_ff @(posedge clk) begin
         if (!rst_n) begin
             out_valid       <= 1'b0;
             out_win_valid   <= 1'b0;
@@ -555,7 +582,7 @@ module case4_sobel_edge_pipeline #(
     // overlay output and is registered here at the overlay edge.
     logic signed [GRAD_W-1:0] gx_delay;
     logic signed [GRAD_W-1:0] gy_delay;
-    always_ff @(posedge clk or negedge rst_n) begin
+    always_ff @(posedge clk) begin
         if (!rst_n) begin
             gx_delay     <= '0;
             gy_delay     <= '0;

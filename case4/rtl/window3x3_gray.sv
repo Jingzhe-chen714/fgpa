@@ -59,6 +59,13 @@ module window3x3_gray #(
     output logic [PIXEL_BITS-1:0]  out_p22
 );
 
+    initial begin
+        if (IMG_WIDTH < 3 || IMG_HEIGHT < 3 || PIXEL_BITS < 1)
+            $fatal(1, "CASE4_PARAM_WINDOW_SIZE: dimensions >= 3 and PIXEL_BITS >= 1 required");
+        if (X_BITS < 1 || Y_BITS < 1 || X_BITS < $clog2(IMG_WIDTH) || Y_BITS < $clog2(IMG_HEIGHT))
+            $fatal(1, "CASE4_PARAM_COORD: coordinate widths cannot represent the image");
+    end
+
     // Three rows are sufficient for a 3x3 stencil.  A packed logic array is
     // intentionally used here: Vivado can infer RAMs for larger widths, while
     // small XSIM regressions remain simple and deterministic.

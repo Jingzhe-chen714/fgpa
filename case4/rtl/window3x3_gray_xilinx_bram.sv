@@ -55,6 +55,13 @@ module window3x3_gray_xilinx_bram #(
 
     localparam integer ADDR_WIDTH = (IMG_WIDTH <= 1) ? 1 : $clog2(IMG_WIDTH);
 
+    initial begin
+        if (IMG_WIDTH < 3 || IMG_HEIGHT < 3 || PIXEL_BITS < 1)
+            $fatal(1, "CASE4_PARAM_WINDOW_SIZE: dimensions >= 3 and PIXEL_BITS >= 1 required");
+        if (X_BITS < 1 || Y_BITS < 1 || X_BITS < $clog2(IMG_WIDTH) || Y_BITS < $clog2(IMG_HEIGHT))
+            $fatal(1, "CASE4_PARAM_COORD: coordinate widths cannot represent the image");
+    end
+
     logic [ADDR_WIDTH-1:0] rd_addr;
     logic [ADDR_WIDTH-1:0] wr_addr;
     logic                   rd_en0, rd_en1;

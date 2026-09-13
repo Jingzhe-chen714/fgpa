@@ -6,32 +6,34 @@ line-buffer RAM, HDMI timing, or DDR control.
 
 ## Modules
 
-| Module | Function | Registered latency* |
-|---|---|---:|
-| `rgb_unpack_stream` | RGB565/RGB888 packed input → R8/G8/B8 | 1 clock |
-| `gray_bt601_stream` / `gray_rgb_stream` | Q8 BT.601 fixed-point grayscale | 1 clock |
-| `window3x3_gray` | three-row raster window, valid-only interior | 1 clock |
-| `xilinx_bram_sdp_row` / `window3x3_gray_xilinx_bram` | Xilinx XPM synchronous two-row BRAM window | 2 clocks from input to registered taps* |
-| `median3x3_u8` / `window3x3_median` | 9-point median and window wrapper | 1/2 clocks |
-| `case4_sobel3x3` | 3×3 Sobel partials → signed `Gx/Gy` → `abs(Gx)+abs(Gy)` | 2 clocks |
-| `case4_edge_threshold` | unsigned magnitude/threshold comparison | 1 clock |
-| `case4_edge_overlay` | RGB888 edge replacement (default red) | 1 clock |
-| `case4_edge_overlay_rgb565` | RGB565 edge replacement (default `16'hF800`) | 1 clock |
-| `case4_edge_expand8` | one-bit edge decision to 0/255 display pixel | 1 clock |
-| `case4_sobel_edge_pipeline` | convenience connection of the three stages | 4 clocks |
-| `case4_gray_sobel_core` | packed RGB565/RGB888 → gray → window → Sobel → threshold | 5 clocks* |
-| `case4_gray_sobel_core_xilinx_bram` | same packed core with Xilinx BRAM backend | 6 clocks* |
-| `case4_gray_median_sobel_core` | packed RGB → gray → median 3×3 → Sobel 3×3 → threshold | backend-dependent* |
-| `case4_gray_median_sobel_core_xilinx_bram` | median/Sobel cascade with two Xilinx BRAM window stages | backend-dependent* |
+| Module | Register stages | Output visible after accepting edge N |
+|---|---:|---|
+| `rgb_unpack_stream` | 1 | N |
+| `gray_bt601_stream` / `gray_rgb_stream` | 1 | N |
+| `window3x3_gray` | 1 | N |
+| `xilinx_bram_sdp_row` | 1 | N |
+| `window3x3_gray_xilinx_bram` | 2 | N+1 |
+| `median3x3_u8` (default) | 3 | N+2 |
+| `window3x3_median` (default) | 4 | N+3 |
+| `case4_sobel3x3` | 3 | N+2 |
+| threshold / overlay / RGB565 overlay / edge expansion | 1 each | N |
+| `case4_sobel_edge_pipeline` | 5 | N+4 |
+| `case4_gray_sobel_core` (array) | 6 | N+5 |
+| `case4_gray_sobel_core_xilinx_bram` | 7 | N+6 |
+| `case4_gray_median_sobel_core` (array, default) | 10 | N+9 |
+| `case4_gray_median_sobel_core_xilinx_bram` (default) | 12 | N+11 |
 
-\*Latency is measured from the rising edge that samples an input transfer to
-the rising edge at which the corresponding output is visible.  There is no
-full-frame buffering; the pipeline accepts one transfer every clock.
-For `case4_gray_sobel_core`, the count includes the one-cycle gray stage, the
-one-cycle registered window, the two-cycle Sobel arithmetic, and the
-one-cycle threshold stage; only valid interior windows emerge.
-The Xilinx BRAM variant adds one clock for the synchronous XPM read boundary;
-its arithmetic result and steady-state initiation interval remain unchanged.
+N is the edge accepting the input pixel completing the corresponding window
+(or final 5×5 support for the cascade), not the frame's first pixel. Outputs
+are observed after nonblocking assignments settle. Thus one register stage
+produces a result after N, not N+1. A downstream register consumes it at N+1.
+There is no full-frame store and II remains one pixel/window per clock.
+
+The median now uses 19 comparison decisions with row sort / cross-row
+selection / final median registers. `PIPELINE_STAGES=1` explicitly selects
+the legacy one-register latency, and `REGISTER_OUTPUT=0` defaults to the
+combinational reference mode. Defaults have changed; metadata and any external
+parallel RGB path must account for the additional TWO register stages.
 The median cascade adds a second window and the registered 9-point median.  Its
 final valid centre region is `(IMG_WIDTH-4)×(IMG_HEIGHT-4)`; the stream adapter
 rebases the first median image to `(IMG_WIDTH-2)×(IMG_HEIGHT-2)` before the
@@ -62,8 +64,8 @@ Use `out_win_valid` for Sobel/threshold results.  Border transfers retain
 are gated by `in_valid`, so they cannot appear on a bubble.
 
 The current `window3x3_gray.sv` generator emits only valid interior windows
-and uses an active-high synchronous `rst`.  When connecting it to this file,
-either:
+and uses an active-high synchronous `rst`. All arithmetic modules now use
+active-low SYNCHRONOUS `rst_n`; inversion changes polarity only:
 
 ```text
 Sobel.in_valid     = window.out_valid
@@ -71,8 +73,11 @@ Sobel.in_win_valid = window.out_valid
 Sobel.rst_n        = ~window_rst
 ```
 
-or add a top-level reset synchronizer and delay the original RGB stream by the
-window's one-cycle latency.  A future window block that emits border bubbles
+An external asynchronous reset must be conditioned at the eventual system
+boundary; these modules do not implement that clock-domain function. A pulse
+entirely between rising edges must not clear any registered algorithm output.
+The original RGB path needs matching spatial and temporal alignment, not just
+one unconditional delay register. A future window block that emits border bubbles
 can instead connect its transfer-valid and neighbourhood-valid separately.
 
 ## Xilinx BRAM boundary
@@ -113,7 +118,11 @@ edge = in_win_valid && (mag >= threshold)
 
 The implementation widens every pixel before subtraction.  Default widths are
 11-bit signed partials, 12-bit signed gradients (mathematical range
-`-1020..+1020`) and 11-bit unsigned magnitude (`0..2040`).  The `×2` terms are
+`-1020..+1020`) and 11-bit unsigned magnitude. The joint Sobel L1 maximum is
+1530 for 8-bit samples (2040 was a conservative independent-gradient bound).
+The threshold accepts the entire unsigned 11-bit domain `0..2047`.
+`PART_W >= PIX_W+2`, `GRAD_W >= PIX_W+3`, `MAG_W >= PIX_W+3` are enforced;
+wider MAG ports are explicitly zero-extended. The `×2` terms are
 arithmetic shifts, so no DSP is required.  Invalid windows are explicitly
 zeroed rather than relying on a border padding convention.
 
