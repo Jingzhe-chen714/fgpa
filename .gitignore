@@ -34,6 +34,7 @@ case4/report/verification/xsim/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.venv/
 
 
 # Generated mapped/netlist and simulator artifacts from other case folders
