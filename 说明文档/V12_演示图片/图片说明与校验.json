@@ -1,0 +1,27 @@
+{
+  "result": "PASS",
+  "size": [
+    1920,
+    1080
+  ],
+  "seed": 12021,
+  "note": "These are deterministic printable stimuli, not captured or simulated FPGA output.",
+  "files": {
+    "01_双边滤波与细线.png": {
+      "sha256": "fe016b56ea90b9f71a5642e3e8aa81240bdef543c859b9da33db104d9a736fff",
+      "mean_gray": 98.68468123070987
+    },
+    "02_伽马暗部层次.png": {
+      "sha256": "fd912390791f161f68deda2cc437321a77f19689e2a47e526fc9f91a2d94b30f",
+      "mean_gray": 60.008586033950614
+    },
+    "03_伽马亮部层次.png": {
+      "sha256": "44677011749b61ac2bf8406dccdc7af6ceb4cfe551f1830611c79944e4eb5050",
+      "mean_gray": 194.4633916859568
+    },
+    "04_轮廓差分演示背景.png": {
+      "sha256": "bd2e984b9b8fc4a0142bcc50debb99ef8d77cf6da65cc18bfbb637b688068839",
+      "mean_gray": 220.09479648919753
+    }
+  }
+}

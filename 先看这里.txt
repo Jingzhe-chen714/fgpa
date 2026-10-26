@@ -1,0 +1,6 @@
+﻿V12增强修复版
+先阅读 说明文档/使用说明.txt。
+下载 V12_PLUS_FIX_20261025.bit 或 FPGA_engin/outflow/Case4_Ti60.bit（内容相同）。
+电脑软件与已发 V12_PLUS 相同，公开协议仍为12。
+完整工程：FPGA_engin/Case4_Ti60.xml。
+本轮仅修复 DDR 跨页访问；本轮回归与上版历史记录分开保存，未连接实际板卡验收。
