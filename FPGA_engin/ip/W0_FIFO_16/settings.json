@@ -1,0 +1,71 @@
+{
+    "args": [
+        "-o",
+        "W0_FIFO_16",
+        "--base_path",
+        "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "1.3"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "3",
+        "DEPTH_2": "12",
+        "DATA_WIDTH": "16",
+        "MODE": "1",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "1536",
+        "PROGRAMMABLE_FULL": "1",
+        "PFN_INTERNAL": "1535",
+        "PEA_INTERNAL": "127",
+        "PEN_INTERNAL": "128",
+        "PROGRAMMABLE_EMPTY": "1",
+        "OPTIONAL_FLAGS": "0",
+        "PIPELINE_REG": "1",
+        "FAMILY": "0",
+        "ASYM_WIDTH_RATIO": "7",
+        "BYPASS_RESET_SYNC": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\W0_FIFO_16_define.vh",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\W0_FIFO_16_tmpl.vhd",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\W0_FIFO_16_tmpl.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\W0_FIFO_16.v"
+        ],
+        "external_example_example": [
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\T20F256_devkit\\fifo_demo_top.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\T20F256_devkit\\fifo_demo.peri.xml",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\T20F256_devkit\\fifo_demo.xml",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\T20F256_devkit\\W0_FIFO_16.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\T20F256_devkit\\W0_FIFO_16_define.vh"
+        ],
+        "external_example_2": [
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Ti60F225_devkit\\fifo_demo_top.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Ti60F225_devkit\\fifo_demo.xml",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Ti60F225_devkit\\W0_FIFO_16.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Ti60F225_devkit\\W0_FIFO_16_define.vh"
+        ],
+        "external_testbench_testbench": [
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Testbench\\fifo_tb.sv",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Testbench\\xrun.sh",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Testbench\\msim.sh",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Testbench\\flist",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Testbench\\modelsim.do",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Testbench\\W0_FIFO_16.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\18_Ti60_OV5640_LVDS\\ip\\W0_FIFO_16\\Testbench\\W0_FIFO_16_define.vh"
+        ]
+    },
+    "sw_version": "2022.2.322",
+    "generated_date": "2023-09-14T08:38:44.458611"
+}

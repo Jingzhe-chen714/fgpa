@@ -1,0 +1,71 @@
+{
+    "args": [
+        "-o",
+        "W0_FIFO",
+        "--base_path",
+        "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "1.3"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "3",
+        "DEPTH_2": "9",
+        "DATA_WIDTH": "64",
+        "MODE": "1",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "128",
+        "PROGRAMMABLE_FULL": "0",
+        "PFN_INTERNAL": "127",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "0",
+        "OPTIONAL_FLAGS": "1",
+        "PIPELINE_REG": "1",
+        "FAMILY": "0",
+        "ASYM_WIDTH_RATIO": "5",
+        "BYPASS_RESET_SYNC": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\W0_FIFO.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\W0_FIFO_define.vh",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\W0_FIFO_tmpl.vhd",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\W0_FIFO_tmpl.v"
+        ],
+        "external_example_example": [
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\T20F256_devkit\\fifo_demo_top.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\T20F256_devkit\\fifo_demo.peri.xml",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\T20F256_devkit\\fifo_demo.xml",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\T20F256_devkit\\W0_FIFO.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\T20F256_devkit\\W0_FIFO_define.vh"
+        ],
+        "external_example_2": [
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Ti60F225_devkit\\fifo_demo_top.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Ti60F225_devkit\\fifo_demo.xml",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Ti60F225_devkit\\W0_FIFO.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Ti60F225_devkit\\W0_FIFO_define.vh"
+        ],
+        "external_testbench_testbench": [
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Testbench\\fifo_tb.sv",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Testbench\\xrun.sh",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Testbench\\msim.sh",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Testbench\\flist",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Testbench\\modelsim.do",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Testbench\\W0_FIFO.v",
+            "D:\\SVN_Path\\DevKitProjects\\Ti60\\Dev\\01_Ti60_AR0135_LCD\\ip\\W0_FIFO\\Testbench\\W0_FIFO_define.vh"
+        ]
+    },
+    "sw_version": "2022.2.322",
+    "generated_date": "2023-06-21T10:00:38.535479"
+}
